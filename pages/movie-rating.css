@@ -1,3 +1,13 @@
+
+header nav ul li.current a {
+    color: #e50914;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
