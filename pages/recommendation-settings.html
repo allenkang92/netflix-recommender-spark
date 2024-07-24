@@ -15,23 +15,24 @@
             <nav>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="movies.html">MOVIES</a></li>
-                    <li><a href="profile.html">PROFILE</a></li>
-                    <li><a href="dashboard.html">DASHBOARD</a></li>
-                    <li><a href="realtime-recommendations.html">LIVE RECS</a></li>
-                    <li><a href="movie-rating.html">RATE</a></li>
+                    <li><a href="top-20.html">Top-20</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
     <div class="container">
         <h1>Recommendation Settings</h1>
-        <form id="recommendation-settings-form">
-            <!-- Recommendation settings form will be dynamically inserted here -->
+        <form id="genre-preference-form">
+            <h2>Select Your Preferred Genres</h2>
+            <div id="genre-list">
+                <!-- Genre checkboxes will be dynamically inserted here -->
+            </div>
+            <button type="submit" class="btn">Update Preferences</button>
         </form>
+        <div id="recommendation-results">
+            <!-- Recommendation results will be displayed here -->
+        </div>
     </div>
-
     <script src="app.js"></script>
     <script src="recommendation-settings.js"></script>
 </body>
