@@ -24,7 +24,7 @@ body {
     padding: 0 20px;
 }
 
-header {
+.header {
     background: #000000;
     color: #ffffff;
     padding-top: 30px;
@@ -32,14 +32,14 @@ header {
     border-bottom: #e50914 3px solid;
 }
 
-header a {
+.header a {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
 }
 
-header li {
+.header li {
     float: left;
     display: inline;
     padding: 0 20px 0 20px;
