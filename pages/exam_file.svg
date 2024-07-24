@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+    <rect width="100%" height="100%" fill="#141414"/>
+    
+    <!-- Movie Title -->
+    <text x="20" y="40" font-family="Arial" font-size="24" fill="#ffffff">Movie Title (2023)</text>
+    
+    <!-- Rating and Runtime -->
+    <text x="20" y="70" font-family="Arial" font-size="16" fill="#cccccc">Rating: PG-13 | 120 min</text>
+    
+    <!-- IMDB Score -->
+    <rect x="20" y="85" width="50" height="25" rx="5" fill="#f5c518"/>
+    <text x="45" y="103" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">8.5</text>
+    
+    <!-- Genres -->
+    <text x="80" y="103" font-family="Arial" font-size="14" fill="#cccccc">Drama, Thriller, Mystery</text>
+    
+    <!-- Description -->
+    <rect x="20" y="120" width="760" height="80" rx="5" fill="#2a2a2a"/>
+    <text x="30" y="140" font-family="Arial" font-size="14" fill="#ffffff">
+        <tspan x="30" dy="0">A gripping tale of suspense and intrigue that follows a detective's</tspan>
+        <tspan x="30" dy="20">journey through a web of lies and deceit in a small town with dark</tspan>
+        <tspan x="30" dy="20">secrets. As the investigation deepens, nothing is as it seems.</tspan>
+    </text>
+    
+    <!-- Director and Cast -->
+    <text x="20" y="230" font-family="Arial" font-size="16" fill="#ffffff">Director: John Doe</text>
+    <text x="20" y="255" font-family="Arial" font-size="14" fill="#cccccc">Cast: Jane Smith, Bob Johnson, Alice Williams</text>
+    
+    <!-- Additional Info -->
+    <text x="20" y="290" font-family="Arial" font-size="14" fill="#999999">Released: March 15, 2023 | Country: USA</text>
+    
+    <!-- Recommendation Reason -->
+    <rect x="20" y="310" width="760" height="40" rx="5" fill="#3a3a3a"/>
+    <text x="30" y="335" font-family="Arial" font-size="14" fill="#ffffff">
+        Recommended because you enjoyed similar thrillers and highly-rated drama films.
+    </text>
+    
+    <!-- "More Info" Button -->
+    <rect x="650" y="360" width="130" height="30" rx="15" fill="#e50914"/>
+    <text x="715" y="380" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">More Info</text>
+</svg>

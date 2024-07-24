@@ -100,3 +100,144 @@ header a:hover {
 .btn:hover {
     background: #ff3d47;
 }
+
+.positive {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.negative {
+    background-color: #000000;
+    color: white;
+}
+
+.modal{
+    position:absolute;
+    display:none;
+    
+    justify-content: center;
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    
+
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal_body{
+    position:absolute;
+    top:50%;
+
+
+    width:400px; 
+    height:600px;
+
+    padding:40px;  
+
+    text-align: center;
+
+    background-color: rgb(255,255,255);
+    border-radius:10px;
+    box-shadow:0 2px 3px 0 rgba(34,36,38,0.15);
+
+    transform:translateY(-50%);
+}
+
+.modal_text {
+    color: #000000;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+
+.modal-buttons {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.btn-close-modal, .btn-confirm {
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.positive {
+    background-color: green;
+    color: white;
+}
+
+.negative {
+    background-color: #000000;
+    color: white;
+}
+
+.modal-buttons button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-close-modal {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-confirm {
+    background-color: #e50914;
+    color: white;
+}
+
+.btn-close-modal:hover {
+    background-color: #5a6268;
+}
+
+.btn-confirm:hover {
+    background-color: #c50812;
+}
+
+#recommendation-container {
+    display: none; /* 초기에는 숨김 상태 */
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.testSVG {
+    display: inline-block;
+    background: #E50914;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.testSVG:hover {
+    background: #FF3D47;
+}
