@@ -46,14 +46,49 @@ function closeModal() {
 function handleConfirm() {
     if (typeof getSelectedGenres === 'function') {
         const selectedGenres = getSelectedGenres();
+        if (selectedGenres.positiveGenres.length === 0 && selectedGenres.negativeGenres.length === 0) {
+            showErrorMessage('Please select at least one genre before confirming.');
+            return;
+        }
         sendSelectedGenres(selectedGenres);
+    } else {
+        showErrorMessage('An error occurred while processing your selection.');
     }
     closeModal();
 }
 
 function sendSelectedGenres(genres) {
     console.log('Sending selected genres:', genres);
-    // 여기에 실제 서버로 데이터를 보내는 로직을 구현합니다.
+    // 여기에서 서버로 데이터를 보내는 로직을 구현합니다.
+    // 예를 들어, fetch를 사용하여 서버에 요청을 보낼 수 있습니다:
+    
+    fetch('/api/recommend', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(genres),
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log('Recommendation received:', data);
+        // 여기에서 받은 추천 결과를 처리합니다.
+        // 예를 들어, createMovieRecommendation 함수를 호출할 수 있습니다.
+        if (data.movie) {
+            createMovieRecommendation(data.movie);
+        } else {
+            showErrorMessage('No recommendation available based on your preferences.');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        showErrorMessage('An error occurred while fetching recommendations.');
+    });
 }
 
 function testSVGGeneration() {
