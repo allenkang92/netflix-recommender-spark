@@ -111,10 +111,32 @@ function createMovieRecommendation(movie) {
         .attr("font-size", "16px")
         .text(`Rating: ${movie.rating} | Runtime: ${movie.runtime} min | IMDb: ${movie.imdbScore}`);
 
+    // IMDb 점수 시각화
+    const scoreX = 20;
+    const scoreY = 90;
+    const scoreWidth = 50;
+    const scoreHeight = 25;
+    svg.append("rect")
+        .attr("x", scoreX)
+        .attr("y", scoreY)
+        .attr("width", scoreWidth)
+        .attr("height", scoreHeight)
+        .attr("fill", "#f5c518")
+        .attr("rx", 5);
+
+    svg.append("text")
+        .attr("x", scoreX + scoreWidth / 2)
+        .attr("y", scoreY + scoreHeight / 2 + 5)
+        .attr("text-anchor", "middle")
+        .attr("fill", "#000000")
+        .attr("font-size", "14px")
+        .attr("font-weight", "bold")
+        .text(movie.imdbScore.toFixed(1));
+
     // 장르
     svg.append("text")
-        .attr("x", 20)
-        .attr("y", 100)
+        .attr("x", scoreX + scoreWidth + 10)
+        .attr("y", scoreY + scoreHeight / 2 + 5)
         .attr("fill", "#cccccc")
         .attr("font-size", "14px")
         .text(`Genres: ${movie.genres.join(", ")}`);
@@ -122,7 +144,7 @@ function createMovieRecommendation(movie) {
     // 감독
     svg.append("text")
         .attr("x", 20)
-        .attr("y", 130)
+        .attr("y", 140)
         .attr("fill", "#ffffff")
         .attr("font-size", "16px")
         .text(`Director: ${movie.director}`);
@@ -130,7 +152,7 @@ function createMovieRecommendation(movie) {
     // 출연진
     svg.append("text")
         .attr("x", 20)
-        .attr("y", 160)
+        .attr("y", 170)
         .attr("fill", "#cccccc")
         .attr("font-size", "14px")
         .text(`Cast: ${movie.cast.join(", ")}`);
@@ -138,29 +160,11 @@ function createMovieRecommendation(movie) {
     // 줄거리
     const description = svg.append("text")
         .attr("x", 20)
-        .attr("y", 190)
+        .attr("y", 200)
         .attr("fill", "#ffffff")
         .attr("font-size", "14px");
 
     wrapText(description, movie.description, 760);
-
-    // "More Info" 버튼
-    const button = svg.append("g")
-        .attr("transform", "translate(650, 360)")
-        .style("cursor", "pointer");
-
-    button.append("rect")
-        .attr("width", 130)
-        .attr("height", 30)
-        .attr("rx", 15)
-        .attr("fill", "#e50914");
-
-    button.append("text")
-        .attr("x", 65)
-        .attr("y", 20)
-        .attr("text-anchor", "middle")
-        .attr("fill", "#ffffff")
-        .text("More Info");
 
     container.style('display', 'block');
 }

@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         initializeGenreButtons();
     } else {
         console.error('initializeGenreButtons is not defined');
+        showErrorMessage('An error occurred while initializing the application.');
     }
 
     if (!isDataLoaded()) {
@@ -27,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         showErrorMessage('Movie data is not loaded. Some features may not work.');
     }
 });
+
 
 function openModal() {
     const modal = document.querySelector('.modal');
@@ -56,11 +58,16 @@ function sendSelectedGenres(genres) {
 
 function testSVGGeneration() {
     if (isDataLoaded()) {
-        const randomMovie = mockMovieData[Math.floor(Math.random() * mockMovieData.length)];
-        if (typeof createMovieRecommendation === 'function') {
-            createMovieRecommendation(randomMovie);
-        } else {
-            console.error('createMovieRecommendation is not defined');
+        try {
+            const randomMovie = mockMovieData[Math.floor(Math.random() * mockMovieData.length)];
+            if (typeof createMovieRecommendation === 'function') {
+                createMovieRecommendation(randomMovie);
+            } else {
+                throw new Error('createMovieRecommendation function is not defined');
+            }
+        } catch (error) {
+            console.error('Error in SVG generation:', error);
+            showErrorMessage('An error occurred while generating the movie recommendation.');
         }
     } else {
         showErrorMessage('Movie data is not available. Please try again later.');
@@ -74,8 +81,11 @@ function isDataLoaded() {
 function showErrorMessage(message) {
     const container = document.getElementById('recommendation-container');
     if (container) {
-        container.innerHTML = `<p style="color: red;">Error: ${message}</p>`;
+        container.innerHTML = `<p style="color: red; font-size: 16px; padding: 20px; background-color: #ffeeee; border: 1px solid #ffcccc; border-radius: 5px;">${message}</p>`;
         container.style.display = 'block';
+    } else {
+        console.error('Error container not found. Message:', message);
+        alert(message); // 폴백으로 alert 사용
     }
 }
 
