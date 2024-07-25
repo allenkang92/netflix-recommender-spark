@@ -268,3 +268,13 @@ header a:hover {
 .testSVG:hover {
     background: #FF3D47;
 }
+
+svg {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#recommendation-results {
+    margin-top: 30px;
+}
