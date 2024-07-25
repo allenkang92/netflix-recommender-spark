@@ -21,6 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
         console.error('initializeGenreButtons is not defined');
     }
+
+    if (!isDataLoaded()) {
+        console.warn('Movie data is not loaded. Some features may not work.');
+        showErrorMessage('Movie data is not loaded. Some features may not work.');
+    }
 });
 
 function openModal() {
@@ -31,52 +36,48 @@ function openModal() {
 function closeModal() {
     const modal = document.querySelector('.modal');
     if (modal) modal.style.display = 'none';
-    resetGenreSelections();
-}
-
-function handleConfirm() {
-    const selectedGenres = getSelectedGenres();
-    sendSelectedGenres(selectedGenres);
-    closeModal();
-}
-
-function testSVGGeneration() {
-    if (typeof mockMovieData !== 'undefined' && Array.isArray(mockMovieData) && mockMovieData.length > 0) {
-        const randomMovie = mockMovieData[Math.floor(Math.random() * mockMovieData.length)];
-        createMovieRecommendation(randomMovie);
-        const container = document.getElementById('recommendation-container');
-        if (container) container.style.display = 'block';
-    } else {
-        console.error('Mock movie data is not available or is empty');
+    if (typeof resetGenreSelections === 'function') {
+        resetGenreSelections();
     }
 }
 
-function createMovieRecommendation(movie) {
-    const container = d3.select("#recommendation-container");
-    container.selectAll("*").remove();
-
-    const svg = container.append("svg")
-        .attr("viewBox", "0 0 800 400")
-        .attr("preserveAspectRatio", "xMidYMid meet")
-        .style("width", "100%")
-        .style("height", "auto");
-
-    svg.append("rect")
-        .attr("width", "100%")
-        .attr("height", "100%")
-        .attr("fill", "#141414");
-
-    svg.append("text")
-        .attr("x", 20)
-        .attr("y", 40)
-        .attr("fill", "#ffffff")
-        .attr("font-size", 24)
-        .text(`${movie.title} (${movie.releaseYear})`);
-
-    // 추가 SVG 요소들...
-
-    container.style('display', 'block');
+function handleConfirm() {
+    if (typeof getSelectedGenres === 'function') {
+        const selectedGenres = getSelectedGenres();
+        sendSelectedGenres(selectedGenres);
+    }
+    closeModal();
 }
 
-// 전역 스코프에 함수 노출
+function sendSelectedGenres(genres) {
+    console.log('Sending selected genres:', genres);
+    // 여기에 실제 서버로 데이터를 보내는 로직을 구현합니다.
+}
+
+function testSVGGeneration() {
+    if (isDataLoaded()) {
+        const randomMovie = mockMovieData[Math.floor(Math.random() * mockMovieData.length)];
+        if (typeof createMovieRecommendation === 'function') {
+            createMovieRecommendation(randomMovie);
+        } else {
+            console.error('createMovieRecommendation is not defined');
+        }
+    } else {
+        showErrorMessage('Movie data is not available. Please try again later.');
+    }
+}
+
+function isDataLoaded() {
+    return typeof mockMovieData !== 'undefined' && Array.isArray(mockMovieData) && mockMovieData.length > 0;
+}
+
+function showErrorMessage(message) {
+    const container = document.getElementById('recommendation-container');
+    if (container) {
+        container.innerHTML = `<p style="color: red;">Error: ${message}</p>`;
+        container.style.display = 'block';
+    }
+}
+
+// 전역 스코프에 필요한 함수들을 노출합니다.
 window.testSVGGeneration = testSVGGeneration;

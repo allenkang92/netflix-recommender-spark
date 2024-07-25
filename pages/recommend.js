@@ -52,7 +52,9 @@ function negativeGenre(genre) {
 }
 
 function updateFilteredResults() {
-    console.log("필터링된 결과 업데이트");
+    console.log("Positive Genres:", positiveGenres);
+    console.log("Negative Genres:", negativeGenres);
+    // 여기에 실제 필터링 로직을 구현합니다.
 }
 
 function initializeGenreButtons() {
@@ -60,5 +62,141 @@ function initializeGenreButtons() {
     createNegativeGenreButtons();
 }
 
-// 전역 스코프에 함수 노출
+function getSelectedGenres() {
+    return {
+        positiveGenres: positiveGenres,
+        negativeGenres: negativeGenres
+    };
+}
+
+function resetGenreSelections() {
+    positiveGenres = [];
+    negativeGenres = [];
+    genres.forEach(genre => {
+        const positiveButton = document.getElementById(`${genre}-positive-btn`);
+        const negativeButton = document.getElementById(`${genre}-negative-btn`);
+        if (positiveButton) positiveButton.classList.remove('positive');
+        if (negativeButton) negativeButton.classList.remove('negative');
+    });
+}
+
+function createMovieRecommendation(movie) {
+    const container = d3.select("#recommendation-container");
+    container.selectAll("*").remove();
+
+    const svg = container.append("svg")
+        .attr("viewBox", "0 0 800 400")
+        .attr("preserveAspectRatio", "xMidYMid meet")
+        .style("width", "100%")
+        .style("height", "auto");
+
+    svg.append("rect")
+        .attr("width", "100%")
+        .attr("height", "100%")
+        .attr("fill", "#141414");
+
+    // 영화 제목
+    svg.append("text")
+        .attr("x", 20)
+        .attr("y", 40)
+        .attr("fill", "#ffffff")
+        .attr("font-size", "24px")
+        .text(`${movie.title} (${movie.releaseYear})`);
+
+    // 평점, 상영 시간, IMDb 점수
+    svg.append("text")
+        .attr("x", 20)
+        .attr("y", 70)
+        .attr("fill", "#cccccc")
+        .attr("font-size", "16px")
+        .text(`Rating: ${movie.rating} | Runtime: ${movie.runtime} min | IMDb: ${movie.imdbScore}`);
+
+    // 장르
+    svg.append("text")
+        .attr("x", 20)
+        .attr("y", 100)
+        .attr("fill", "#cccccc")
+        .attr("font-size", "14px")
+        .text(`Genres: ${movie.genres.join(", ")}`);
+
+    // 감독
+    svg.append("text")
+        .attr("x", 20)
+        .attr("y", 130)
+        .attr("fill", "#ffffff")
+        .attr("font-size", "16px")
+        .text(`Director: ${movie.director}`);
+
+    // 출연진
+    svg.append("text")
+        .attr("x", 20)
+        .attr("y", 160)
+        .attr("fill", "#cccccc")
+        .attr("font-size", "14px")
+        .text(`Cast: ${movie.cast.join(", ")}`);
+
+    // 줄거리
+    const description = svg.append("text")
+        .attr("x", 20)
+        .attr("y", 190)
+        .attr("fill", "#ffffff")
+        .attr("font-size", "14px");
+
+    wrapText(description, movie.description, 760);
+
+    // "More Info" 버튼
+    const button = svg.append("g")
+        .attr("transform", "translate(650, 360)")
+        .style("cursor", "pointer");
+
+    button.append("rect")
+        .attr("width", 130)
+        .attr("height", 30)
+        .attr("rx", 15)
+        .attr("fill", "#e50914");
+
+    button.append("text")
+        .attr("x", 65)
+        .attr("y", 20)
+        .attr("text-anchor", "middle")
+        .attr("fill", "#ffffff")
+        .text("More Info");
+
+    container.style('display', 'block');
+}
+
+function wrapText(text, str, width) {
+    let words = str.split(/\s+/).reverse(),
+        word,
+        line = [],
+        lineNumber = 0,
+        lineHeight = 1.1,
+        x = text.attr("x"),
+        y = text.attr("y"),
+        dy = 0,
+        tspan = text.text(null)
+                    .append("tspan")
+                    .attr("x", x)
+                    .attr("y", y)
+                    .attr("dy", dy + "em");
+    while (word = words.pop()) {
+        line.push(word);
+        tspan.text(line.join(" "));
+        if (tspan.node().getComputedTextLength() > width) {
+            line.pop();
+            tspan.text(line.join(" "));
+            line = [word];
+            tspan = text.append("tspan")
+                        .attr("x", x)
+                        .attr("y", y)
+                        .attr("dy", ++lineNumber * lineHeight + dy + "em")
+                        .text(word);
+        }
+    }
+}
+
+// 전역 스코프에 필요한 함수들을 노출합니다.
 window.initializeGenreButtons = initializeGenreButtons;
+window.getSelectedGenres = getSelectedGenres;
+window.resetGenreSelections = resetGenreSelections;
+window.createMovieRecommendation = createMovieRecommendation;
