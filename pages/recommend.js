@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8000'; // 실제 서버 URL로 변경 필요
+const API_BASE_URL = 'http://localhost:8000';
 
 const genres = ['action', 'animation', 'comedy', 'crime', 'documentation', 'drama', 'european', 'family', 'fantasy', 'history', 'horror', 'music', 'reality', 'romance', 'scifi', 'sport', 'thriller', 'war', 'western'];
 let positiveGenres = [];
@@ -58,6 +58,9 @@ async function getRecommendations(positiveGenres, negativeGenres) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const recommendedMovies = await response.json();
+        if (recommendedMovies.length === 0) {
+            throw new Error('No movies found matching your preferences.');
+        }
         return recommendedMovies;
     } catch (error) {
         console.error("Could not fetch recommendations:", error);
@@ -131,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const confirmBtn = document.querySelector('.btn-confirm');
 
     openModalBtn.addEventListener('click', () => {
-        modal.style.display = 'block';
+        modal.style.display = 'flex';
     });
 
     closeModalBtn.addEventListener('click', () => {
@@ -140,8 +143,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     confirmBtn.addEventListener('click', async () => {
+        if (positiveGenres.length === 0 && negativeGenres.length === 0) {
+            showError("Please select at least one genre preference.");
+            return;
+        }
+
         try {
             showLoading();
+            await sendSelectedGenres(); 
             const recommendedMovies = await getRecommendations(positiveGenres, negativeGenres);
             displayMovies(recommendedMovies);
             modal.style.display = 'none';
@@ -154,17 +163,54 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// sendSelectedGenres 
+async function sendSelectedGenres() {
+    const data = {
+        positiveGenres: positiveGenres,
+        negativeGenres: negativeGenres
+    };
+
+    try {
+        const response = await fetch('/api/user-preferences', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data)
+        });
+        if (!response.ok) {
+            throw new Error('Failed to save preferences');
+        }
+        const result = await response.json();
+        console.log('Success:', result);
+    } catch (error) {
+        console.error('Error:', error);
+        throw new Error("Failed to save preferences. Please try again.");
+    }
+}
+
 function showLoading() {
-    // TODO: 로딩 표시 로직 구현
-    console.log("Loading...");
+    const loadingElement = document.createElement('div');
+    loadingElement.id = 'loading';
+    loadingElement.textContent = 'Loading recommendations...';
+    document.body.appendChild(loadingElement);
 }
 
 function hideLoading() {
-    // TODO: 로딩 숨기기 로직 구현
-    console.log("Loading finished");
+    const loadingElement = document.getElementById('loading');
+    if (loadingElement) {
+        loadingElement.remove();
+    }
 }
 
 function showError(message) {
-    // TODO: 에러 표시 로직 구현
-    console.error("Error:", message);
+    const errorElement = document.createElement('div');
+    errorElement.id = 'error-message';
+    errorElement.textContent = message;
+    errorElement.style.color = 'red';
+    errorElement.style.marginTop = '10px';
+    document.getElementById('recommendation-container').appendChild(errorElement);
+    setTimeout(() => {
+        errorElement.remove();
+    }, 5000);
 }
