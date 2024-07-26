@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="750" viewBox="0 0 800 750">
+    <rect width="100%" height="100%" fill="#f0f0f0"/>
+    
+    <!-- Frontend -->
+    <rect x="50" y="50" width="150" height="80" fill="#ff9999" stroke="#000" stroke-width="2" rx="10"/>
+    <text x="125" y="95" font-family="Arial" font-size="14" text-anchor="middle">Frontend (HTML/JS)</text>
+    
+    <!-- FastAPI Backend -->
+    <rect x="300" y="50" width="200" height="80" fill="#99ccff" stroke="#000" stroke-width="2" rx="10"/>
+    <text x="400" y="95" font-family="Arial" font-size="14" text-anchor="middle">FastAPI Backend</text>
+    
+    <!-- PySpark Recommendation Engine -->
+    <rect x="300" y="200" width="200" height="80" fill="#99ff99" stroke="#000" stroke-width="2" rx="10"/>
+    <text x="400" y="240" font-family="Arial" font-size="14" text-anchor="middle">PySpark</text>
+    <text x="400" y="260" font-family="Arial" font-size="12" text-anchor="middle">Recommendation Engine</text>
+    
+    <!-- Kafka -->
+    <rect x="600" y="200" width="150" height="80" fill="#ffff99" stroke="#000" stroke-width="2" rx="10"/>
+    <text x="675" y="245" font-family="Arial" font-size="14" text-anchor="middle">Kafka</text>
+    
+    <!-- PostgreSQL Database 1 -->
+    <rect x="600" y="350" width="150" height="80" fill="#cc99ff" stroke="#000" stroke-width="2" rx="10"/>
+    <text x="675" y="380" font-family="Arial" font-size="14" text-anchor="middle">PostgreSQL 1</text>
+    <text x="675" y="400" font-family="Arial" font-size="12" text-anchor="middle">(Recommendations)</text>
+    
+    <!-- Apache Spark Data Processor -->
+    <rect x="300" y="350" width="200" height="80" fill="#ffcc99" stroke="#000" stroke-width="2" rx="10"/>
+    <text x="400" y="390" font-family="Arial" font-size="14" text-anchor="middle">Apache Spark</text>
+    <text x="400" y="410" font-family="Arial" font-size="12" text-anchor="middle">Data Processor</text>
+    
+    <!-- PostgreSQL Database 2 -->
+    <rect x="600" y="500" width="150" height="80" fill="#cc99ff" stroke="#000" stroke-width="2" rx="10"/>
+    <text x="675" y="530" font-family="Arial" font-size="14" text-anchor="middle">PostgreSQL 2</text>
+    <text x="675" y="550" font-family="Arial" font-size="12" text-anchor="middle">(Processed Data)</text>
+    
+    <!-- Elasticsearch -->
+    <rect x="300" y="500" width="200" height="80" fill="#ffcc99" stroke="#000" stroke-width="2" rx="10"/>
+    <text x="400" y="545" font-family="Arial" font-size="14" text-anchor="middle">Elasticsearch</text>
+    
+    <!-- Kibana -->
+    <rect x="50" y="500" width="150" height="80" fill="#ffccff" stroke="#000" stroke-width="2" rx="10"/>
+    <text x="125" y="545" font-family="Arial" font-size="14" text-anchor="middle">Kibana</text>
+    
+    <!-- Movie Data Source -->
+    <rect x="50" y="350" width="150" height="80" fill="#ffff99" stroke="#000" stroke-width="2" rx="10"/>
+    <text x="125" y="395" font-family="Arial" font-size="14" text-anchor="middle">Movie Data Source</text>
+    
+    <!-- Arrows -->
+    <line x1="200" y1="90" x2="300" y2="90" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="400" y1="130" x2="400" y2="200" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="500" y1="240" x2="600" y2="240" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="675" y1="280" x2="675" y2="350" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="200" y1="390" x2="300" y2="390" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="500" y1="390" x2="600" y2="540" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="400" y1="430" x2="400" y2="500" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="300" y1="90" x2="400" y2="500" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="300" y1="540" x2="200" y2="540" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Arrowhead definition -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" />
+        </marker>
+    </defs>
+    
+    <!-- Labels -->
+    <text x="250" y="70" font-family="Arial" font-size="12">HTTP Requests</text>
+    <text x="420" y="180" font-family="Arial" font-size="12">Recommendation Requests</text>
+    <text x="520" y="220" font-family="Arial" font-size="12">Publish Results</text>
+    <text x="685" y="320" font-family="Arial" font-size="12">Store Recommendations</text>
+    <text x="520" y="470" font-family="Arial" font-size="12">Store Processed Data</text>
+    <text x="220" y="370" font-family="Arial" font-size="12">Load Data</text>
+    <text x="420" y="470" font-family="Arial" font-size="12">Index Data</text>
+    <text x="280" y="300" font-family="Arial" font-size="12">Search Requests</text>
+    <text x="240" y="520" font-family="Arial" font-size="12">Visualize</text>
+</svg>
