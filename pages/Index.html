@@ -15,22 +15,36 @@
             <nav>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="movies.html">MOVIES</a></li>
-                    <li><a href="profile.html">PROFILE</a></li>
-                    <li><a href="dashboard.html">DASHBOARD</a></li>
-                    <li><a href="realtime-recommendations.html">LIVE RECS</a></li>
-                    <li><a href="movie-rating.html">RATE</a></li>
+                    <li><a href="top-20.html">Top-20</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <div class="modal">
+        <div class="modal_body">
+            <h1 class="modal_text">Positive</h1>
+            <div id="positive-buttons"></div>
+            <h1 class="modal_text">Negative</h1>
+            <div id="negative-buttons"></div>
+            <div class="modal-buttons">
+                <button class="btn-close-modal btn">Cancel</button>
+                <button class="btn-confirm btn">Confirm</button>
+            </div>
+        </div>
+    </div>
+    
     <div class="container">
         <h1>Welcome to Netflix Recommender</h1>
         <p>Discover movies you'll love based on your preferences.</p>
-        <a href="recommendations.html" class="btn">Get Recommendations</a>
+        <button class="btn-open-modal btn">Get Recommendations</button>
     </div>
 
+    <div id="recommendation-container"></div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="app.js"></script>
+    <script src="recommend.js"></script>
+    <script src="movieRecommendation.js"></script>
 </body>
 </html>
