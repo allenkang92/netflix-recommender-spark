@@ -58,9 +58,9 @@ async function getRecommendations(positiveGenres, negativeGenres) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const recommendedMovies = await response.json();
-        if (recommendedMovies.length === 0) {
-            throw new Error('No movies found matching your preferences.');
-        }
+        // if (recommendedMovies.length === 0) {
+        //     throw new Error('No movies found matching your preferences.');
+        // }
         return recommendedMovies;
     } catch (error) {
         console.error("Could not fetch recommendations:", error);
@@ -166,12 +166,12 @@ document.addEventListener('DOMContentLoaded', () => {
 // sendSelectedGenres 
 async function sendSelectedGenres() {
     const data = {
-        positiveGenres: positiveGenres,
-        negativeGenres: negativeGenres
+        positive: positiveGenres,
+        negative: negativeGenres
     };
 
     try {
-        const response = await fetch('/api/user-preferences', {
+        const response = await fetch(`${API_BASE_URL}/recommend`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
