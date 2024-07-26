@@ -1,0 +1,5807 @@
+score,genres
+,['documentation']
+8.3,"['crime', 'drama']"
+8.2,"['comedy', 'fantasy']"
+8.0,['comedy']
+8.1,['horror']
+8.8,"['comedy', 'european']"
+7.7,"['thriller', 'crime', 'action']"
+7.8,"['drama', 'music', 'romance', 'family']"
+5.8,"['romance', 'drama']"
+7.7,"['drama', 'crime', 'action']"
+7.3,"['western', 'action', 'european']"
+7.5,"['war', 'action', 'drama']"
+7.6,"['comedy', 'animation', 'action', 'fantasy', 'family']"
+8.1,"['comedy', 'documentation']"
+6.9,"['western', 'crime']"
+7.5,"['romance', 'comedy', 'music']"
+7.5,"['drama', 'crime', 'comedy']"
+7.2,['documentation']
+7.5,"['documentation', 'history', 'european']"
+6.2,"['comedy', 'documentation', 'music']"
+7.6,"['drama', 'war', 'action', 'history', 'romance']"
+6.4,"['drama', 'thriller', 'crime']"
+6.7,"['drama', 'action', 'romance', 'thriller']"
+7.2,['drama']
+6.8,"['drama', 'thriller', 'crime', 'history']"
+9.0,"['comedy', 'drama']"
+6.7,['fantasy']
+2.1,"['drama', 'comedy', 'romance', 'action', 'crime']"
+7.4,"['romance', 'crime', 'drama']"
+8.1,['comedy']
+7.2,"['drama', 'crime']"
+6.9,['romance']
+,['comedy']
+,['comedy']
+,['comedy']
+6.5,"['comedy', 'drama', 'romance']"
+6.5,['drama']
+6.2,['documentation']
+7.8,['documentation']
+6.2,['drama']
+6.7,"['romance', 'crime', 'drama']"
+6.2,"['drama', 'action', 'romance', 'family', 'fantasy']"
+6.8,"['romance', 'comedy', 'drama']"
+4.6,['romance']
+4.2,"['drama', 'romance', 'action']"
+5.1,"['drama', 'crime', 'thriller']"
+6.9,"['drama', 'action']"
+8.9,['comedy']
+8.1,['drama']
+8.3,"['drama', 'crime', 'european']"
+7.7,"['romance', 'comedy', 'drama']"
+6.7,"['scifi', 'action', 'comedy', 'family']"
+8.3,"['drama', 'war']"
+6.7,"['horror', 'thriller', 'european']"
+7.4,['horror']
+6.9,"['action', 'scifi', 'crime', 'drama']"
+7.8,"['drama', 'european']"
+6.5,"['family', 'comedy', 'music', 'action', 'animation', 'fantasy', 'drama']"
+6.6,"['drama', 'family', 'comedy']"
+6.5,"['horror', 'fantasy', 'thriller']"
+7.1,"['comedy', 'romance', 'family']"
+6.7,"['comedy', 'romance']"
+7.6,"['comedy', 'documentation']"
+4.9,"['drama', 'romance']"
+6.7,['family']
+6.4,"['comedy', 'family']"
+6.1,"['comedy', 'animation', 'family', 'crime', 'european']"
+7.4,"['comedy', 'family', 'scifi', 'animation', 'european']"
+7.2,"['scifi', 'drama', 'war', 'animation', 'action']"
+7.3,"['scifi', 'animation', 'action', 'drama', 'war']"
+7.2,"['comedy', 'documentation']"
+6.0,"['comedy', 'documentation']"
+7.9,"['comedy', 'documentation']"
+6.0,['drama']
+6.0,['drama']
+8.0,['comedy']
+7.7,"['animation', 'action', 'drama', 'scifi', 'war']"
+7.6,"['action', 'crime', 'drama']"
+8.1,['comedy']
+6.7,"['drama', 'war']"
+7.0,"['crime', 'drama']"
+6.5,"['drama', 'romance']"
+7.2,['drama']
+5.6,"['drama', 'crime']"
+6.6,"['romance', 'comedy', 'drama']"
+8.7,"['comedy', 'drama']"
+7.1,['drama']
+6.5,['drama']
+6.3,['drama']
+5.1,"['action', 'crime', 'thriller']"
+5.8,"['crime', 'drama', 'thriller']"
+,['drama']
+,['comedy']
+4.8,"['comedy', 'drama', 'family', 'action']"
+6.1,"['romance', 'action', 'drama']"
+6.3,"['drama', 'war', 'european']"
+,['comedy']
+6.2,"['drama', 'action']"
+3.8,['comedy']
+6.1,"['drama', 'action']"
+5.2,"['drama', 'thriller', 'action']"
+5.4,"['drama', 'action', 'crime']"
+7.3,"['fantasy', 'drama']"
+6.3,"['family', 'romance']"
+6.5,"['western', 'thriller', 'action', 'romance']"
+7.4,['reality']
+8.4,"['scifi', 'drama', 'action']"
+7.6,"['scifi', 'action', 'comedy', 'fantasy', 'animation', 'family']"
+8.8,"['drama', 'romance', 'comedy']"
+7.0,"['comedy', 'sport']"
+8.8,"['action', 'comedy', 'animation', 'drama', 'fantasy']"
+8.6,"['drama', 'war']"
+8.9,"['western', 'action', 'scifi', 'thriller', 'animation', 'comedy', 'drama']"
+8.1,"['scifi', 'action', 'drama']"
+7.8,"['reality', 'comedy', 'drama', 'scifi']"
+7.8,"['thriller', 'drama', 'scifi']"
+8.2,"['comedy', 'drama']"
+7.1,"['action', 'scifi', 'horror']"
+6.7,"['romance', 'drama', 'comedy']"
+7.3,"['scifi', 'thriller', 'action']"
+8.5,"['scifi', 'action', 'drama', 'thriller', 'fantasy', 'animation']"
+7.8,"['scifi', 'comedy', 'family', 'fantasy', 'animation']"
+7.7,"['thriller', 'drama', 'crime']"
+6.5,"['scifi', 'action', 'fantasy', 'family']"
+6.5,"['thriller', 'crime', 'action']"
+6.2,"['action', 'animation', 'scifi', 'western', 'fantasy', 'comedy', 'family']"
+6.6,"['drama', 'thriller', 'crime', 'european']"
+6.4,"['comedy', 'action', 'fantasy']"
+7.1,"['drama', 'history', 'war']"
+7.5,"['horror', 'thriller', 'drama']"
+7.2,['drama']
+7.3,"['drama', 'european']"
+7.6,"['scifi', 'fantasy', 'horror', 'thriller', 'family', 'music']"
+7.2,"['scifi', 'action', 'family', 'fantasy', 'animation', 'comedy', 'drama']"
+7.9,"['action', 'comedy', 'scifi', 'animation', 'drama', 'fantasy', 'romance']"
+6.9,"['drama', 'sport']"
+7.5,"['drama', 'crime', 'thriller']"
+7.1,"['thriller', 'action', 'crime', 'western', 'european']"
+6.8,"['action', 'thriller', 'western', 'comedy', 'romance']"
+7.2,"['drama', 'action', 'history', 'war']"
+6.5,['comedy']
+6.0,"['drama', 'family']"
+,['reality']
+4.5,"['action', 'comedy', 'family', 'sport']"
+7.2,"['drama', 'thriller', 'action', 'crime']"
+6.6,"['comedy', 'sport']"
+5.6,"['scifi', 'thriller', 'action', 'drama']"
+7.3,"['drama', 'family', 'romance']"
+4.8,"['thriller', 'horror', 'action']"
+6.9,"['comedy', 'drama', 'family', 'romance', 'european']"
+6.5,"['thriller', 'action', 'animation']"
+5.7,"['horror', 'thriller']"
+6.0,"['scifi', 'action', 'comedy', 'family']"
+3.8,['family']
+5.8,"['scifi', 'action', 'horror', 'thriller']"
+5.4,"['thriller', 'scifi', 'action']"
+8.0,"['scifi', 'action', 'drama', 'fantasy', 'animation']"
+5.2,"['fantasy', 'horror', 'scifi', 'thriller', 'action', 'drama']"
+5.6,"['comedy', 'family']"
+5.9,"['thriller', 'action', 'crime', 'drama']"
+6.2,"['thriller', 'drama', 'action', 'crime', 'european']"
+7.0,"['thriller', 'european', 'crime', 'drama']"
+4.7,"['fantasy', 'scifi', 'action', 'comedy', 'family']"
+6.4,"['drama', 'crime', 'thriller']"
+4.5,"['drama', 'family', 'romance', 'sport', 'action']"
+4.7,"['thriller', 'horror']"
+4.7,"['scifi', 'action', 'comedy', 'thriller']"
+6.5,"['thriller', 'crime', 'drama', 'european']"
+5.7,"['drama', 'comedy', 'family']"
+6.2,"['comedy', 'drama', 'family']"
+8.0,"['scifi', 'comedy', 'drama', 'family', 'fantasy', 'romance', 'animation', 'action']"
+6.5,"['western', 'drama', 'history']"
+6.6,"['romance', 'comedy', 'drama']"
+7.2,"['comedy', 'drama']"
+,['comedy']
+4.5,"['action', 'scifi']"
+7.9,"['drama', 'documentation', 'war']"
+6.8,['comedy']
+6.8,"['romance', 'drama']"
+8.5,"['comedy', 'documentation']"
+7.0,"['drama', 'european']"
+,['comedy']
+7.1,[]
+7.9,"['comedy', 'documentation']"
+6.4,['documentation']
+6.7,"['drama', 'music', 'romance']"
+7.6,"['drama', 'romance', 'comedy']"
+7.4,"['comedy', 'family', 'action', 'animation', 'european']"
+7.4,['comedy']
+7.8,"['drama', 'comedy', 'crime']"
+5.9,"['comedy', 'documentation']"
+7.8,"['drama', 'romance', 'comedy']"
+7.5,"['drama', 'romance']"
+,['drama']
+4.7,"['romance', 'comedy', 'drama']"
+7.1,"['drama', 'romance', 'comedy', 'history']"
+4.0,['comedy']
+7.2,"['drama', 'sport']"
+8.1,"['romance', 'drama']"
+7.6,"['romance', 'war', 'comedy', 'drama', 'european']"
+7.6,"['drama', 'comedy', 'romance', 'action']"
+4.8,"['drama', 'music', 'family']"
+5.4,"['action', 'drama', 'romance', 'crime']"
+6.5,"['comedy', 'fantasy', 'drama', 'crime']"
+6.2,"['thriller', 'action', 'drama', 'romance']"
+9.0,"['crime', 'drama']"
+6.2,"['fantasy', 'romance', 'family', 'drama']"
+7.6,"['comedy', 'drama', 'music', 'romance']"
+5.5,"['drama', 'crime', 'thriller']"
+6.1,"['comedy', 'romance', 'drama']"
+,['comedy']
+6.4,"['drama', 'romance', 'comedy']"
+5.5,"['drama', 'romance']"
+7.5,"['romance', 'comedy', 'drama']"
+5.4,"['romance', 'drama', 'thriller']"
+6.9,"['war', 'drama', 'crime', 'european']"
+5.5,"['comedy', 'action', 'crime', 'thriller']"
+6.6,"['drama', 'action', 'crime']"
+7.8,"['drama', 'crime']"
+4.5,"['romance', 'comedy', 'drama']"
+7.3,"['comedy', 'documentation']"
+6.6,"['comedy', 'music', 'documentation']"
+6.6,"['thriller', 'romance', 'drama']"
+6.1,"['drama', 'romance']"
+7.8,"['comedy', 'documentation']"
+7.8,"['comedy', 'documentation']"
+5.9,"['drama', 'european', 'romance']"
+6.7,"['comedy', 'documentation']"
+8.2,"['documentation', 'history']"
+6.1,"['action', 'crime', 'drama', 'thriller']"
+6.5,['drama']
+4.5,"['drama', 'action']"
+7.9,"['drama', 'comedy']"
+6.7,"['comedy', 'drama', 'romance']"
+6.9,['drama']
+3.6,"['crime', 'action', 'drama']"
+6.2,"['comedy', 'documentation']"
+5.0,"['romance', 'action', 'drama']"
+6.0,"['drama', 'romance', 'action', 'crime']"
+4.6,"['romance', 'action', 'comedy', 'fantasy']"
+,"['drama', 'comedy']"
+5.9,"['drama', 'action']"
+,[]
+9.5,"['drama', 'thriller', 'crime']"
+8.2,"['action', 'drama', 'scifi', 'thriller', 'horror']"
+7.8,"['crime', 'documentation', 'drama']"
+8.7,"['drama', 'romance', 'european']"
+7.6,"['drama', 'romance']"
+8.6,"['reality', 'european']"
+8.1,"['thriller', 'crime', 'drama']"
+7.8,"['action', 'drama', 'crime', 'thriller', 'comedy']"
+8.5,['comedy']
+8.4,"['drama', 'family']"
+8.5,"['scifi', 'thriller', 'drama', 'fantasy', 'horror']"
+7.1,"['comedy', 'drama', 'romance']"
+6.5,"['thriller', 'action', 'scifi']"
+8.7,['comedy']
+8.5,"['comedy', 'european']"
+8.3,"['comedy', 'sport']"
+9.3,"['scifi', 'family', 'fantasy', 'animation', 'action']"
+8.8,"['scifi', 'music', 'thriller', 'action']"
+6.6,"['crime', 'action', 'comedy']"
+8.1,"['fantasy', 'animation', 'action', 'comedy', 'family', 'drama']"
+8.7,"['drama', 'sport']"
+8.0,"['thriller', 'action', 'european']"
+7.2,"['thriller', 'crime', 'drama']"
+7.6,"['scifi', 'animation', 'drama', 'fantasy', 'music', 'comedy', 'family']"
+7.2,"['scifi', 'family', 'fantasy', 'animation', 'comedy']"
+6.6,"['action', 'comedy', 'documentation']"
+6.1,"['action', 'drama', 'thriller', 'animation', 'comedy', 'fantasy', 'family', 'scifi']"
+9.0,"['scifi', 'animation', 'crime', 'drama', 'fantasy', 'thriller']"
+6.5,"['comedy', 'european']"
+7.7,"['scifi', 'drama', 'thriller', 'fantasy', 'horror', 'romance']"
+6.6,"['fantasy', 'comedy', 'family']"
+6.1,"['thriller', 'crime']"
+7.0,['comedy']
+7.8,['drama']
+7.7,"['thriller', 'documentation', 'crime', 'drama']"
+8.4,"['scifi', 'comedy', 'animation', 'action', 'fantasy', 'thriller']"
+7.5,"['drama', 'crime']"
+7.2,"['thriller', 'action', 'drama']"
+8.0,"['drama', 'fantasy', 'romance']"
+8.0,"['thriller', 'action']"
+7.0,"['crime', 'drama', 'history', 'action', 'european']"
+5.6,['reality']
+7.6,"['crime', 'action', 'thriller']"
+7.6,"['drama', 'comedy', 'romance']"
+7.2,"['drama', 'romance']"
+8.8,"['comedy', 'music']"
+6.7,"['romance', 'drama', 'comedy']"
+5.9,"['comedy', 'drama', 'european']"
+7.6,"['drama', 'sport']"
+6.6,"['thriller', 'action']"
+7.1,"['horror', 'european']"
+8.6,"['comedy', 'crime']"
+8.1,['drama']
+7.6,"['western', 'drama']"
+,"['action', 'thriller', 'scifi']"
+7.0,"['thriller', 'action', 'war', 'european']"
+7.6,"['fantasy', 'romance', 'family']"
+8.5,"['drama', 'european']"
+7.8,"['drama', 'history', 'war', 'action']"
+6.7,"['comedy', 'family', 'romance']"
+6.9,"['comedy', 'drama', 'family', 'music', 'romance', 'sport']"
+6.8,"['thriller', 'action', 'drama', 'european']"
+7.3,['thriller']
+7.9,"['action', 'scifi', 'drama', 'fantasy', 'european']"
+,"['drama', 'war', 'thriller', 'horror']"
+6.3,"['fantasy', 'comedy', 'family', 'romance', 'animation']"
+6.7,"['comedy', 'drama', 'romance']"
+7.3,"['fantasy', 'romance', 'animation', 'drama', 'family']"
+7.1,"['horror', 'drama', 'fantasy', 'thriller', 'european']"
+7.3,"['crime', 'drama', 'thriller', 'european']"
+5.8,"['thriller', 'comedy']"
+6.3,"['drama', 'action', 'crime', 'thriller']"
+6.9,"['animation', 'drama', 'romance', 'comedy', 'family', 'fantasy', 'scifi']"
+8.3,"['drama', 'comedy']"
+6.7,"['thriller', 'fantasy', 'scifi', 'action', 'horror']"
+6.3,"['thriller', 'drama', 'romance', 'european']"
+8.0,"['thriller', 'drama']"
+6.8,"['drama', 'fantasy', 'romance', 'documentation']"
+6.3,"['thriller', 'scifi', 'action', 'european']"
+6.2,['comedy']
+6.5,"['thriller', 'drama', 'action', 'crime', 'european']"
+5.9,"['romance', 'comedy', 'drama']"
+6.7,"['drama', 'romance', 'fantasy', 'comedy']"
+8.3,"['scifi', 'action', 'comedy', 'drama', 'animation']"
+6.8,"['crime', 'action', 'drama', 'thriller']"
+7.0,"['drama', 'thriller', 'crime']"
+5.7,['comedy']
+6.8,"['drama', 'crime', 'history', 'thriller']"
+8.7,"['scifi', 'animation', 'action', 'drama', 'thriller', 'war']"
+6.5,"['thriller', 'scifi', 'fantasy', 'war', 'action']"
+5.0,"['comedy', 'family']"
+6.5,"['thriller', 'drama', 'crime', 'horror']"
+4.0,"['fantasy', 'comedy', 'family']"
+,"['documentation', 'comedy']"
+5.8,"['horror', 'thriller', 'action', 'crime', 'fantasy', 'european']"
+5.6,"['thriller', 'horror', 'fantasy']"
+5.9,"['scifi', 'thriller', 'action']"
+6.4,"['comedy', 'fantasy', 'animation', 'family', 'music', 'romance']"
+8.0,"['drama', 'fantasy', 'action', 'history']"
+7.3,"['drama', 'sport', 'european']"
+5.8,"['action', 'thriller', 'fantasy', 'horror', 'scifi']"
+5.5,"['romance', 'comedy']"
+6.0,['horror']
+5.4,"['drama', 'comedy', 'romance']"
+5.1,"['comedy', 'romance']"
+5.1,"['horror', 'fantasy', 'scifi', 'action', 'thriller']"
+6.7,"['romance', 'drama', 'history']"
+5.5,"['horror', 'thriller']"
+7.4,"['drama', 'comedy', 'european']"
+5.7,"['horror', 'action']"
+7.9,"['action', 'comedy', 'drama', 'family', 'scifi', 'animation']"
+7.3,"['drama', 'romance', 'european']"
+5.2,"['horror', 'thriller', 'crime', 'drama']"
+7.1,"['drama', 'action', 'thriller']"
+5.9,"['romance', 'comedy', 'family']"
+7.6,['reality']
+6.3,"['animation', 'action', 'comedy', 'crime', 'family', 'fantasy', 'scifi']"
+5.1,"['comedy', 'horror']"
+6.2,"['horror', 'crime']"
+6.1,"['comedy', 'crime']"
+6.2,"['animation', 'comedy', 'family', 'fantasy', 'scifi', 'action']"
+6.5,"['drama', 'comedy']"
+5.5,"['comedy', 'thriller', 'action', 'crime']"
+7.3,"['scifi', 'thriller', 'drama']"
+8.9,"['comedy', 'european']"
+8.4,"['comedy', 'drama']"
+8.6,"['drama', 'comedy']"
+7.2,"['drama', 'scifi', 'fantasy', 'family']"
+8.3,"['scifi', 'fantasy', 'animation', 'comedy', 'drama', 'thriller', 'crime', 'horror', 'action']"
+7.6,"['action', 'animation', 'comedy', 'family']"
+4.8,"['comedy', 'crime', 'family', 'romance']"
+7.0,"['animation', 'family']"
+7.4,"['action', 'reality', 'animation', 'family', 'comedy', 'drama']"
+6.8,"['drama', 'family', 'sport', 'fantasy']"
+6.6,"['fantasy', 'animation', 'comedy', 'family']"
+6.1,"['comedy', 'crime']"
+6.6,"['drama', 'thriller', 'war', 'action']"
+7.9,"['comedy', 'drama', 'romance']"
+6.2,"['action', 'comedy', 'family', 'fantasy', 'animation', 'thriller', 'european']"
+5.1,"['horror', 'thriller', 'scifi', 'action', 'european']"
+6.3,"['comedy', 'family']"
+5.8,"['horror', 'thriller', 'documentation']"
+7.6,['drama']
+6.5,"['fantasy', 'thriller', 'action', 'drama', 'family']"
+5.5,"['comedy', 'drama', 'romance']"
+7.6,"['scifi', 'thriller', 'comedy', 'drama', 'horror', 'european']"
+8.0,"['animation', 'romance', 'comedy', 'drama']"
+5.9,"['comedy', 'romance']"
+,['western']
+6.0,"['thriller', 'history', 'drama']"
+5.9,"['thriller', 'drama', 'fantasy']"
+8.0,"['animation', 'comedy', 'family', 'european']"
+6.6,"['thriller', 'action', 'european']"
+,"['thriller', 'european']"
+8.1,"['drama', 'romance', 'sport']"
+6.2,"['comedy', 'war']"
+6.7,"['comedy', 'horror', 'reality', 'scifi', 'thriller']"
+5.8,"['romance', 'comedy', 'drama']"
+6.9,"['fantasy', 'family', 'action', 'war', 'drama', 'thriller', 'animation']"
+8.3,['comedy']
+5.6,"['comedy', 'romance']"
+3.9,"['animation', 'family', 'comedy', 'european']"
+8.4,['comedy']
+5.6,['comedy']
+7.6,['drama']
+6.6,"['comedy', 'drama', 'sport', 'romance']"
+,"['music', 'documentation']"
+7.7,"['scifi', 'action', 'comedy', 'drama', 'fantasy', 'animation']"
+6.7,"['thriller', 'action', 'crime', 'drama', 'sport']"
+7.5,"['drama', 'history', 'sport', 'action']"
+7.6,"['comedy', 'family', 'action', 'animation']"
+8.3,"['drama', 'family']"
+8.1,"['comedy', 'documentation']"
+7.0,"['action', 'drama']"
+8.2,"['comedy', 'drama', 'animation', 'romance']"
+7.4,"['crime', 'thriller', 'drama', 'action']"
+5.4,['drama']
+7.8,"['action', 'drama', 'scifi', 'war', 'animation']"
+5.5,"['comedy', 'fantasy', 'animation', 'family']"
+5.1,"['comedy', 'drama', 'family', 'scifi', 'animation', 'action']"
+7.3,"['action', 'fantasy', 'thriller', 'comedy', 'family', 'scifi', 'romance', 'animation']"
+4.9,"['comedy', 'romance', 'drama']"
+7.8,"['action', 'comedy', 'reality', 'romance', 'thriller']"
+6.5,"['horror', 'music', 'animation', 'comedy', 'family', 'fantasy', 'scifi']"
+7.5,"['comedy', 'family', 'fantasy', 'animation', 'european']"
+5.3,"['animation', 'comedy', 'family', 'european']"
+6.4,"['action', 'crime', 'drama', 'thriller', 'european']"
+8.1,"['action', 'drama', 'scifi', 'fantasy', 'animation', 'family', 'european']"
+7.6,"['comedy', 'documentation']"
+6.3,"['drama', 'action', 'crime', 'thriller', 'animation', 'comedy', 'romance']"
+6.9,"['comedy', 'documentation']"
+3.6,"['action', 'comedy']"
+7.5,"['fantasy', 'animation', 'action']"
+5.4,"['comedy', 'family']"
+5.6,"['action', 'scifi', 'family', 'western', 'animation']"
+5.6,"['drama', 'romance']"
+7.3,"['scifi', 'romance', 'animation', 'action', 'drama', 'fantasy', 'horror']"
+7.9,"['scifi', 'animation', 'comedy', 'drama']"
+6.8,"['comedy', 'fantasy', 'romance', 'action', 'animation', 'family', 'european']"
+7.4,"['drama', 'european', 'history']"
+,"['horror', 'thriller']"
+7.4,"['drama', 'romance']"
+6.7,"['fantasy', 'animation', 'action', 'family']"
+,['comedy']
+7.1,"['comedy', 'crime']"
+8.0,"['comedy', 'documentation']"
+5.6,"['thriller', 'horror', 'documentation', 'war', 'european']"
+7.5,"['romance', 'history', 'war', 'action', 'drama']"
+3.9,"['comedy', 'drama', 'romance']"
+7.0,['comedy']
+6.7,"['comedy', 'drama', 'fantasy', 'romance', 'thriller', 'action']"
+7.9,"['comedy', 'drama', 'romance']"
+8.1,"['action', 'crime', 'drama', 'thriller', 'comedy']"
+4.8,"['drama', 'comedy', 'european']"
+6.5,"['crime', 'scifi', 'drama', 'thriller', 'action', 'comedy']"
+6.6,"['comedy', 'action', 'animation', 'fantasy']"
+6.6,"['drama', 'action']"
+6.3,"['comedy', 'family', 'fantasy', 'music', 'animation', 'european']"
+5.9,['drama']
+5.1,"['animation', 'romance', 'comedy', 'family']"
+6.9,"['drama', 'comedy', 'animation', 'action']"
+4.1,['animation']
+5.8,"['thriller', 'drama', 'crime', 'action']"
+6.4,"['action', 'animation']"
+4.5,"['comedy', 'crime', 'drama']"
+7.6,"['documentation', 'history', 'war', 'european']"
+6.3,"['documentation', 'music']"
+7.0,"['comedy', 'drama']"
+6.1,['comedy']
+7.2,"['action', 'comedy', 'family', 'animation']"
+6.6,"['drama', 'comedy', 'romance', 'war']"
+6.6,['thriller']
+,['comedy']
+6.4,"['fantasy', 'comedy', 'drama', 'animation', 'action']"
+7.9,"['comedy', 'documentation']"
+6.5,"['animation', 'comedy', 'family']"
+6.3,"['drama', 'comedy']"
+7.0,['comedy']
+,['war']
+6.9,"['comedy', 'fantasy', 'animation', 'family', 'european']"
+7.4,['drama']
+8.1,"['drama', 'comedy', 'romance']"
+7.3,"['comedy', 'crime']"
+7.4,"['fantasy', 'animation', 'action']"
+7.1,"['drama', 'comedy']"
+4.4,"['drama', 'comedy', 'crime']"
+8.7,['drama']
+6.9,"['action', 'animation', 'fantasy']"
+6.8,"['fantasy', 'animation', 'action']"
+7.0,"['action', 'animation', 'fantasy']"
+5.4,"['thriller', 'crime', 'drama']"
+5.9,"['fantasy', 'horror', 'comedy', 'family']"
+6.5,"['drama', 'comedy', 'romance']"
+6.2,"['comedy', 'documentation']"
+7.1,"['thriller', 'crime', 'action', 'european']"
+7.7,"['drama', 'music']"
+7.0,"['romance', 'drama']"
+7.6,['comedy']
+7.0,"['action', 'animation', 'comedy', 'drama', 'fantasy']"
+6.9,"['romance', 'crime', 'comedy']"
+7.2,"['thriller', 'european', 'crime', 'drama']"
+6.6,"['thriller', 'fantasy', 'action', 'comedy']"
+7.1,"['comedy', 'crime']"
+7.2,"['fantasy', 'drama', 'animation', 'action']"
+8.1,"['comedy', 'drama', 'history', 'crime']"
+7.4,"['animation', 'comedy', 'european']"
+8.1,"['drama', 'european']"
+4.7,"['thriller', 'scifi', 'horror']"
+8.0,"['thriller', 'comedy', 'drama', 'romance']"
+5.4,"['comedy', 'european']"
+6.1,"['drama', 'comedy']"
+7.9,"['drama', 'comedy', 'romance']"
+7.5,"['drama', 'crime', 'thriller', 'action']"
+7.3,"['comedy', 'thriller', 'romance', 'drama']"
+6.2,"['animation', 'family', 'european']"
+7.4,"['drama', 'romance']"
+8.7,['documentation']
+7.7,"['comedy', 'drama', 'action', 'crime']"
+7.1,"['romance', 'comedy', 'drama']"
+6.0,"['drama', 'romance']"
+,['documentation']
+8.4,"['crime', 'action', 'drama', 'history']"
+7.4,"['comedy', 'documentation']"
+6.6,"['thriller', 'action', 'crime']"
+6.6,"['drama', 'family', 'romance']"
+5.1,"['comedy', 'crime']"
+7.7,"['comedy', 'documentation']"
+8.0,['comedy']
+6.6,"['drama', 'comedy', 'romance', 'thriller', 'crime']"
+7.2,"['fantasy', 'action', 'comedy', 'animation']"
+5.5,"['drama', 'european', 'comedy', 'war']"
+8.0,"['comedy', 'drama']"
+5.2,"['animation', 'comedy', 'family']"
+7.9,"['drama', 'romance']"
+7.6,"['war', 'documentation']"
+6.2,['animation']
+7.2,"['action', 'animation', 'fantasy']"
+7.4,"['thriller', 'crime', 'drama', 'romance', 'action']"
+7.7,"['romance', 'documentation', 'drama', 'european']"
+7.0,"['drama', 'romance', 'thriller', 'action', 'comedy']"
+5.3,"['romance', 'comedy']"
+7.4,"['comedy', 'documentation']"
+6.3,"['fantasy', 'drama', 'romance', 'comedy']"
+6.1,"['comedy', 'drama', 'romance']"
+7.2,['drama']
+7.6,"['fantasy', 'thriller', 'animation', 'action']"
+7.4,"['drama', 'comedy', 'romance']"
+7.4,"['drama', 'crime', 'action', 'thriller']"
+7.2,['comedy']
+7.5,"['comedy', 'documentation']"
+8.0,"['scifi', 'comedy']"
+7.4,"['drama', 'comedy', 'romance']"
+7.3,"['drama', 'comedy', 'family']"
+8.5,"['comedy', 'drama', 'romance']"
+7.4,"['action', 'drama', 'crime']"
+7.2,"['drama', 'comedy', 'crime', 'romance']"
+4.1,"['action', 'animation', 'comedy']"
+,['horror']
+7.5,"['drama', 'comedy']"
+6.9,"['comedy', 'drama', 'romance']"
+7.6,"['thriller', 'crime', 'drama']"
+,['crime']
+7.4,['documentation']
+7.1,"['romance', 'drama']"
+,['comedy']
+7.1,"['thriller', 'drama', 'romance']"
+,['comedy']
+7.9,['comedy']
+6.3,"['action', 'comedy', 'romance']"
+5.0,"['drama', 'sport', 'thriller']"
+6.8,"['romance', 'drama', 'european']"
+7.3,"['action', 'drama', 'thriller']"
+6.3,"['thriller', 'drama', 'music']"
+7.1,"['comedy', 'drama', 'romance']"
+6.9,"['romance', 'drama']"
+7.4,"['drama', 'comedy']"
+7.8,"['drama', 'romance', 'war', 'action']"
+7.8,['comedy']
+6.3,['drama']
+6.8,"['drama', 'music']"
+7.5,"['drama', 'comedy', 'crime']"
+5.3,"['romance', 'comedy', 'drama']"
+7.6,"['comedy', 'drama', 'romance']"
+7.4,"['drama', 'comedy', 'romance']"
+6.8,"['action', 'crime', 'horror', 'thriller', 'war']"
+6.2,"['action', 'comedy', 'crime', 'drama', 'thriller']"
+4.4,"['horror', 'thriller']"
+6.6,"['thriller', 'drama', 'action', 'crime']"
+5.7,"['thriller', 'action', 'crime', 'drama', 'romance', 'sport']"
+7.5,"['thriller', 'crime', 'romance', 'comedy', 'drama']"
+7.3,"['animation', 'fantasy', 'action', 'romance', 'comedy']"
+,"['family', 'animation']"
+7.2,"['drama', 'thriller', 'comedy']"
+8.7,"['comedy', 'drama']"
+7.8,"['drama', 'crime', 'action']"
+6.5,"['comedy', 'drama', 'romance']"
+7.7,['drama']
+7.6,"['thriller', 'action', 'crime', 'drama']"
+8.3,"['documentation', 'history']"
+6.1,"['drama', 'comedy', 'romance']"
+,"['drama', 'thriller']"
+8.1,"['drama', 'history', 'action']"
+7.0,"['romance', 'drama', 'european', 'war']"
+6.9,"['drama', 'action', 'thriller', 'crime', 'comedy']"
+8.1,['drama']
+7.0,['comedy']
+5.6,"['drama', 'comedy', 'family']"
+6.8,"['thriller', 'action']"
+7.1,"['drama', 'thriller', 'crime']"
+7.2,['documentation']
+8.0,"['documentation', 'crime']"
+8.4,"['drama', 'war', 'action']"
+7.2,['comedy']
+5.2,['drama']
+7.9,"['drama', 'romance', 'comedy']"
+5.2,"['action', 'drama', 'comedy', 'crime']"
+2.9,"['drama', 'comedy']"
+5.2,"['comedy', 'crime', 'drama']"
+4.2,"['animation', 'action']"
+5.1,"['thriller', 'drama', 'horror']"
+6.8,['drama']
+,['animation']
+8.4,['documentation']
+,['drama']
+5.6,"['drama', 'romance', 'comedy']"
+5.5,"['comedy', 'drama', 'thriller']"
+6.9,"['comedy', 'drama']"
+,['drama']
+8.0,"['comedy', 'drama', 'family']"
+5.3,"['comedy', 'action', 'drama', 'fantasy']"
+6.4,['drama']
+4.3,"['horror', 'thriller', 'drama', 'romance']"
+7.3,"['drama', 'family', 'fantasy', 'comedy']"
+5.2,"['drama', 'romance', 'comedy']"
+3.5,"['drama', 'comedy', 'romance']"
+7.0,"['documentation', 'music', 'drama']"
+5.6,"['drama', 'comedy']"
+6.4,"['drama', 'european']"
+4.8,"['drama', 'music', 'romance', 'comedy']"
+6.5,"['comedy', 'documentation']"
+2.9,"['horror', 'thriller', 'drama']"
+6.7,"['drama', 'european']"
+4.8,"['drama', 'family', 'comedy']"
+5.6,"['romance', 'comedy']"
+6.5,"['drama', 'european', 'family', 'war']"
+6.4,"['romance', 'drama']"
+6.4,['war']
+6.3,"['documentation', 'drama', 'thriller']"
+7.1,"['crime', 'action', 'history']"
+7.4,['drama']
+7.3,['comedy']
+5.9,"['documentation', 'crime']"
+6.3,"['comedy', 'action', 'romance']"
+9.6,['reality']
+,['documentation']
+5.6,"['comedy', 'drama']"
+,"['drama', 'comedy']"
+7.7,"['drama', 'family']"
+6.6,"['drama', 'romance', 'comedy']"
+7.6,"['action', 'comedy', 'sport', 'crime']"
+4.3,"['romance', 'drama', 'comedy', 'sport']"
+8.4,"['comedy', 'drama']"
+5.5,"['romance', 'comedy', 'drama']"
+6.7,['comedy']
+4.8,"['comedy', 'drama', 'romance']"
+7.4,['drama']
+5.2,"['comedy', 'thriller']"
+6.8,"['drama', 'romance', 'comedy']"
+3.4,"['action', 'drama', 'thriller']"
+,['drama']
+5.4,"['romance', 'action', 'crime', 'drama', 'thriller']"
+7.1,"['documentation', 'european']"
+6.7,"['drama', 'action']"
+5.5,"['thriller', 'action', 'crime', 'drama']"
+6.7,"['romance', 'comedy']"
+,[]
+7.0,['drama']
+,['comedy']
+6.9,"['drama', 'comedy', 'romance']"
+6.4,"['thriller', 'comedy', 'drama', 'romance']"
+6.5,['drama']
+6.5,"['romance', 'drama', 'comedy']"
+6.1,"['drama', 'romance', 'comedy']"
+,[]
+7.7,['animation']
+8.0,"['thriller', 'action', 'drama']"
+,['animation']
+6.3,"['drama', 'family', 'romance']"
+,[]
+6.4,"['animation', 'fantasy']"
+,['drama']
+5.6,['animation']
+5.7,"['crime', 'action', 'comedy']"
+,[]
+6.1,['drama']
+6.5,['drama']
+7.4,['drama']
+8.5,"['drama', 'history', 'european']"
+5.4,"['comedy', 'fantasy', 'animation', 'family']"
+7.4,"['romance', 'comedy', 'drama']"
+7.7,"['comedy', 'romance']"
+8.8,"['scifi', 'thriller', 'drama', 'european']"
+7.1,"['thriller', 'drama']"
+8.4,"['western', 'drama']"
+8.3,"['western', 'action', 'crime', 'drama']"
+7.4,"['thriller', 'scifi', 'drama', 'crime', 'action']"
+8.6,"['drama', 'comedy']"
+7.8,"['comedy', 'romance']"
+7.7,"['drama', 'thriller']"
+8.3,"['comedy', 'drama', 'romance', 'european']"
+7.7,"['fantasy', 'romance', 'comedy']"
+7.4,['reality']
+8.4,"['drama', 'thriller', 'crime', 'european']"
+8.2,"['drama', 'action', 'sport']"
+9.0,"['drama', 'action', 'comedy', 'crime', 'animation', 'documentation', 'family', 'fantasy']"
+7.5,"['drama', 'romance', 'history', 'war']"
+7.5,"['action', 'crime', 'drama', 'scifi']"
+7.8,"['crime', 'thriller', 'drama']"
+6.8,"['thriller', 'scifi', 'action', 'drama']"
+5.8,"['scifi', 'thriller', 'action', 'documentation']"
+6.2,"['crime', 'thriller', 'drama']"
+6.4,"['romance', 'comedy']"
+6.2,"['comedy', 'fantasy', 'horror']"
+7.4,"['crime', 'thriller', 'action']"
+7.7,"['drama', 'romance', 'comedy']"
+8.4,"['action', 'scifi', 'comedy', 'drama', 'family', 'fantasy', 'animation']"
+7.6,"['scifi', 'action', 'animation', 'drama', 'western', 'comedy', 'fantasy', 'romance', 'thriller']"
+6.0,"['fantasy', 'thriller', 'action']"
+,"['action', 'comedy', 'documentation']"
+7.9,"['drama', 'history', 'romance', 'crime']"
+7.2,"['scifi', 'comedy', 'family', 'fantasy', 'animation', 'action', 'european']"
+6.2,"['thriller', 'scifi', 'crime', 'action']"
+8.3,"['scifi', 'thriller', 'animation', 'drama', 'fantasy']"
+6.6,['comedy']
+7.5,"['fantasy', 'war', 'animation', 'action', 'drama', 'horror']"
+7.0,"['drama', 'family', 'sport']"
+6.4,"['action', 'scifi', 'comedy', 'family', 'animation']"
+5.9,"['horror', 'thriller', 'action', 'fantasy', 'documentation', 'european']"
+6.6,"['comedy', 'animation', 'family', 'fantasy', 'action']"
+6.4,"['thriller', 'action', 'crime', 'drama']"
+4.5,"['reality', 'romance', 'documentation', 'comedy']"
+5.9,"['romance', 'comedy']"
+8.0,"['comedy', 'family', 'animation']"
+7.9,"['crime', 'comedy', 'drama']"
+7.4,"['drama', 'war', 'action', 'history']"
+6.8,"['action', 'thriller', 'european']"
+7.3,"['scifi', 'action', 'animation', 'comedy', 'crime']"
+,['horror']
+8.2,"['scifi', 'action', 'animation', 'drama', 'fantasy', 'thriller']"
+6.0,"['drama', 'thriller', 'horror']"
+7.5,"['scifi', 'horror', 'family', 'animation', 'action', 'drama', 'fantasy']"
+,['scifi']
+7.3,"['animation', 'comedy', 'family']"
+4.1,['comedy']
+6.2,"['comedy', 'fantasy', 'romance']"
+8.2,"['drama', 'fantasy', 'romance', 'animation']"
+7.8,"['scifi', 'action', 'comedy', 'animation', 'fantasy']"
+5.9,"['comedy', 'drama', 'european']"
+6.1,['animation']
+5.4,"['fantasy', 'thriller', 'horror', 'drama', 'romance']"
+6.9,"['scifi', 'fantasy', 'horror', 'action', 'comedy']"
+8.3,"['animation', 'comedy', 'sport']"
+5.6,"['comedy', 'romance', 'documentation']"
+5.4,"['fantasy', 'comedy', 'family', 'animation']"
+3.3,"['comedy', 'horror']"
+6.4,"['comedy', 'drama']"
+8.1,"['comedy', 'drama', 'european']"
+8.2,"['comedy', 'documentation']"
+6.2,"['action', 'scifi', 'animation']"
+7.8,"['action', 'animation', 'fantasy']"
+5.0,"['animation', 'european']"
+7.1,"['drama', 'animation', 'family', 'comedy', 'fantasy']"
+7.5,['documentation']
+8.0,['drama']
+5.7,"['drama', 'romance']"
+7.4,"['reality', 'documentation']"
+7.6,"['animation', 'european']"
+6.8,"['romance', 'comedy', 'drama', 'music']"
+7.7,"['fantasy', 'drama', 'horror', 'animation', 'action']"
+8.0,"['drama', 'action', 'crime', 'thriller']"
+8.4,"['crime', 'drama', 'history', 'thriller']"
+8.2,['comedy']
+7.4,"['drama', 'documentation']"
+7.1,"['comedy', 'music', 'scifi']"
+7.2,"['romance', 'drama', 'comedy']"
+7.4,"['comedy', 'documentation']"
+6.3,"['comedy', 'family', 'romance', 'drama']"
+6.5,['drama']
+8.1,"['comedy', 'drama']"
+,['comedy']
+,['comedy']
+5.8,"['comedy', 'family', 'scifi', 'animation']"
+,['documentation']
+8.0,['comedy']
+7.7,"['documentation', 'sport']"
+6.8,"['drama', 'action', 'crime']"
+7.1,"['comedy', 'family', 'animation', 'drama', 'horror', 'thriller']"
+,"['comedy', 'music']"
+8.2,['reality']
+5.5,[]
+8.1,"['drama', 'comedy', 'romance']"
+6.8,"['drama', 'comedy']"
+6.1,"['comedy', 'action', 'scifi', 'family', 'fantasy', 'animation']"
+6.3,['drama']
+5.9,"['drama', 'comedy', 'romance']"
+5.8,"['family', 'fantasy', 'animation', 'comedy']"
+6.6,['comedy']
+,['thriller']
+7.6,"['comedy', 'action', 'crime', 'thriller']"
+7.1,"['horror', 'thriller', 'animation', 'action', 'fantasy', 'comedy']"
+7.0,['comedy']
+6.4,"['animation', 'family', 'music']"
+6.7,"['scifi', 'animation', 'action']"
+6.5,"['comedy', 'romance']"
+7.7,"['romance', 'comedy', 'drama', 'european']"
+6.1,"['comedy', 'family', 'music']"
+6.4,['family']
+7.8,"['documentation', 'history']"
+7.4,['reality']
+7.1,"['action', 'thriller', 'crime', 'european']"
+4.7,"['drama', 'family', 'sport']"
+7.0,['comedy']
+7.4,"['comedy', 'documentation']"
+7.5,"['drama', 'comedy', 'family']"
+6.6,"['drama', 'comedy']"
+5.0,"['drama', 'comedy']"
+7.3,"['thriller', 'crime', 'fantasy', 'drama']"
+6.4,"['animation', 'family']"
+8.5,['drama']
+5.9,"['crime', 'action', 'comedy']"
+5.4,"['comedy', 'action', 'crime']"
+8.1,"['fantasy', 'drama', 'comedy']"
+6.0,"['thriller', 'drama', 'action', 'crime']"
+7.3,"['comedy', 'drama']"
+6.4,['drama']
+5.2,"['fantasy', 'animation', 'family']"
+6.0,"['action', 'animation', 'family', 'comedy']"
+,"['family', 'drama']"
+6.6,['documentation']
+4.6,"['drama', 'romance', 'action', 'comedy']"
+7.3,"['action', 'crime', 'thriller', 'drama']"
+8.2,"['drama', 'sport', 'thriller', 'action', 'crime']"
+,['comedy']
+5.3,['comedy']
+5.2,"['thriller', 'drama', 'action', 'crime', 'european']"
+6.9,"['comedy', 'documentation']"
+6.9,"['thriller', 'action']"
+6.7,"['animation', 'action', 'drama']"
+6.7,"['drama', 'romance']"
+5.1,['action']
+4.2,"['thriller', 'crime', 'action']"
+5.8,"['romance', 'drama', 'comedy']"
+2.0,"['comedy', 'family']"
+6.9,['comedy']
+7.6,['comedy']
+5.5,['comedy']
+7.2,"['crime', 'drama', 'thriller']"
+6.6,['comedy']
+5.1,"['horror', 'drama', 'thriller']"
+7.2,['comedy']
+6.0,"['comedy', 'drama', 'european']"
+6.3,"['thriller', 'crime', 'drama']"
+6.2,"['thriller', 'comedy', 'drama']"
+8.1,['drama']
+5.1,['comedy']
+7.9,['drama']
+6.0,"['thriller', 'action']"
+5.2,"['comedy', 'drama']"
+5.8,"['drama', 'comedy', 'romance']"
+4.5,"['action', 'thriller', 'drama']"
+5.3,"['thriller', 'drama']"
+5.6,"['thriller', 'action', 'comedy', 'crime']"
+7.2,"['drama', 'crime']"
+9.0,"['animation', 'action', 'fantasy']"
+3.2,"['thriller', 'action', 'crime']"
+6.3,['drama']
+6.3,"['romance', 'drama']"
+7.1,"['drama', 'comedy']"
+,[]
+6.4,"['comedy', 'family', 'sport', 'drama']"
+3.9,"['scifi', 'fantasy', 'action', 'family']"
+6.9,"['drama', 'comedy', 'romance']"
+7.5,['animation']
+5.9,['drama']
+6.1,"['action', 'thriller']"
+4.3,"['comedy', 'romance']"
+5.1,"['drama', 'thriller', 'action', 'crime']"
+5.0,['drama']
+7.1,"['drama', 'comedy']"
+7.6,"['drama', 'comedy']"
+,['drama']
+7.8,['animation']
+5.2,"['drama', 'comedy']"
+8.2,"['comedy', 'animation']"
+7.8,['animation']
+8.0,['animation']
+3.8,['comedy']
+6.5,"['comedy', 'drama', 'romance']"
+7.0,['drama']
+6.5,['drama']
+6.3,"['thriller', 'action']"
+6.7,"['drama', 'romance', 'war', 'european']"
+6.4,"['comedy', 'romance']"
+,['animation']
+6.3,['animation']
+5.9,"['drama', 'thriller', 'romance']"
+6.8,"['drama', 'comedy', 'romance']"
+6.7,['comedy']
+5.3,"['comedy', 'drama', 'crime']"
+4.9,"['fantasy', 'drama']"
+7.0,"['drama', 'romance', 'history']"
+6.3,['drama']
+8.4,"['scifi', 'drama', 'fantasy', 'romance']"
+8.8,"['drama', 'crime', 'european']"
+9.0,"['scifi', 'action', 'drama', 'fantasy', 'horror', 'animation']"
+8.0,"['drama', 'crime', 'thriller']"
+6.1,"['reality', 'european']"
+7.2,"['comedy', 'animation', 'family', 'fantasy', 'european']"
+7.6,"['scifi', 'drama', 'action']"
+7.8,"['crime', 'thriller', 'drama']"
+7.8,"['scifi', 'action', 'crime', 'drama', 'thriller']"
+6.5,['reality']
+8.0,"['drama', 'romance', 'scifi']"
+7.5,"['drama', 'sport']"
+8.0,"['thriller', 'drama', 'war']"
+6.7,"['crime', 'thriller', 'drama', 'horror', 'european']"
+7.6,"['drama', 'action', 'scifi']"
+7.2,"['drama', 'documentation', 'crime', 'romance']"
+8.1,"['drama', 'thriller', 'crime']"
+5.7,"['thriller', 'action', 'drama']"
+8.1,"['drama', 'action', 'sport', 'european']"
+7.5,"['drama', 'fantasy']"
+7.8,"['fantasy', 'comedy', 'family', 'animation', 'action']"
+7.4,"['comedy', 'music', 'romance', 'drama']"
+7.5,"['thriller', 'horror']"
+6.5,"['thriller', 'horror']"
+8.8,"['drama', 'comedy', 'animation']"
+8.7,['drama']
+5.6,"['scifi', 'action', 'comedy', 'family']"
+6.5,"['drama', 'thriller', 'action', 'crime']"
+6.5,"['thriller', 'action', 'drama']"
+6.4,"['drama', 'scifi', 'romance', 'thriller']"
+8.1,"['drama', 'comedy', 'crime']"
+8.3,"['scifi', 'drama', 'fantasy', 'horror']"
+7.8,"['drama', 'comedy']"
+6.3,"['horror', 'thriller']"
+7.2,"['comedy', 'drama']"
+8.0,"['action', 'drama', 'history', 'documentation']"
+8.6,"['drama', 'crime', 'thriller']"
+7.6,"['war', 'thriller', 'drama']"
+5.3,"['horror', 'thriller']"
+6.3,"['thriller', 'horror', 'scifi', 'documentation']"
+7.9,"['action', 'scifi', 'fantasy', 'animation', 'comedy', 'drama']"
+6.4,"['thriller', 'drama', 'crime']"
+6.6,"['action', 'drama', 'scifi', 'comedy', 'horror', 'romance']"
+6.9,"['scifi', 'crime', 'fantasy', 'horror', 'action']"
+5.2,"['drama', 'crime', 'thriller', 'action', 'european']"
+8.1,"['drama', 'comedy', 'european']"
+6.9,"['fantasy', 'family', 'comedy']"
+7.2,"['drama', 'european']"
+5.6,"['action', 'scifi', 'family', 'comedy', 'drama']"
+7.0,"['thriller', 'drama', 'fantasy', 'horror', 'scifi']"
+3.5,"['comedy', 'horror']"
+7.9,"['action', 'scifi', 'comedy', 'fantasy', 'animation']"
+6.8,"['family', 'fantasy', 'animation']"
+7.8,"['scifi', 'animation', 'action', 'comedy', 'drama', 'fantasy', 'romance', 'family']"
+6.3,"['comedy', 'family', 'fantasy', 'scifi', 'drama', 'animation']"
+8.1,"['comedy', 'european']"
+8.6,['drama']
+7.5,['reality']
+6.6,"['comedy', 'animation', 'family', 'scifi']"
+,"['thriller', 'action', 'european']"
+4.8,"['horror', 'thriller']"
+6.3,['comedy']
+7.5,"['drama', 'romance', 'fantasy', 'horror', 'action', 'animation', 'comedy']"
+5.9,"['drama', 'romance', 'family']"
+6.8,"['action', 'family', 'animation', 'history', 'scifi', 'romance', 'comedy', 'fantasy']"
+5.4,"['fantasy', 'horror', 'thriller', 'action', 'comedy', 'drama']"
+5.1,"['horror', 'thriller', 'scifi', 'action', 'fantasy']"
+5.5,"['fantasy', 'action']"
+8.1,"['drama', 'romance', 'thriller', 'action', 'crime', 'european']"
+8.3,['comedy']
+5.7,"['drama', 'thriller', 'western', 'action', 'crime']"
+7.1,"['scifi', 'romance', 'animation', 'action', 'drama', 'fantasy']"
+7.1,"['drama', 'european', 'war', 'romance']"
+7.9,"['war', 'action', 'drama', 'history']"
+7.3,['animation']
+5.8,"['comedy', 'crime']"
+6.9,"['drama', 'music']"
+5.5,"['comedy', 'animation', 'family', 'european']"
+6.3,"['crime', 'action', 'thriller']"
+6.4,"['animation', 'fantasy', 'scifi', 'comedy', 'family']"
+5.7,"['comedy', 'crime', 'family', 'animation']"
+6.9,"['comedy', 'drama']"
+5.6,"['crime', 'drama', 'action', 'thriller']"
+5.6,"['comedy', 'drama', 'romance']"
+7.1,['reality']
+,"['drama', 'crime', 'european']"
+6.1,"['comedy', 'drama', 'family', 'action', 'animation', 'fantasy', 'european']"
+8.0,"['documentation', 'sport']"
+7.5,"['thriller', 'european', 'drama', 'scifi', 'crime']"
+7.7,"['action', 'comedy', 'drama', 'family', 'fantasy', 'music', 'romance', 'animation']"
+7.7,"['comedy', 'drama', 'sport', 'animation']"
+5.6,"['drama', 'family', 'comedy']"
+8.3,"['comedy', 'music', 'documentation']"
+5.3,"['fantasy', 'animation', 'comedy', 'family']"
+7.1,['music']
+6.0,['comedy']
+5.6,['comedy']
+7.3,"['fantasy', 'animation', 'comedy', 'drama', 'family', 'scifi']"
+6.4,"['drama', 'comedy', 'romance']"
+7.1,"['drama', 'romance']"
+8.2,['documentation']
+7.5,"['drama', 'comedy', 'romance']"
+5.2,"['horror', 'thriller', 'drama']"
+7.3,"['comedy', 'drama', 'romance']"
+8.0,"['drama', 'documentation', 'comedy', 'romance']"
+7.6,"['documentation', 'european', 'drama', 'family']"
+5.1,"['comedy', 'family']"
+7.8,"['fantasy', 'action', 'drama', 'horror', 'romance', 'animation']"
+8.3,"['comedy', 'documentation']"
+5.0,"['comedy', 'family', 'fantasy']"
+4.6,"['comedy', 'horror', 'fantasy']"
+7.4,"['action', 'drama', 'romance', 'crime']"
+6.2,"['comedy', 'family', 'fantasy', 'animation', 'action', 'european']"
+6.9,['documentation']
+6.0,"['drama', 'romance']"
+5.8,"['comedy', 'family', 'scifi', 'animation']"
+8.1,"['drama', 'history', 'documentation']"
+7.3,"['documentation', 'sport']"
+8.2,"['comedy', 'drama', 'romance', 'fantasy', 'scifi']"
+6.5,"['romance', 'drama', 'documentation', 'sport', 'animation', 'family']"
+6.4,"['fantasy', 'comedy', 'family']"
+6.7,"['scifi', 'action', 'comedy', 'drama', 'family', 'fantasy', 'romance']"
+6.1,['comedy']
+,['drama']
+6.8,"['scifi', 'animation', 'action']"
+6.0,"['comedy', 'documentation', 'drama', 'european']"
+8.2,"['war', 'documentation']"
+7.7,"['comedy', 'documentation']"
+6.6,"['drama', 'comedy', 'documentation', 'european']"
+6.1,"['romance', 'comedy', 'drama', 'action']"
+6.4,['animation']
+6.8,"['crime', 'drama', 'romance']"
+7.6,"['comedy', 'documentation']"
+4.8,"['action', 'animation', 'comedy', 'drama', 'family', 'fantasy', 'scifi']"
+6.2,"['crime', 'action']"
+6.5,"['comedy', 'family', 'scifi', 'animation', 'action']"
+4.6,['reality']
+7.3,"['scifi', 'animation', 'drama', 'fantasy', 'romance']"
+6.6,"['thriller', 'action']"
+7.5,"['thriller', 'war', 'crime', 'drama', 'romance']"
+8.6,"['documentation', 'family']"
+4.3,"['comedy', 'family', 'music', 'animation']"
+6.8,['horror']
+8.1,"['drama', 'action', 'crime', 'thriller']"
+6.9,"['comedy', 'drama', 'romance']"
+,['fantasy']
+7.0,"['comedy', 'family', 'animation']"
+7.3,"['action', 'drama', 'romance']"
+4.0,"['fantasy', 'animation', 'comedy', 'family']"
+6.4,"['crime', 'drama', 'thriller', 'action', 'comedy']"
+7.3,"['drama', 'crime']"
+7.9,"['drama', 'thriller']"
+6.3,"['action', 'animation', 'comedy', 'drama', 'fantasy', 'family']"
+6.5,"['comedy', 'romance']"
+7.6,"['comedy', 'documentation']"
+,['animation']
+7.2,"['drama', 'comedy', 'fantasy', 'music']"
+7.6,"['drama', 'crime', 'romance']"
+8.2,"['drama', 'comedy']"
+6.7,"['scifi', 'animation', 'action']"
+6.1,"['animation', 'family']"
+,"['action', 'animation']"
+7.0,"['action', 'comedy', 'family', 'fantasy', 'animation']"
+8.5,"['comedy', 'documentation', 'reality']"
+8.6,"['drama', 'comedy']"
+7.6,"['comedy', 'documentation']"
+7.9,"['documentation', 'drama']"
+,['documentation']
+,['documentation']
+6.3,"['drama', 'music']"
+5.0,"['documentation', 'european']"
+6.4,['documentation']
+7.8,"['documentation', 'family', 'history']"
+6.6,['drama']
+7.8,"['drama', 'sport']"
+7.1,['documentation']
+6.9,"['documentation', 'family']"
+3.9,['horror']
+6.9,"['romance', 'comedy', 'drama']"
+7.0,"['drama', 'romance', 'thriller', 'comedy']"
+6.8,"['comedy', 'romance']"
+6.2,"['horror', 'thriller']"
+8.0,"['drama', 'comedy']"
+,"['thriller', 'european']"
+9.0,"['history', 'documentation']"
+5.3,"['action', 'comedy', 'crime', 'drama']"
+7.6,['drama']
+7.6,['documentation']
+4.8,['romance']
+6.9,"['drama', 'sport', 'action']"
+8.2,['drama']
+7.2,"['drama', 'comedy']"
+8.0,"['thriller', 'crime', 'drama']"
+4.6,"['crime', 'drama', 'romance', 'action']"
+5.4,['comedy']
+8.0,['comedy']
+6.0,['horror']
+7.2,"['comedy', 'drama']"
+6.7,['drama']
+6.8,"['drama', 'crime', 'thriller', 'family']"
+,"['animation', 'family', 'action']"
+6.8,"['reality', 'european']"
+6.0,"['drama', 'comedy', 'romance']"
+7.0,"['documentation', 'drama', 'history']"
+7.8,"['drama', 'history', 'romance']"
+7.1,['comedy']
+7.6,['drama']
+6.4,"['comedy', 'romance']"
+5.8,"['thriller', 'crime', 'comedy']"
+,[]
+7.2,"['comedy', 'documentation']"
+7.3,['comedy']
+6.5,"['drama', 'thriller', 'action']"
+6.5,"['animation', 'family', 'comedy', 'sport', 'scifi', 'action']"
+7.4,"['documentation', 'european']"
+5.1,"['romance', 'comedy']"
+7.9,"['documentation', 'action']"
+7.3,"['music', 'documentation']"
+6.2,"['drama', 'romance', 'thriller']"
+5.6,"['animation', 'european']"
+7.5,"['drama', 'comedy', 'romance']"
+5.0,['comedy']
+6.4,"['drama', 'thriller', 'european']"
+5.4,"['comedy', 'documentation']"
+7.1,['comedy']
+7.3,"['drama', 'european']"
+5.3,"['thriller', 'crime', 'action']"
+7.7,"['thriller', 'action', 'drama']"
+4.5,"['comedy', 'family', 'romance']"
+7.0,"['crime', 'comedy', 'drama']"
+6.7,"['drama', 'thriller', 'action', 'crime']"
+5.8,"['comedy', 'drama', 'thriller', 'crime']"
+5.4,"['comedy', 'drama']"
+6.4,"['documentation', 'music']"
+7.3,"['documentation', 'war']"
+7.3,"['drama', 'comedy', 'family']"
+6.6,['drama']
+6.4,['thriller']
+7.8,['drama']
+5.9,"['drama', 'documentation']"
+7.3,"['romance', 'comedy']"
+5.5,['horror']
+6.7,['drama']
+,[]
+6.7,['comedy']
+6.4,"['romance', 'comedy']"
+6.3,"['romance', 'comedy', 'drama']"
+6.2,['comedy']
+5.9,['comedy']
+5.1,"['comedy', 'drama', 'romance']"
+4.5,"['crime', 'comedy', 'action']"
+6.1,"['thriller', 'crime']"
+7.4,"['animation', 'fantasy']"
+5.3,"['thriller', 'crime', 'action']"
+5.2,"['thriller', 'action', 'crime']"
+1.7,"['drama', 'comedy', 'action']"
+7.2,"['drama', 'family', 'thriller', 'crime']"
+5.2,"['drama', 'comedy']"
+6.4,"['drama', 'comedy', 'family', 'documentation']"
+3.9,"['romance', 'comedy', 'drama']"
+5.6,['fantasy']
+8.3,"['romance', 'comedy', 'drama', 'documentation', 'european']"
+6.7,"['comedy', 'drama', 'romance']"
+5.8,['comedy']
+6.3,['comedy']
+7.8,['documentation']
+7.3,"['drama', 'action', 'romance']"
+7.3,"['comedy', 'romance']"
+6.9,['comedy']
+6.3,"['drama', 'european']"
+5.5,"['drama', 'comedy', 'thriller']"
+2.9,"['comedy', 'horror']"
+5.5,['thriller']
+5.7,"['comedy', 'romance']"
+,"['comedy', 'action', 'family']"
+6.2,"['drama', 'thriller']"
+7.4,"['romance', 'comedy', 'drama']"
+4.9,"['romance', 'comedy', 'drama']"
+,['drama']
+7.0,"['romance', 'comedy', 'drama']"
+2.6,"['thriller', 'comedy', 'drama', 'romance']"
+,[]
+8.0,"['comedy', 'drama']"
+6.6,['comedy']
+7.1,"['documentation', 'war']"
+,['drama']
+6.9,['thriller']
+8.6,['animation']
+3.8,['comedy']
+6.9,"['comedy', 'romance']"
+,['comedy']
+4.0,"['drama', 'action', 'comedy', 'fantasy', 'romance']"
+7.4,['drama']
+8.5,['animation']
+4.8,"['drama', 'action']"
+7.1,"['fantasy', 'animation']"
+8.6,['animation']
+6.1,"['action', 'thriller']"
+6.1,['comedy']
+6.0,"['romance', 'comedy']"
+5.1,['animation']
+8.1,['animation']
+8.8,"['comedy', 'drama', 'crime']"
+8.5,"['action', 'war', 'drama', 'history', 'european']"
+8.7,"['scifi', 'drama', 'fantasy', 'horror', 'thriller']"
+8.5,['comedy']
+8.4,"['reality', 'documentation']"
+8.2,"['comedy', 'drama']"
+8.2,"['scifi', 'comedy', 'romance', 'drama', 'fantasy']"
+8.4,"['action', 'scifi', 'comedy', 'horror', 'fantasy', 'thriller']"
+8.7,"['action', 'fantasy', 'scifi', 'animation', 'comedy']"
+7.6,['drama']
+7.9,"['drama', 'thriller', 'action', 'crime']"
+8.7,"['drama', 'history', 'european']"
+8.3,"['comedy', 'drama', 'european']"
+7.8,"['comedy', 'drama', 'action']"
+7.6,"['western', 'thriller', 'action', 'crime', 'drama']"
+7.3,['comedy']
+8.1,['comedy']
+6.8,"['horror', 'thriller']"
+8.3,['reality']
+6.1,"['scifi', 'fantasy', 'horror', 'action', 'drama']"
+8.2,"['animation', 'comedy', 'drama', 'fantasy', 'thriller']"
+8.1,"['scifi', 'crime', 'drama', 'fantasy']"
+6.8,"['scifi', 'action', 'drama']"
+7.0,"['horror', 'drama', 'fantasy', 'european']"
+7.1,"['comedy', 'animation', 'action', 'family', 'fantasy', 'drama']"
+5.3,"['thriller', 'horror', 'drama']"
+7.6,"['drama', 'scifi', 'fantasy']"
+7.5,"['drama', 'thriller']"
+7.1,"['thriller', 'drama', 'documentation']"
+7.9,"['scifi', 'drama', 'fantasy']"
+8.3,['comedy']
+8.2,"['scifi', 'thriller', 'drama']"
+7.1,"['crime', 'drama', 'comedy', 'war']"
+5.4,"['thriller', 'action', 'crime']"
+7.7,"['comedy', 'european']"
+7.7,"['comedy', 'drama']"
+7.8,"['western', 'crime', 'drama', 'thriller']"
+6.5,"['thriller', 'drama', 'horror', 'romance', 'fantasy']"
+7.9,"['drama', 'thriller']"
+6.7,"['drama', 'horror', 'thriller', 'crime']"
+7.1,"['comedy', 'drama', 'crime']"
+8.0,"['scifi', 'drama', 'thriller', 'crime']"
+6.9,"['thriller', 'crime', 'drama', 'european']"
+8.8,"['drama', 'thriller', 'crime']"
+7.7,"['family', 'fantasy', 'romance', 'animation', 'action']"
+7.5,"['war', 'action', 'drama', 'thriller']"
+9.0,"['documentation', 'history']"
+7.9,"['action', 'drama']"
+7.8,"['scifi', 'comedy', 'crime', 'drama', 'horror']"
+7.3,"['action', 'scifi', 'western', 'drama', 'fantasy', 'thriller']"
+6.3,"['drama', 'comedy', 'music']"
+7.5,"['scifi', 'drama', 'thriller', 'action']"
+7.1,"['crime', 'horror', 'thriller', 'comedy', 'drama']"
+7.9,"['drama', 'history', 'romance', 'war', 'documentation', 'comedy', 'european']"
+7.3,"['comedy', 'drama']"
+7.6,['reality']
+7.2,['drama']
+6.2,"['scifi', 'drama', 'action']"
+7.8,['comedy']
+8.1,"['romance', 'animation', 'drama', 'family']"
+7.9,"['war', 'drama', 'history', 'romance', 'thriller', 'european']"
+5.4,"['animation', 'family', 'fantasy', 'scifi', 'action', 'european']"
+7.4,"['crime', 'drama', 'european']"
+5.9,"['thriller', 'crime', 'drama', 'action']"
+6.3,"['comedy', 'romance', 'action']"
+7.6,"['drama', 'crime', 'european']"
+8.3,"['war', 'thriller', 'action', 'drama']"
+6.8,"['scifi', 'drama', 'thriller', 'action', 'crime']"
+6.9,['drama']
+8.2,"['crime', 'drama', 'action', 'thriller']"
+7.1,"['action', 'drama', 'history']"
+8.0,"['drama', 'action', 'fantasy']"
+7.6,"['documentation', 'history', 'european']"
+6.6,"['horror', 'thriller']"
+8.5,"['drama', 'animation', 'fantasy', 'scifi', 'thriller']"
+8.1,"['drama', 'comedy', 'european']"
+7.3,"['thriller', 'horror', 'drama']"
+7.7,"['drama', 'comedy', 'romance']"
+7.1,"['animation', 'scifi', 'action', 'drama', 'fantasy', 'thriller', 'horror']"
+5.5,"['thriller', 'horror', 'drama']"
+7.2,"['scifi', 'comedy', 'drama', 'fantasy']"
+7.4,"['comedy', 'drama', 'western']"
+6.7,"['crime', 'thriller', 'drama', 'european']"
+6.0,"['thriller', 'western', 'drama', 'crime', 'action']"
+7.4,['comedy']
+7.5,"['war', 'drama', 'action']"
+6.6,"['romance', 'comedy', 'drama']"
+7.6,"['action', 'drama', 'crime', 'thriller']"
+7.3,"['scifi', 'drama', 'horror', 'thriller']"
+7.7,"['war', 'thriller', 'drama']"
+7.5,"['fantasy', 'drama', 'thriller', 'animation', 'family', 'european']"
+8.3,"['drama', 'comedy']"
+7.6,"['comedy', 'drama']"
+6.8,"['thriller', 'horror', 'war', 'drama', 'fantasy']"
+7.4,"['war', 'thriller']"
+7.0,"['drama', 'romance']"
+6.7,"['comedy', 'family']"
+6.9,"['drama', 'comedy']"
+7.3,"['scifi', 'action', 'drama', 'thriller']"
+8.6,"['crime', 'documentation']"
+7.1,"['drama', 'romance', 'european']"
+6.4,"['horror', 'fantasy', 'drama', 'thriller', 'comedy']"
+6.6,"['fantasy', 'scifi', 'comedy', 'family', 'animation']"
+5.3,"['comedy', 'family', 'drama']"
+6.6,"['drama', 'thriller', 'crime']"
+6.2,"['drama', 'fantasy', 'horror', 'thriller']"
+8.0,"['comedy', 'animation', 'drama']"
+7.3,"['drama', 'comedy']"
+8.3,['documentation']
+8.2,"['drama', 'thriller', 'action', 'comedy', 'european']"
+6.4,"['drama', 'crime', 'thriller', 'animation', 'action']"
+6.3,"['thriller', 'crime']"
+6.3,"['action', 'drama', 'thriller', 'crime']"
+5.3,"['horror', 'thriller']"
+6.8,"['comedy', 'drama']"
+6.6,"['drama', 'thriller', 'scifi']"
+8.2,"['documentation', 'history', 'crime']"
+6.1,"['comedy', 'action', 'scifi']"
+7.6,"['action', 'animation', 'drama', 'fantasy', 'thriller', 'horror', 'scifi']"
+6.3,"['scifi', 'action', 'thriller']"
+7.5,"['scifi', 'fantasy', 'thriller', 'drama']"
+6.1,"['drama', 'fantasy', 'action']"
+7.6,"['drama', 'action', 'crime']"
+7.1,"['drama', 'crime', 'thriller', 'european']"
+7.0,"['drama', 'history', 'war', 'documentation']"
+6.2,"['scifi', 'drama', 'family']"
+4.3,"['thriller', 'fantasy', 'horror', 'drama']"
+6.8,"['drama', 'romance']"
+7.7,"['war', 'drama']"
+8.4,"['scifi', 'comedy', 'animation', 'fantasy']"
+7.9,"['scifi', 'war', 'action', 'drama', 'animation']"
+6.5,"['scifi', 'thriller', 'action', 'drama']"
+6.7,"['drama', 'romance']"
+8.5,['documentation']
+8.4,"['action', 'scifi', 'fantasy', 'animation', 'comedy', 'drama', 'family']"
+7.3,"['documentation', 'crime', 'history', 'sport']"
+7.6,"['music', 'documentation']"
+8.4,"['drama', 'animation', 'comedy', 'romance']"
+6.0,"['scifi', 'thriller', 'horror', 'drama', 'european']"
+4.8,"['thriller', 'scifi', 'drama', 'fantasy', 'horror']"
+5.3,"['thriller', 'horror']"
+7.2,"['thriller', 'war', 'drama', 'action', 'history', 'european']"
+7.0,"['scifi', 'animation', 'action']"
+6.5,"['thriller', 'action', 'drama', 'war']"
+5.9,['drama']
+7.6,"['comedy', 'drama']"
+7.2,['documentation']
+7.0,"['drama', 'action', 'history']"
+7.1,"['war', 'drama', 'history', 'european']"
+7.1,['comedy']
+5.9,"['drama', 'romance', 'thriller', 'crime']"
+8.4,"['documentation', 'music']"
+8.2,"['drama', 'music']"
+7.3,"['romance', 'drama']"
+7.6,['comedy']
+6.3,"['scifi', 'thriller', 'action']"
+8.2,"['animation', 'action', 'scifi', 'family', 'comedy', 'drama', 'fantasy']"
+5.5,"['action', 'animation', 'comedy', 'family', 'scifi', 'fantasy']"
+8.4,"['action', 'drama', 'sport']"
+,['documentation']
+6.1,"['comedy', 'family']"
+6.3,"['thriller', 'action', 'drama']"
+7.2,"['drama', 'romance', 'comedy']"
+7.7,"['comedy', 'european']"
+8.1,"['action', 'scifi', 'animation', 'comedy', 'drama', 'family', 'fantasy']"
+6.0,"['scifi', 'animation', 'action', 'comedy']"
+5.6,"['drama', 'fantasy']"
+7.2,"['comedy', 'horror', 'scifi', 'european']"
+7.3,"['comedy', 'drama']"
+7.3,"['comedy', 'drama', 'romance', 'thriller']"
+5.5,"['thriller', 'action', 'crime']"
+5.7,"['drama', 'horror', 'crime']"
+7.3,['drama']
+7.1,"['comedy', 'animation', 'family', 'european']"
+6.1,"['comedy', 'drama']"
+4.8,"['western', 'action', 'comedy']"
+5.8,['comedy']
+4.1,"['fantasy', 'drama', 'family', 'music', 'romance', 'scifi']"
+5.8,['comedy']
+6.3,"['comedy', 'thriller']"
+5.7,"['action', 'comedy']"
+8.4,"['comedy', 'music', 'documentation']"
+6.7,"['drama', 'european']"
+6.9,['reality']
+7.5,['comedy']
+7.0,"['crime', 'drama', 'thriller']"
+7.6,['documentation']
+6.9,"['drama', 'history']"
+5.8,"['drama', 'european', 'history', 'romance']"
+,"['drama', 'european']"
+7.4,"['crime', 'documentation']"
+8.0,"['documentation', 'music']"
+6.9,"['crime', 'documentation', 'european']"
+6.7,"['drama', 'romance', 'comedy']"
+5.3,"['drama', 'european', 'romance']"
+7.8,"['action', 'history', 'drama']"
+6.6,"['family', 'animation', 'comedy', 'fantasy', 'western', 'action']"
+8.4,"['documentation', 'sport']"
+8.4,"['animation', 'comedy', 'family', 'european']"
+8.6,"['crime', 'scifi', 'thriller', 'drama', 'fantasy']"
+6.0,"['scifi', 'drama', 'thriller']"
+8.4,['drama']
+6.2,"['scifi', 'thriller', 'drama', 'european']"
+5.4,"['comedy', 'romance']"
+4.6,"['thriller', 'drama', 'horror']"
+9.2,"['comedy', 'drama', 'family', 'romance']"
+6.6,"['animation', 'family']"
+7.5,"['comedy', 'drama', 'romance']"
+5.7,['family']
+7.0,"['animation', 'comedy', 'family']"
+6.3,"['comedy', 'music', 'action']"
+6.2,"['documentation', 'history', 'european']"
+8.2,"['drama', 'comedy']"
+7.7,"['drama', 'comedy', 'crime', 'european']"
+6.4,"['thriller', 'drama', 'action', 'crime', 'european']"
+7.3,['comedy']
+8.2,"['comedy', 'drama']"
+8.2,"['comedy', 'drama', 'romance']"
+6.8,['animation']
+5.9,"['thriller', 'crime', 'drama', 'scifi', 'action']"
+,['drama']
+6.0,"['comedy', 'family', 'animation']"
+7.2,"['comedy', 'drama', 'action', 'scifi', 'animation']"
+5.5,"['comedy', 'music', 'war']"
+6.9,"['drama', 'european']"
+8.7,"['animation', 'family', 'comedy', 'european']"
+8.2,['documentation']
+7.0,"['crime', 'thriller', 'action', 'comedy']"
+5.5,"['comedy', 'music']"
+7.4,"['drama', 'thriller', 'crime']"
+6.7,"['action', 'animation', 'comedy', 'family', 'fantasy']"
+5.9,"['comedy', 'documentation']"
+4.1,"['thriller', 'action']"
+6.5,"['romance', 'comedy', 'documentation', 'european']"
+5.4,"['action', 'comedy', 'family', 'fantasy', 'european']"
+6.0,['drama']
+6.1,"['animation', 'comedy', 'scifi', 'action']"
+5.2,"['horror', 'thriller']"
+7.4,"['drama', 'comedy']"
+5.6,"['thriller', 'action', 'crime', 'drama']"
+7.5,"['comedy', 'drama', 'european']"
+8.2,"['thriller', 'crime', 'drama']"
+7.4,['documentation']
+7.9,"['comedy', 'documentation']"
+,['comedy']
+7.3,"['drama', 'comedy', 'european']"
+5.7,"['documentation', 'european']"
+6.7,['documentation']
+5.5,"['animation', 'action', 'fantasy', 'scifi']"
+5.7,"['comedy', 'scifi', 'animation', 'family', 'history']"
+5.7,"['fantasy', 'animation']"
+4.5,"['action', 'comedy', 'family', 'scifi', 'animation']"
+5.3,"['thriller', 'drama']"
+7.2,"['drama', 'family', 'animation', 'european']"
+5.9,"['action', 'comedy', 'crime']"
+7.2,"['comedy', 'crime', 'family', 'fantasy', 'scifi', 'animation', 'action', 'european']"
+4.5,"['thriller', 'horror']"
+6.1,['documentation']
+6.1,"['comedy', 'drama', 'family', 'romance']"
+6.7,['drama']
+8.1,"['reality', 'drama']"
+6.6,['action']
+7.9,"['war', 'drama', 'romance', 'thriller']"
+6.8,"['action', 'comedy', 'family', 'animation']"
+8.3,"['comedy', 'drama', 'romance']"
+5.8,"['comedy', 'family', 'animation']"
+,['comedy']
+5.9,"['animation', 'scifi', 'action', 'comedy', 'family']"
+6.6,"['drama', 'action', 'thriller']"
+7.5,"['drama', 'romance']"
+5.0,"['comedy', 'family', 'sport']"
+8.1,"['reality', 'documentation', 'comedy']"
+6.8,"['drama', 'romance', 'european']"
+6.5,"['action', 'drama', 'romance', 'crime']"
+7.6,['documentation']
+6.8,"['comedy', 'animation', 'family']"
+5.8,"['romance', 'drama', 'history', 'european']"
+6.0,"['comedy', 'thriller', 'drama', 'action', 'crime']"
+,"['family', 'animation', 'comedy']"
+6.8,"['action', 'drama']"
+6.6,"['drama', 'documentation']"
+7.8,"['documentation', 'history', 'european']"
+5.3,['comedy']
+6.1,['family']
+7.7,"['romance', 'comedy', 'drama', 'family']"
+6.9,"['drama', 'action', 'crime']"
+7.4,"['drama', 'history']"
+8.0,"['drama', 'romance']"
+5.3,"['thriller', 'action', 'romance']"
+7.7,"['comedy', 'drama', 'romance']"
+4.1,"['thriller', 'drama']"
+6.7,"['comedy', 'drama', 'romance', 'european']"
+7.1,"['crime', 'documentation']"
+7.9,"['drama', 'thriller', 'western']"
+5.5,"['drama', 'family', 'comedy', 'music']"
+7.6,"['animation', 'family', 'fantasy', 'comedy']"
+7.9,"['drama', 'comedy']"
+,"['comedy', 'romance', 'thriller']"
+5.6,['comedy']
+6.8,"['documentation', 'drama', 'european']"
+7.4,"['comedy', 'documentation']"
+6.4,"['drama', 'action', 'sport']"
+7.9,"['drama', 'fantasy', 'romance', 'comedy']"
+4.9,['thriller']
+7.2,"['documentation', 'crime']"
+7.3,"['drama', 'thriller', 'reality']"
+5.1,['action']
+5.7,"['comedy', 'documentation']"
+8.1,"['action', 'animation', 'family', 'scifi']"
+8.3,"['action', 'drama']"
+6.8,['comedy']
+8.4,"['animation', 'comedy', 'family']"
+7.4,"['drama', 'crime', 'european']"
+3.6,"['thriller', 'action', 'scifi', 'european']"
+8.1,['history']
+6.7,['documentation']
+5.6,"['drama', 'romance']"
+7.8,"['documentation', 'music']"
+6.6,"['action', 'animation', 'comedy', 'family', 'fantasy', 'european']"
+7.4,"['action', 'drama', 'history', 'war']"
+6.2,"['comedy', 'drama', 'european', 'romance']"
+7.7,"['drama', 'comedy', 'romance', 'documentation', 'european']"
+6.3,"['scifi', 'family', 'animation']"
+5.7,['drama']
+5.7,['documentation']
+3.1,['comedy']
+7.4,"['comedy', 'documentation']"
+6.1,"['thriller', 'drama', 'crime', 'european']"
+7.7,"['comedy', 'documentation']"
+6.2,"['crime', 'action', 'thriller']"
+6.4,['drama']
+7.1,['drama']
+5.6,"['romance', 'drama']"
+7.4,"['drama', 'comedy', 'romance']"
+5.8,"['drama', 'comedy', 'thriller']"
+7.3,"['comedy', 'music']"
+6.5,['animation']
+6.0,['drama']
+5.9,"['drama', 'comedy']"
+,['documentation']
+6.2,"['drama', 'european']"
+7.7,"['comedy', 'drama']"
+6.7,"['comedy', 'romance']"
+8.3,['documentation']
+5.4,"['animation', 'family', 'fantasy', 'comedy']"
+5.4,"['comedy', 'drama']"
+,['animation']
+6.9,"['scifi', 'drama', 'fantasy']"
+6.3,"['comedy', 'drama', 'fantasy', 'romance']"
+7.1,"['thriller', 'war', 'drama', 'european']"
+6.3,"['comedy', 'crime', 'european']"
+8.2,"['drama', 'comedy']"
+7.6,['comedy']
+6.9,['drama']
+7.8,"['crime', 'action', 'drama']"
+7.4,"['drama', 'crime', 'action']"
+5.9,"['thriller', 'action', 'crime', 'drama', 'european']"
+6.7,['comedy']
+7.5,"['comedy', 'documentation']"
+7.0,"['romance', 'drama', 'comedy']"
+5.7,"['comedy', 'drama', 'family', 'fantasy', 'romance', 'animation', 'european']"
+7.0,['comedy']
+7.1,"['music', 'documentation']"
+7.5,"['reality', 'drama']"
+8.8,['drama']
+8.4,"['thriller', 'fantasy', 'horror', 'animation', 'comedy', 'drama', 'family']"
+,['comedy']
+7.2,['reality']
+5.6,"['romance', 'drama', 'history', 'action']"
+7.7,"['family', 'reality']"
+5.8,"['comedy', 'scifi', 'family', 'fantasy', 'european']"
+6.2,['documentation']
+8.0,"['comedy', 'european']"
+6.9,"['thriller', 'european']"
+7.1,"['drama', 'horror', 'thriller']"
+6.8,"['scifi', 'comedy', 'family', 'animation']"
+7.3,"['music', 'documentation', 'history', 'drama', 'european']"
+6.2,"['thriller', 'drama', 'european']"
+7.3,"['comedy', 'drama', 'european']"
+6.7,"['drama', 'european']"
+6.0,"['crime', 'drama', 'comedy']"
+5.3,"['music', 'drama']"
+,"['war', 'documentation']"
+6.5,"['animation', 'comedy', 'family', 'fantasy']"
+7.5,['comedy']
+7.1,"['documentation', 'reality']"
+6.6,"['drama', 'european']"
+4.4,"['action', 'drama', 'family', 'romance']"
+7.6,"['documentation', 'family']"
+7.3,"['comedy', 'drama', 'romance']"
+6.3,"['drama', 'documentation', 'comedy']"
+7.1,"['drama', 'action']"
+6.3,"['comedy', 'documentation']"
+5.0,"['comedy', 'european']"
+6.1,['comedy']
+5.9,"['comedy', 'family', 'fantasy', 'scifi', 'animation']"
+,"['animation', 'comedy', 'drama']"
+7.4,"['thriller', 'crime', 'drama']"
+6.9,['reality']
+7.2,"['crime', 'history', 'fantasy', 'drama', 'european']"
+7.9,"['drama', 'history', 'romance']"
+7.5,"['drama', 'action', 'crime']"
+7.3,['documentation']
+6.4,['comedy']
+6.1,"['comedy', 'romance', 'drama', 'european']"
+5.8,['action']
+5.5,['family']
+8.8,"['animation', 'family']"
+3.7,['drama']
+6.3,"['drama', 'comedy', 'european']"
+6.1,"['romance', 'drama', 'sport', 'thriller']"
+6.5,['documentation']
+5.9,"['thriller', 'action', 'drama', 'horror', 'crime', 'european']"
+7.9,"['documentation', 'european']"
+6.2,"['action', 'drama']"
+6.6,"['thriller', 'drama']"
+6.1,"['romance', 'comedy', 'action', 'european']"
+5.8,"['comedy', 'action', 'drama']"
+5.1,['animation']
+8.1,"['thriller', 'crime', 'drama']"
+5.8,"['comedy', 'family']"
+6.6,['documentation']
+7.0,"['drama', 'comedy', 'romance']"
+7.2,"['thriller', 'crime', 'action', 'drama']"
+,['fantasy']
+5.1,"['scifi', 'thriller', 'family', 'fantasy', 'action', 'european']"
+1.9,['comedy']
+5.0,"['drama', 'comedy']"
+6.5,"['drama', 'history', 'war', 'european']"
+7.3,['comedy']
+6.5,['comedy']
+7.7,"['comedy', 'drama']"
+2.8,"['horror', 'thriller', 'fantasy']"
+7.1,"['comedy', 'drama']"
+2.7,['thriller']
+7.4,['documentation']
+7.2,"['drama', 'action', 'crime', 'comedy']"
+7.3,['comedy']
+5.4,"['thriller', 'drama', 'romance', 'family']"
+6.8,['documentation']
+6.8,"['animation', 'comedy']"
+6.2,['comedy']
+6.3,"['romance', 'comedy']"
+5.7,"['animation', 'family']"
+5.4,"['drama', 'romance']"
+6.8,['comedy']
+5.3,['comedy']
+6.0,"['comedy', 'music']"
+7.8,"['drama', 'comedy']"
+6.7,"['drama', 'european']"
+7.0,"['action', 'crime', 'drama', 'comedy']"
+6.6,"['documentation', 'comedy', 'drama']"
+5.9,"['drama', 'crime', 'romance']"
+7.5,"['documentation', 'crime', 'drama', 'thriller', 'war']"
+5.4,"['music', 'drama']"
+6.8,"['comedy', 'documentation']"
+6.6,"['drama', 'romance']"
+7.0,['comedy']
+5.0,"['action', 'comedy', 'european']"
+8.4,"['family', 'drama', 'war']"
+7.2,"['drama', 'european', 'romance', 'family', 'documentation']"
+5.9,"['thriller', 'drama', 'history']"
+7.7,"['documentation', 'european']"
+7.3,"['thriller', 'drama']"
+6.9,"['action', 'animation', 'fantasy']"
+5.2,"['thriller', 'horror']"
+,"['comedy', 'crime']"
+6.5,"['drama', 'european']"
+5.5,"['family', 'animation', 'comedy', 'fantasy', 'european']"
+7.5,"['horror', 'thriller', 'crime', 'drama']"
+6.4,['drama']
+4.7,"['drama', 'comedy', 'romance', 'european']"
+7.3,['drama']
+6.6,['comedy']
+8.3,['documentation']
+3.6,"['romance', 'drama', 'comedy']"
+7.5,"['family', 'fantasy', 'animation', 'comedy']"
+5.1,"['action', 'animation', 'comedy', 'family']"
+5.6,"['fantasy', 'drama']"
+6.2,"['animation', 'comedy', 'family', 'fantasy', 'action']"
+7.1,"['thriller', 'action', 'crime', 'drama']"
+7.4,"['comedy', 'documentation']"
+5.1,"['drama', 'thriller', 'romance']"
+6.4,['comedy']
+7.5,"['drama', 'comedy', 'european']"
+6.6,['comedy']
+4.8,['comedy']
+6.6,['comedy']
+,['drama']
+4.5,"['comedy', 'drama']"
+4.8,['thriller']
+6.5,['comedy']
+5.9,"['comedy', 'romance', 'drama']"
+3.8,['reality']
+5.2,"['action', 'thriller', 'crime', 'drama']"
+,['comedy']
+5.6,"['comedy', 'documentation']"
+,['documentation']
+4.4,['comedy']
+6.2,"['comedy', 'fantasy', 'romance', 'drama']"
+7.2,['comedy']
+7.0,['drama']
+5.0,"['drama', 'thriller', 'horror']"
+6.6,['comedy']
+7.9,['drama']
+4.7,"['romance', 'comedy', 'drama']"
+,['comedy']
+6.8,"['comedy', 'documentation']"
+5.4,"['comedy', 'family', 'romance', 'drama', 'fantasy']"
+6.8,"['documentation', 'sport']"
+7.0,"['drama', 'crime']"
+6.8,"['drama', 'romance']"
+6.2,"['animation', 'family', 'fantasy']"
+6.4,['comedy']
+8.6,"['romance', 'drama', 'family', 'sport', 'documentation']"
+5.0,['horror']
+6.6,"['drama', 'comedy']"
+6.4,['comedy']
+6.3,"['drama', 'comedy', 'fantasy', 'music']"
+6.1,"['drama', 'family']"
+6.7,['documentation']
+6.1,"['comedy', 'drama']"
+8.4,"['scifi', 'action', 'crime', 'drama', 'thriller']"
+4.5,"['comedy', 'drama', 'action']"
+6.5,['comedy']
+7.3,"['drama', 'war']"
+7.4,"['drama', 'thriller']"
+4.8,"['comedy', 'drama', 'action']"
+5.7,"['drama', 'thriller']"
+6.1,['documentation']
+4.1,"['drama', 'comedy']"
+5.5,['drama']
+,['drama']
+6.4,"['comedy', 'drama']"
+5.5,['comedy']
+5.5,['comedy']
+5.5,"['comedy', 'family']"
+7.2,"['comedy', 'drama']"
+6.4,"['romance', 'drama']"
+6.7,"['comedy', 'thriller', 'crime']"
+1.5,"['drama', 'scifi', 'thriller']"
+,['scifi']
+,[]
+,"['action', 'animation', 'comedy']"
+7.4,['drama']
+6.0,['comedy']
+5.8,['drama']
+4.4,['action']
+5.2,['comedy']
+6.3,"['comedy', 'drama']"
+,['documentation']
+5.2,['documentation']
+,"['comedy', 'european']"
+6.9,"['drama', 'romance']"
+6.6,['drama']
+5.1,"['thriller', 'european']"
+7.6,"['drama', 'sport']"
+7.2,"['romance', 'drama', 'comedy']"
+6.8,"['comedy', 'action', 'drama']"
+6.7,"['action', 'drama']"
+6.7,"['crime', 'drama']"
+6.5,"['drama', 'music', 'romance']"
+7.7,"['drama', 'romance']"
+6.9,['romance']
+6.9,['comedy']
+4.8,"['romance', 'drama', 'comedy']"
+5.7,['comedy']
+6.3,"['comedy', 'romance']"
+7.1,"['romance', 'drama']"
+4.3,"['comedy', 'drama']"
+4.5,['comedy']
+5.0,"['drama', 'crime']"
+6.4,"['comedy', 'documentation']"
+6.6,['documentation']
+,['family']
+,"['drama', 'documentation']"
+3.7,['comedy']
+4.8,"['comedy', 'european']"
+2.7,"['comedy', 'crime', 'drama']"
+7.2,"['drama', 'music']"
+5.6,"['romance', 'drama']"
+7.4,['drama']
+6.5,['animation']
+5.3,"['comedy', 'horror', 'thriller']"
+4.5,['comedy']
+5.8,"['romance', 'drama']"
+6.2,"['romance', 'drama']"
+,"['fantasy', 'horror']"
+,[]
+8.0,"['scifi', 'drama']"
+5.4,['documentation']
+6.0,['comedy']
+5.1,"['thriller', 'drama', 'action']"
+5.4,"['romance', 'family', 'comedy']"
+6.0,['animation']
+2.1,"['drama', 'thriller', 'action', 'crime', 'sport']"
+5.1,"['drama', 'comedy']"
+6.3,"['drama', 'comedy', 'romance']"
+6.9,"['comedy', 'drama']"
+5.5,['family']
+,"['drama', 'comedy']"
+6.1,"['comedy', 'romance']"
+6.2,['drama']
+6.0,"['comedy', 'european', 'romance']"
+,['documentation']
+6.0,"['drama', 'animation', 'family', 'music']"
+5.3,"['drama', 'sport']"
+8.5,"['crime', 'thriller', 'drama']"
+8.4,['comedy']
+7.9,"['crime', 'thriller', 'drama']"
+8.0,"['scifi', 'thriller', 'action', 'drama']"
+8.7,"['scifi', 'crime', 'drama', 'thriller']"
+6.9,"['fantasy', 'scifi', 'drama', 'comedy']"
+7.8,"['drama', 'history', 'thriller', 'war', 'action', 'european']"
+7.7,"['thriller', 'crime', 'drama', 'western']"
+7.4,"['drama', 'crime', 'sport']"
+6.7,"['thriller', 'drama', 'romance', 'crime']"
+7.3,"['scifi', 'drama', 'fantasy', 'horror']"
+8.6,"['crime', 'drama', 'thriller']"
+7.0,"['thriller', 'action', 'crime', 'drama']"
+7.6,"['drama', 'sport']"
+7.4,"['romance', 'drama']"
+7.1,"['scifi', 'drama', 'thriller']"
+7.4,"['crime', 'drama', 'thriller']"
+8.6,"['action', 'comedy', 'drama', 'sport']"
+7.7,"['thriller', 'crime', 'drama', 'romance']"
+7.3,"['scifi', 'action', 'drama', 'thriller', 'family']"
+8.3,"['crime', 'drama', 'thriller', 'action', 'european']"
+7.4,"['drama', 'comedy']"
+7.7,"['comedy', 'drama', 'crime']"
+6.3,"['horror', 'thriller']"
+8.1,"['war', 'crime', 'drama', 'thriller', 'european']"
+7.6,"['western', 'documentation', 'action', 'drama', 'crime']"
+7.9,"['scifi', 'thriller', 'action', 'drama']"
+7.7,"['drama', 'scifi', 'comedy']"
+7.3,"['crime', 'drama']"
+7.4,"['drama', 'war', 'history', 'thriller', 'family']"
+8.4,"['crime', 'thriller', 'drama', 'european']"
+4.5,"['scifi', 'drama', 'fantasy']"
+8.6,"['drama', 'scifi', 'horror', 'thriller']"
+8.1,"['scifi', 'comedy', 'thriller', 'action', 'crime', 'fantasy']"
+7.8,"['comedy', 'drama']"
+7.3,"['thriller', 'drama', 'horror']"
+8.1,"['crime', 'documentation']"
+8.2,['documentation']
+7.9,"['animation', 'comedy', 'romance']"
+5.0,"['thriller', 'action', 'drama', 'scifi']"
+7.2,['drama']
+7.3,"['comedy', 'drama']"
+7.8,"['drama', 'comedy', 'crime']"
+8.7,"['drama', 'family']"
+6.4,"['horror', 'thriller', 'drama', 'european']"
+6.6,"['documentation', 'history']"
+8.1,"['documentation', 'crime', 'thriller', 'drama']"
+7.3,"['western', 'comedy', 'drama', 'romance']"
+7.3,"['drama', 'scifi', 'action']"
+7.9,"['comedy', 'horror']"
+5.2,"['drama', 'action', 'horror', 'romance', 'scifi']"
+6.7,"['scifi', 'family', 'fantasy']"
+8.2,"['comedy', 'drama']"
+8.1,"['crime', 'comedy', 'drama', 'romance', 'thriller']"
+7.2,"['drama', 'thriller', 'crime', 'european']"
+8.0,"['drama', 'comedy', 'sport', 'reality']"
+5.8,"['comedy', 'romance', 'animation', 'family', 'fantasy']"
+6.7,"['drama', 'thriller', 'crime']"
+7.3,"['thriller', 'crime', 'drama']"
+8.3,"['scifi', 'drama', 'fantasy', 'horror', 'animation', 'action']"
+6.2,"['fantasy', 'drama']"
+8.2,"['drama', 'comedy']"
+6.7,"['action', 'drama', 'history']"
+8.3,"['comedy', 'drama']"
+7.7,"['drama', 'thriller', 'crime']"
+7.7,"['drama', 'european']"
+7.3,"['drama', 'thriller', 'crime']"
+6.3,"['drama', 'crime']"
+7.8,"['action', 'family', 'comedy', 'drama']"
+6.8,"['drama', 'documentation', 'war', 'thriller']"
+8.1,"['comedy', 'drama', 'crime']"
+7.2,"['animation', 'action', 'drama', 'family', 'fantasy']"
+8.2,"['scifi', 'comedy', 'thriller', 'drama', 'horror']"
+7.4,"['scifi', 'thriller', 'drama', 'horror', 'fantasy']"
+6.8,"['thriller', 'drama', 'action', 'crime', 'fantasy', 'scifi']"
+7.0,"['thriller', 'action', 'crime', 'drama', 'european']"
+6.3,"['thriller', 'horror', 'drama', 'fantasy']"
+7.9,"['documentation', 'thriller', 'sport']"
+5.5,"['comedy', 'drama', 'thriller']"
+8.4,"['drama', 'animation', 'scifi', 'fantasy', 'romance']"
+8.4,"['drama', 'crime']"
+5.9,['drama']
+7.2,"['scifi', 'comedy', 'fantasy', 'animation', 'action']"
+6.5,"['horror', 'thriller', 'drama']"
+6.0,"['thriller', 'drama', 'scifi', 'european']"
+6.7,"['action', 'animation', 'drama', 'sport']"
+8.0,"['thriller', 'crime', 'drama', 'european']"
+5.5,"['thriller', 'horror', 'scifi', 'drama', 'action']"
+6.9,"['drama', 'thriller', 'comedy', 'crime', 'european']"
+6.9,['comedy']
+6.8,"['crime', 'documentation', 'thriller', 'drama']"
+6.5,"['horror', 'thriller']"
+7.7,"['crime', 'drama']"
+7.1,"['fantasy', 'action', 'european']"
+6.8,"['drama', 'comedy', 'european']"
+7.6,"['scifi', 'animation', 'action', 'drama', 'fantasy', 'horror']"
+6.8,"['thriller', 'horror', 'drama']"
+6.4,"['scifi', 'horror']"
+5.5,"['drama', 'horror', 'thriller']"
+7.9,"['documentation', 'history', 'european']"
+7.4,"['drama', 'thriller', 'crime', 'horror', 'european']"
+7.8,['documentation']
+6.6,"['thriller', 'drama', 'horror', 'scifi']"
+7.5,"['drama', 'comedy']"
+7.0,"['drama', 'war', 'history']"
+7.5,"['drama', 'crime']"
+8.3,"['war', 'documentation', 'history']"
+6.9,"['drama', 'action', 'history', 'war']"
+8.5,['reality']
+6.2,['horror']
+8.4,['comedy']
+7.6,"['crime', 'action', 'drama', 'documentation']"
+6.4,"['thriller', 'action', 'crime', 'drama']"
+6.9,"['thriller', 'action']"
+7.5,"['drama', 'thriller']"
+7.2,"['drama', 'thriller']"
+6.0,"['romance', 'comedy', 'drama']"
+5.8,"['scifi', 'thriller', 'drama', 'horror']"
+5.9,"['horror', 'thriller', 'drama']"
+6.1,"['scifi', 'action', 'drama']"
+6.9,"['drama', 'comedy']"
+4.8,"['horror', 'thriller']"
+6.4,"['horror', 'comedy']"
+6.4,"['fantasy', 'comedy', 'romance']"
+5.8,"['drama', 'thriller', 'scifi', 'action']"
+7.1,"['romance', 'comedy', 'drama']"
+3.9,"['war', 'fantasy', 'romance', 'action']"
+6.3,"['drama', 'thriller', 'horror', 'scifi']"
+8.4,"['scifi', 'animation', 'action', 'drama', 'family', 'fantasy', 'thriller']"
+6.1,"['comedy', 'drama']"
+6.9,"['drama', 'crime', 'thriller', 'european']"
+5.7,"['comedy', 'family', 'music', 'animation']"
+6.4,"['drama', 'animation', 'fantasy', 'thriller']"
+7.0,"['crime', 'drama', 'documentation', 'fantasy']"
+7.1,"['crime', 'thriller', 'drama', 'documentation', 'comedy', 'romance']"
+7.3,"['romance', 'drama', 'history', 'war']"
+6.2,"['horror', 'crime', 'documentation', 'drama', 'thriller']"
+7.5,"['crime', 'documentation']"
+5.8,"['drama', 'romance', 'comedy']"
+7.4,"['drama', 'war']"
+6.5,"['thriller', 'crime', 'drama']"
+8.0,['documentation']
+7.7,"['comedy', 'documentation']"
+7.5,"['action', 'fantasy', 'animation', 'comedy']"
+7.8,"['scifi', 'action', 'family', 'animation', 'fantasy', 'comedy', 'drama']"
+8.5,"['drama', 'thriller', 'crime', 'romance', 'scifi', 'comedy']"
+7.3,"['drama', 'scifi', 'thriller']"
+7.3,"['documentation', 'crime']"
+6.2,"['thriller', 'horror', 'drama']"
+6.1,"['scifi', 'drama', 'action', 'crime', 'thriller', 'european']"
+8.1,"['animation', 'comedy', 'thriller', 'fantasy', 'romance', 'drama']"
+5.5,"['thriller', 'drama', 'scifi']"
+7.2,"['drama', 'comedy']"
+5.3,"['scifi', 'thriller', 'horror', 'action']"
+6.7,['comedy']
+7.0,"['fantasy', 'animation', 'drama', 'family']"
+5.2,"['thriller', 'horror']"
+8.1,"['crime', 'documentation']"
+6.8,"['scifi', 'fantasy', 'crime', 'drama']"
+8.5,"['scifi', 'family', 'fantasy', 'animation', 'comedy', 'drama']"
+6.9,"['comedy', 'drama']"
+5.5,"['drama', 'crime', 'history']"
+5.6,"['thriller', 'horror', 'action', 'drama']"
+6.4,"['animation', 'comedy', 'family', 'fantasy']"
+6.5,"['drama', 'comedy', 'thriller']"
+7.1,"['scifi', 'thriller', 'fantasy', 'drama']"
+7.3,"['scifi', 'drama']"
+7.6,"['drama', 'european']"
+6.8,"['comedy', 'crime']"
+7.6,['documentation']
+8.2,"['fantasy', 'action', 'drama']"
+6.1,"['thriller', 'drama', 'horror', 'music']"
+6.2,"['thriller', 'drama', 'romance', 'scifi']"
+7.8,"['action', 'animation', 'drama', 'scifi', 'sport']"
+6.7,"['drama', 'thriller', 'european']"
+6.4,"['thriller', 'crime', 'action']"
+7.4,"['thriller', 'drama', 'documentation', 'fantasy', 'music', 'romance', 'european']"
+6.5,"['comedy', 'romance']"
+5.8,"['crime', 'comedy']"
+6.5,"['action', 'animation', 'scifi']"
+6.2,"['thriller', 'drama']"
+7.0,['drama']
+7.6,"['reality', 'comedy', 'documentation', 'european']"
+5.7,"['romance', 'comedy']"
+7.7,"['comedy', 'animation', 'romance']"
+6.4,"['action', 'comedy', 'animation', 'family', 'fantasy']"
+6.2,"['crime', 'thriller', 'action', 'drama']"
+7.9,[]
+6.1,"['comedy', 'drama', 'fantasy', 'european']"
+8.1,"['comedy', 'documentation']"
+6.2,['comedy']
+8.5,"['action', 'animation', 'comedy', 'drama', 'fantasy', 'romance']"
+7.6,"['western', 'drama', 'crime']"
+6.4,"['horror', 'thriller', 'crime', 'drama']"
+6.5,"['comedy', 'drama']"
+7.4,['documentation']
+5.7,"['comedy', 'horror', 'music']"
+6.4,"['thriller', 'drama', 'history', 'romance']"
+5.4,"['thriller', 'drama', 'scifi']"
+6.2,"['animation', 'family', 'fantasy']"
+5.5,"['horror', 'thriller']"
+6.6,"['thriller', 'crime']"
+6.6,"['thriller', 'drama', 'romance', 'action', 'european']"
+7.4,"['drama', 'history']"
+4.6,"['documentation', 'horror', 'reality']"
+7.5,"['fantasy', 'drama', 'european']"
+5.6,['comedy']
+5.3,"['scifi', 'family', 'thriller', 'action', 'drama']"
+6.7,"['drama', 'european']"
+8.7,"['comedy', 'documentation']"
+5.8,"['horror', 'animation', 'documentation', 'scifi', 'thriller', 'action', 'drama']"
+7.7,['documentation']
+7.0,['comedy']
+7.5,"['action', 'documentation']"
+6.8,"['thriller', 'history', 'crime', 'drama', 'european']"
+8.4,['documentation']
+6.8,"['drama', 'history']"
+5.1,"['scifi', 'animation', 'action', 'comedy', 'family', 'fantasy']"
+5.9,"['thriller', 'horror']"
+7.2,"['action', 'animation', 'drama', 'thriller']"
+8.6,['animation']
+8.0,['documentation']
+7.2,"['crime', 'thriller', 'drama', 'european']"
+6.2,"['thriller', 'drama', 'crime']"
+6.0,"['scifi', 'action', 'comedy', 'animation']"
+4.5,"['fantasy', 'horror', 'thriller', 'action', 'crime', 'drama']"
+8.7,"['drama', 'action', 'history', 'romance', 'war']"
+6.3,"['thriller', 'fantasy', 'action', 'crime', 'scifi']"
+6.5,['comedy']
+5.9,"['romance', 'comedy']"
+7.0,"['drama', 'comedy', 'sport', 'european']"
+5.5,"['comedy', 'family', 'fantasy', 'horror', 'animation']"
+6.3,"['drama', 'action', 'war']"
+9.2,"['drama', 'family']"
+7.1,"['comedy', 'reality']"
+3.5,['comedy']
+6.8,"['drama', 'crime', 'thriller']"
+6.4,"['drama', 'fantasy', 'horror', 'thriller', 'european']"
+6.2,"['comedy', 'european']"
+5.4,"['comedy', 'action']"
+7.4,"['thriller', 'horror', 'crime', 'scifi']"
+5.5,"['thriller', 'horror']"
+7.0,"['crime', 'thriller', 'drama', 'european']"
+8.4,"['drama', 'crime']"
+7.4,"['crime', 'thriller']"
+7.5,"['fantasy', 'drama', 'romance']"
+6.5,"['drama', 'fantasy']"
+5.0,"['thriller', 'horror']"
+7.4,"['crime', 'documentation']"
+5.8,"['comedy', 'sport']"
+7.4,"['reality', 'comedy']"
+8.0,"['animation', 'music', 'romance', 'comedy', 'drama']"
+5.4,"['scifi', 'action', 'drama', 'fantasy', 'thriller', 'music']"
+7.9,['comedy']
+6.2,"['fantasy', 'comedy', 'family', 'romance', 'animation']"
+6.8,['drama']
+7.9,"['comedy', 'drama']"
+8.1,"['documentation', 'sport']"
+6.8,"['drama', 'thriller']"
+6.3,"['horror', 'thriller', 'comedy', 'fantasy', 'european']"
+4.3,"['thriller', 'european', 'crime', 'romance']"
+7.4,"['comedy', 'drama']"
+4.2,"['thriller', 'horror', 'drama', 'fantasy']"
+6.0,"['drama', 'comedy', 'war']"
+5.9,"['thriller', 'drama', 'action', 'scifi']"
+5.7,"['crime', 'thriller', 'action', 'european']"
+6.3,"['drama', 'romance']"
+7.2,"['drama', 'thriller']"
+5.9,['comedy']
+7.4,['documentation']
+7.5,"['music', 'documentation']"
+6.4,"['drama', 'comedy']"
+4.8,"['animation', 'family']"
+6.8,['comedy']
+8.0,"['documentation', 'comedy', 'history']"
+6.6,['comedy']
+6.8,['drama']
+7.8,['crime']
+6.8,['comedy']
+6.9,['drama']
+6.6,"['action', 'animation', 'comedy', 'drama', 'family', 'western', 'documentation']"
+5.2,"['thriller', 'horror', 'drama']"
+6.6,"['drama', 'romance', 'european']"
+5.5,"['fantasy', 'comedy', 'drama']"
+5.8,"['thriller', 'scifi']"
+6.6,"['drama', 'european']"
+7.4,"['comedy', 'european']"
+7.5,"['crime', 'thriller', 'action']"
+6.9,"['comedy', 'drama', 'crime', 'documentation']"
+7.9,"['documentation', 'music']"
+7.6,"['comedy', 'music', 'documentation']"
+7.1,"['scifi', 'action', 'fantasy', 'war', 'animation']"
+8.0,"['documentation', 'war', 'history']"
+7.4,['documentation']
+7.2,['documentation']
+5.3,"['drama', 'comedy', 'romance']"
+8.2,"['comedy', 'drama', 'romance']"
+6.1,['comedy']
+6.1,"['fantasy', 'animation', 'comedy', 'family']"
+7.4,['drama']
+7.7,['animation']
+8.0,"['drama', 'horror', 'thriller', 'european']"
+6.8,"['crime', 'documentation']"
+7.7,"['drama', 'music']"
+8.6,['drama']
+7.5,"['drama', 'comedy']"
+7.9,"['crime', 'action', 'european']"
+6.5,['documentation']
+6.2,['comedy']
+7.9,['comedy']
+6.2,['comedy']
+8.6,['comedy']
+8.2,"['thriller', 'music', 'drama', 'comedy', 'crime']"
+8.2,"['drama', 'romance']"
+6.7,"['animation', 'comedy', 'family', 'action']"
+7.8,['documentation']
+7.6,"['drama', 'comedy']"
+5.7,['thriller']
+6.3,"['thriller', 'crime', 'drama']"
+6.2,"['crime', 'drama', 'scifi', 'thriller']"
+7.1,['comedy']
+5.8,"['action', 'comedy']"
+5.9,"['scifi', 'drama', 'romance', 'european']"
+3.4,"['horror', 'drama', 'scifi', 'thriller', 'action', 'european']"
+6.3,"['romance', 'drama']"
+7.7,"['action', 'crime', 'drama', 'thriller']"
+7.5,['documentation']
+7.2,"['drama', 'history', 'war']"
+4.8,"['thriller', 'fantasy', 'scifi', 'drama', 'romance']"
+6.6,['comedy']
+6.5,"['animation', 'family']"
+6.8,"['drama', 'thriller', 'crime', 'history', 'war', 'documentation']"
+5.2,"['drama', 'comedy']"
+5.8,"['comedy', 'animation', 'family', 'fantasy']"
+8.0,"['comedy', 'romance', 'fantasy', 'horror']"
+5.2,"['comedy', 'drama']"
+7.4,['drama']
+7.6,"['documentation', 'drama', 'history', 'romance', 'european']"
+6.0,"['scifi', 'action', 'crime', 'thriller']"
+5.2,"['comedy', 'romance']"
+6.2,"['drama', 'family', 'romance', 'comedy']"
+6.1,"['action', 'scifi', 'thriller', 'drama']"
+6.4,"['documentation', 'crime']"
+7.6,"['thriller', 'comedy', 'crime', 'drama']"
+3.4,"['action', 'fantasy', 'scifi', 'animation', 'comedy', 'family']"
+8.0,['comedy']
+5.0,"['animation', 'action', 'scifi', 'horror']"
+6.6,"['scifi', 'thriller', 'animation', 'action', 'drama']"
+6.4,"['scifi', 'animation', 'fantasy']"
+5.4,"['thriller', 'crime', 'drama', 'european']"
+7.9,"['comedy', 'family', 'drama', 'romance']"
+8.1,"['war', 'drama', 'action', 'thriller']"
+6.8,"['drama', 'comedy', 'crime', 'european']"
+6.7,"['thriller', 'drama', 'war', 'history', 'european']"
+7.1,"['comedy', 'scifi', 'animation', 'drama', 'family']"
+7.0,"['crime', 'drama', 'thriller']"
+6.1,"['drama', 'history']"
+8.0,"['scifi', 'drama', 'fantasy', 'horror']"
+6.0,"['scifi', 'animation', 'action', 'comedy', 'family']"
+6.2,"['drama', 'crime']"
+6.1,"['scifi', 'animation', 'action', 'crime']"
+7.0,['comedy']
+6.0,"['scifi', 'animation', 'action']"
+7.6,"['drama', 'fantasy', 'romance']"
+6.6,"['action', 'scifi', 'animation', 'drama', 'fantasy']"
+7.1,"['drama', 'european']"
+5.7,"['thriller', 'action', 'drama', 'crime', 'european']"
+7.5,"['reality', 'documentation']"
+8.1,"['crime', 'thriller', 'drama', 'horror', 'comedy']"
+6.4,"['fantasy', 'action']"
+5.8,"['family', 'fantasy', 'animation']"
+6.9,"['drama', 'romance']"
+5.9,"['fantasy', 'action', 'comedy']"
+7.7,['comedy']
+8.0,"['drama', 'thriller', 'crime']"
+5.2,"['action', 'scifi', 'thriller']"
+5.6,"['drama', 'action']"
+5.7,"['comedy', 'fantasy', 'horror']"
+7.0,"['music', 'documentation']"
+7.8,"['action', 'scifi', 'thriller', 'drama', 'romance']"
+6.7,"['comedy', 'family', 'animation']"
+5.2,"['fantasy', 'scifi', 'action']"
+6.4,"['scifi', 'crime', 'drama']"
+6.6,"['thriller', 'action', 'drama']"
+8.2,['comedy']
+6.3,"['crime', 'drama', 'family']"
+6.4,"['thriller', 'crime', 'european']"
+6.9,"['animation', 'drama', 'western', 'european']"
+7.1,"['scifi', 'action', 'drama', 'thriller', 'horror', 'animation', 'fantasy', 'crime']"
+7.0,['reality']
+6.9,"['drama', 'war', 'european']"
+7.8,"['drama', 'action', 'history', 'crime']"
+8.6,"['action', 'thriller', 'crime', 'drama']"
+7.2,"['scifi', 'fantasy', 'family', 'european']"
+7.5,"['documentation', 'crime']"
+6.8,"['drama', 'history', 'action', 'thriller', 'comedy', 'documentation']"
+6.2,"['drama', 'comedy']"
+7.6,"['drama', 'fantasy', 'horror', 'thriller', 'crime']"
+5.1,"['reality', 'documentation']"
+7.3,"['war', 'crime', 'documentation', 'thriller', 'comedy', 'drama']"
+6.8,"['comedy', 'crime', 'animation', 'action']"
+7.6,"['action', 'scifi', 'thriller', 'animation', 'drama', 'fantasy']"
+7.1,"['comedy', 'music', 'documentation']"
+8.3,"['drama', 'comedy', 'reality']"
+6.9,"['crime', 'thriller', 'drama']"
+6.2,"['drama', 'scifi', 'horror', 'romance', 'thriller']"
+5.1,"['thriller', 'horror']"
+7.8,"['drama', 'history', 'european']"
+7.1,"['action', 'drama', 'history']"
+7.3,['reality']
+7.8,"['documentation', 'fantasy', 'european']"
+7.8,"['drama', 'scifi', 'thriller', 'fantasy']"
+7.2,"['comedy', 'romance']"
+6.2,"['scifi', 'thriller', 'drama']"
+6.8,"['fantasy', 'animation', 'family', 'music', 'comedy']"
+8.3,['documentation']
+7.6,"['drama', 'thriller']"
+6.0,"['comedy', 'romance', 'drama']"
+4.2,"['action', 'thriller', 'crime', 'drama']"
+6.1,"['comedy', 'drama']"
+4.8,"['comedy', 'european']"
+7.1,"['drama', 'romance', 'comedy', 'fantasy']"
+3.2,"['horror', 'thriller']"
+5.9,"['comedy', 'drama', 'action']"
+6.4,"['scifi', 'action', 'comedy', 'fantasy']"
+8.2,"['documentation', 'war']"
+4.4,"['thriller', 'drama']"
+6.1,"['comedy', 'crime', 'thriller']"
+6.7,"['crime', 'scifi', 'thriller', 'animation', 'action', 'comedy', 'european']"
+7.1,"['comedy', 'family', 'fantasy', 'animation']"
+7.1,"['thriller', 'action', 'drama']"
+8.2,"['drama', 'romance']"
+7.4,"['documentation', 'european']"
+7.3,"['drama', 'comedy', 'romance', 'european']"
+5.2,"['comedy', 'drama', 'scifi', 'romance', 'thriller', 'fantasy', 'european']"
+7.0,"['fantasy', 'family', 'comedy']"
+6.8,"['drama', 'comedy', 'european']"
+6.6,"['comedy', 'drama', 'crime']"
+2.3,"['drama', 'reality', 'family', 'comedy', 'documentation', 'music', 'european']"
+3.8,"['crime', 'documentation']"
+6.2,"['comedy', 'drama', 'family', 'romance']"
+6.4,"['drama', 'war']"
+7.3,"['comedy', 'drama', 'romance']"
+5.3,"['comedy', 'action', 'animation', 'fantasy', 'thriller']"
+6.1,"['crime', 'documentation', 'drama']"
+7.4,"['drama', 'comedy', 'sport']"
+6.5,"['action', 'scifi', 'fantasy', 'drama']"
+6.3,"['crime', 'comedy', 'european']"
+7.4,"['documentation', 'crime', 'sport']"
+6.7,['drama']
+7.7,"['drama', 'family', 'music']"
+7.5,"['animation', 'action', 'comedy', 'family']"
+6.6,"['animation', 'action', 'family', 'scifi', 'comedy']"
+4.9,"['crime', 'action']"
+6.2,"['documentation', 'crime', 'drama']"
+8.5,['comedy']
+6.7,"['action', 'drama', 'crime']"
+7.4,"['history', 'documentation']"
+7.7,"['crime', 'drama']"
+6.7,"['drama', 'romance']"
+7.1,"['scifi', 'animation', 'drama', 'fantasy']"
+7.5,"['comedy', 'animation', 'action', 'family', 'fantasy']"
+6.4,"['drama', 'comedy', 'romance']"
+7.5,"['drama', 'thriller', 'action', 'crime']"
+7.0,"['comedy', 'drama', 'family', 'action', 'documentation']"
+5.1,"['romance', 'drama', 'european']"
+6.6,['comedy']
+6.7,"['comedy', 'drama']"
+8.0,"['drama', 'romance', 'history', 'music']"
+5.7,"['action', 'scifi', 'animation']"
+7.9,"['drama', 'thriller', 'crime']"
+5.3,['comedy']
+7.7,['comedy']
+7.0,"['drama', 'romance', 'european']"
+8.5,"['documentation', 'music']"
+7.0,"['drama', 'crime', 'european']"
+6.6,['documentation']
+6.8,['documentation']
+6.6,['drama']
+8.0,"['action', 'animation', 'comedy', 'romance']"
+7.4,"['drama', 'history']"
+8.3,['documentation']
+7.3,"['drama', 'sport']"
+6.3,"['comedy', 'european']"
+5.9,['thriller']
+8.1,['comedy']
+,['reality']
+7.2,['drama']
+8.4,['reality']
+4.7,"['thriller', 'crime', 'drama', 'romance']"
+6.9,"['comedy', 'drama', 'romance', 'european']"
+6.6,"['drama', 'thriller']"
+6.9,"['comedy', 'documentation']"
+4.9,"['drama', 'thriller']"
+6.2,"['scifi', 'animation', 'action', 'comedy', 'family']"
+8.2,"['comedy', 'documentation']"
+7.2,"['war', 'crime', 'drama', 'thriller']"
+7.7,"['scifi', 'romance', 'drama', 'fantasy']"
+6.5,"['scifi', 'family', 'fantasy', 'horror', 'thriller', 'drama']"
+6.6,"['fantasy', 'animation', 'drama', 'family', 'comedy']"
+7.0,['comedy']
+5.2,"['action', 'romance', 'thriller', 'scifi', 'family', 'comedy', 'drama', 'animation']"
+6.9,['documentation']
+7.3,"['documentation', 'history', 'european']"
+6.8,"['drama', 'action', 'history', 'war', 'thriller']"
+7.1,"['action', 'war', 'drama']"
+5.8,"['scifi', 'animation', 'action']"
+7.9,"['crime', 'action', 'documentation']"
+7.6,"['music', 'documentation']"
+7.9,"['documentation', 'european']"
+5.4,['comedy']
+6.4,"['thriller', 'crime', 'european']"
+8.0,['documentation']
+6.3,"['scifi', 'animation', 'action']"
+8.4,"['scifi', 'drama', 'fantasy', 'romance', 'family']"
+8.0,"['documentation', 'sport', 'european']"
+5.9,"['animation', 'comedy', 'family', 'fantasy']"
+7.5,"['comedy', 'music']"
+6.9,"['comedy', 'animation']"
+3.1,"['crime', 'drama', 'thriller']"
+7.4,['comedy']
+7.3,['documentation']
+5.6,"['fantasy', 'family', 'drama', 'comedy', 'thriller', 'music', 'animation']"
+6.7,"['scifi', 'action', 'history', 'horror', 'animation']"
+8.1,"['crime', 'romance', 'thriller', 'drama']"
+5.7,['comedy']
+8.0,"['drama', 'comedy', 'romance']"
+5.5,"['drama', 'crime', 'thriller']"
+7.8,"['comedy', 'documentation']"
+5.2,['comedy']
+,['comedy']
+5.2,['comedy']
+5.4,"['comedy', 'fantasy', 'romance']"
+7.0,"['reality', 'european']"
+7.6,['documentation']
+7.7,"['reality', 'documentation', 'sport']"
+5.6,"['drama', 'crime', 'thriller', 'action']"
+8.3,"['documentation', 'music']"
+6.8,"['comedy', 'family', 'fantasy', 'european']"
+7.4,"['comedy', 'documentation']"
+6.9,"['drama', 'european']"
+6.6,"['comedy', 'drama', 'european']"
+6.6,['documentation']
+5.6,"['fantasy', 'animation', 'comedy', 'family']"
+7.8,"['war', 'documentation', 'history', 'european']"
+6.7,"['drama', 'history', 'european']"
+7.1,"['drama', 'comedy', 'animation']"
+8.1,"['documentation', 'drama']"
+6.4,['animation']
+5.0,"['thriller', 'drama', 'romance', 'sport', 'european']"
+6.0,"['western', 'horror', 'action']"
+6.6,"['drama', 'animation', 'romance']"
+5.9,"['comedy', 'drama', 'music']"
+7.0,"['action', 'thriller', 'crime', 'drama']"
+5.5,"['comedy', 'drama']"
+6.0,['drama']
+6.8,"['scifi', 'drama', 'fantasy', 'horror', 'thriller', 'family']"
+7.2,['documentation']
+5.4,"['comedy', 'fantasy', 'animation']"
+5.5,"['animation', 'fantasy']"
+8.1,"['thriller', 'action']"
+5.2,['action']
+5.8,"['music', 'comedy']"
+5.6,"['crime', 'drama', 'thriller']"
+7.0,"['drama', 'action']"
+6.0,"['action', 'animation', 'comedy', 'crime', 'drama']"
+7.2,"['drama', 'crime']"
+7.5,['documentation']
+4.5,"['thriller', 'crime', 'action']"
+5.5,"['crime', 'drama']"
+6.2,['documentation']
+6.8,"['drama', 'thriller']"
+5.8,"['scifi', 'animation', 'action']"
+6.2,['music']
+5.5,['documentation']
+7.0,['documentation']
+6.3,['documentation']
+7.1,"['comedy', 'drama']"
+6.3,"['comedy', 'documentation']"
+7.6,"['comedy', 'reality']"
+6.3,"['drama', 'comedy', 'romance']"
+5.6,"['drama', 'crime']"
+7.7,"['comedy', 'scifi', 'action', 'animation', 'family', 'fantasy']"
+,['documentation']
+6.6,"['comedy', 'documentation']"
+7.6,"['scifi', 'drama', 'fantasy', 'romance']"
+7.3,"['reality', 'action']"
+6.1,"['thriller', 'drama', 'action', 'crime', 'european']"
+4.0,"['western', 'drama', 'action', 'european']"
+7.6,"['documentation', 'european']"
+5.6,"['crime', 'drama']"
+7.5,"['comedy', 'documentation']"
+5.5,"['comedy', 'european']"
+5.8,"['drama', 'romance', 'comedy']"
+5.4,"['action', 'fantasy', 'animation']"
+5.9,"['drama', 'romance', 'music', 'european']"
+7.1,"['fantasy', 'animation', 'action']"
+5.7,"['romance', 'comedy', 'drama']"
+7.1,['comedy']
+,['fantasy']
+8.3,"['drama', 'comedy', 'crime']"
+7.2,"['comedy', 'romance']"
+7.0,"['comedy', 'fantasy', 'animation', 'family', 'drama']"
+5.9,"['comedy', 'action']"
+5.9,['family']
+6.2,"['comedy', 'family', 'fantasy', 'romance', 'european']"
+7.6,['documentation']
+5.7,"['romance', 'comedy', 'family']"
+8.5,"['comedy', 'drama']"
+7.3,"['scifi', 'sport', 'documentation', 'reality']"
+5.3,"['western', 'drama', 'thriller', 'action']"
+5.2,['comedy']
+7.6,['reality']
+4.4,['comedy']
+5.4,['comedy']
+6.0,"['comedy', 'family', 'european']"
+7.1,"['drama', 'scifi']"
+6.9,"['drama', 'music', 'documentation']"
+7.1,"['documentation', 'reality']"
+5.5,"['comedy', 'romance', 'european']"
+7.5,"['drama', 'crime', 'history', 'european']"
+5.7,['comedy']
+6.1,"['comedy', 'documentation']"
+7.2,"['documentation', 'european']"
+7.2,"['drama', 'action']"
+6.5,"['drama', 'european']"
+7.0,"['drama', 'crime', 'thriller', 'action', 'european']"
+7.0,['comedy']
+6.9,"['comedy', 'romance']"
+8.2,"['drama', 'thriller', 'action', 'crime']"
+7.4,"['romance', 'drama']"
+7.6,"['drama', 'comedy']"
+7.4,"['drama', 'comedy', 'romance']"
+6.1,['comedy']
+5.2,"['thriller', 'action', 'crime']"
+7.8,"['drama', 'thriller', 'comedy', 'history', 'romance', 'action']"
+6.7,['documentation']
+6.0,"['romance', 'drama', 'family', 'comedy']"
+7.1,['comedy']
+7.3,"['reality', 'documentation']"
+5.5,"['thriller', 'drama', 'horror', 'fantasy', 'action', 'crime', 'european']"
+8.1,"['documentation', 'family']"
+7.3,"['comedy', 'documentation']"
+6.8,"['comedy', 'family']"
+3.9,"['comedy', 'crime', 'family']"
+5.4,"['fantasy', 'family']"
+7.7,"['drama', 'action', 'crime']"
+8.0,"['animation', 'family']"
+5.9,"['drama', 'sport']"
+6.6,"['comedy', 'animation']"
+5.6,"['drama', 'documentation', 'fantasy', 'romance', 'scifi', 'family', 'animation']"
+4.8,"['action', 'scifi', 'animation', 'comedy', 'drama', 'family']"
+6.8,"['fantasy', 'animation', 'family', 'european']"
+5.8,"['history', 'documentation']"
+6.4,"['romance', 'drama']"
+5.2,"['comedy', 'drama', 'romance']"
+,"['action', 'scifi']"
+7.3,"['documentation', 'history']"
+,['documentation']
+5.1,"['comedy', 'drama']"
+8.1,['documentation']
+6.0,"['fantasy', 'scifi', 'animation', 'action', 'comedy']"
+7.4,"['drama', 'scifi', 'comedy']"
+5.3,"['romance', 'comedy', 'scifi']"
+8.9,['reality']
+6.7,"['documentation', 'sport']"
+5.4,"['crime', 'documentation']"
+8.0,"['drama', 'fantasy', 'romance']"
+6.3,['documentation']
+6.7,"['thriller', 'drama', 'action', 'crime']"
+7.3,"['comedy', 'european']"
+,[]
+6.5,"['thriller', 'action', 'fantasy', 'scifi', 'comedy', 'drama']"
+7.1,"['reality', 'documentation']"
+6.3,"['comedy', 'drama', 'romance']"
+7.2,"['comedy', 'drama', 'romance']"
+5.1,['documentation']
+5.9,['drama']
+5.2,"['comedy', 'drama', 'romance']"
+6.2,['documentation']
+5.0,"['comedy', 'documentation']"
+7.6,"['horror', 'comedy']"
+5.7,"['comedy', 'romance', 'drama', 'european']"
+7.4,['reality']
+7.6,"['comedy', 'drama']"
+5.8,"['scifi', 'animation', 'action', 'fantasy', 'horror']"
+7.4,['documentation']
+6.1,"['action', 'comedy', 'family', 'music', 'animation']"
+6.4,"['drama', 'thriller', 'european']"
+,['documentation']
+6.4,"['drama', 'european']"
+7.4,['documentation']
+6.4,"['comedy', 'drama', 'romance']"
+5.7,"['comedy', 'european']"
+5.2,"['comedy', 'documentation']"
+6.9,"['scifi', 'drama', 'animation', 'fantasy']"
+7.7,['reality']
+6.7,"['comedy', 'european']"
+7.8,"['reality', 'drama']"
+7.3,"['drama', 'comedy']"
+5.8,"['thriller', 'animation', 'drama']"
+6.3,['documentation']
+7.2,"['crime', 'thriller', 'drama']"
+3.8,"['action', 'scifi', 'comedy', 'drama']"
+4.6,"['romance', 'drama']"
+5.9,"['scifi', 'action', 'animation', 'comedy', 'fantasy']"
+8.0,"['scifi', 'drama', 'action', 'thriller', 'horror', 'romance', 'crime', 'fantasy']"
+6.5,"['drama', 'thriller', 'comedy', 'crime', 'european']"
+6.8,"['romance', 'drama', 'european']"
+5.4,"['drama', 'music', 'comedy', 'european']"
+7.0,"['thriller', 'drama', 'romance', 'european']"
+6.8,"['drama', 'crime']"
+6.6,['documentation']
+7.2,"['drama', 'romance', 'european']"
+5.9,"['animation', 'fantasy', 'scifi', 'action', 'comedy']"
+6.3,"['crime', 'documentation']"
+6.5,['comedy']
+7.7,"['romance', 'drama', 'european']"
+7.9,"['drama', 'music']"
+6.4,"['documentation', 'european']"
+7.2,['comedy']
+6.2,['comedy']
+5.5,"['comedy', 'family', 'romance', 'animation', 'drama', 'european']"
+5.4,"['comedy', 'european']"
+5.7,"['crime', 'comedy', 'western']"
+5.8,"['thriller', 'action', 'drama', 'crime']"
+7.2,"['comedy', 'documentation']"
+6.3,"['animation', 'comedy', 'family', 'horror']"
+6.9,"['comedy', 'drama', 'romance']"
+3.0,['comedy']
+7.0,"['thriller', 'drama']"
+4.0,"['fantasy', 'drama', 'family', 'comedy', 'european']"
+8.0,"['reality', 'documentation', 'thriller']"
+,['drama']
+7.5,['drama']
+6.8,['documentation']
+5.3,"['comedy', 'sport', 'european']"
+6.2,"['thriller', 'crime', 'action', 'european']"
+5.8,"['comedy', 'family', 'european']"
+4.2,"['horror', 'thriller', 'drama']"
+8.5,['documentation']
+,['fantasy']
+7.3,"['drama', 'romance']"
+6.8,['documentation']
+4.9,['documentation']
+7.5,"['animation', 'family']"
+7.0,"['drama', 'crime', 'fantasy', 'action', 'thriller']"
+8.4,"['drama', 'history', 'romance']"
+5.8,"['drama', 'comedy', 'european']"
+7.5,"['reality', 'documentation']"
+6.7,['drama']
+6.4,"['drama', 'sport']"
+5.7,"['action', 'thriller', 'crime', 'drama']"
+5.9,"['fantasy', 'thriller', 'action', 'horror', 'crime', 'drama', 'european']"
+6.0,"['romance', 'comedy', 'drama', 'family']"
+7.7,"['drama', 'comedy']"
+5.6,"['fantasy', 'action', 'comedy', 'scifi', 'animation']"
+4.6,['romance']
+6.2,"['crime', 'drama', 'action']"
+5.8,"['thriller', 'crime', 'drama']"
+6.2,"['drama', 'fantasy', 'comedy']"
+5.2,"['fantasy', 'scifi', 'family', 'comedy']"
+7.2,"['thriller', 'crime']"
+6.6,"['thriller', 'crime', 'drama']"
+,['documentation']
+4.6,"['horror', 'thriller', 'crime', 'drama']"
+7.5,"['action', 'thriller', 'crime', 'romance', 'drama']"
+7.6,"['drama', 'history', 'music', 'romance']"
+4.8,"['drama', 'family', 'sport']"
+3.6,"['romance', 'action', 'comedy']"
+7.0,"['documentation', 'european']"
+6.2,['comedy']
+7.9,"['animation', 'comedy', 'family', 'fantasy', 'music']"
+7.0,['documentation']
+6.5,"['documentation', 'european']"
+6.6,['animation']
+6.7,"['drama', 'crime']"
+7.5,"['romance', 'comedy']"
+7.0,"['scifi', 'action', 'animation', 'drama', 'fantasy', 'music', 'romance']"
+5.4,"['documentation', 'scifi', 'thriller', 'horror', 'music']"
+5.7,"['comedy', 'family', 'animation']"
+5.7,"['action', 'crime', 'thriller']"
+6.6,"['comedy', 'animation']"
+5.9,"['drama', 'comedy']"
+7.8,['drama']
+7.5,['documentation']
+7.0,"['comedy', 'documentation']"
+7.4,"['comedy', 'documentation']"
+6.6,['crime']
+6.2,"['comedy', 'drama']"
+6.0,"['romance', 'comedy', 'european']"
+4.5,"['thriller', 'crime', 'action']"
+7.0,"['comedy', 'drama', 'romance']"
+2.3,['drama']
+8.6,['documentation']
+6.2,"['drama', 'romance']"
+6.2,"['drama', 'european']"
+5.9,"['documentation', 'european']"
+,['comedy']
+7.5,"['drama', 'romance']"
+5.4,['comedy']
+6.4,['drama']
+6.1,"['romance', 'drama']"
+,['comedy']
+7.7,['documentation']
+3.2,"['romance', 'drama', 'sport']"
+,['drama']
+6.7,"['documentation', 'animation', 'european']"
+5.6,['thriller']
+7.1,"['documentation', 'music']"
+7.3,['comedy']
+6.5,['drama']
+5.7,"['war', 'history', 'drama', 'romance', 'action']"
+5.3,"['romance', 'drama']"
+6.6,['documentation']
+5.7,"['comedy', 'family']"
+4.4,"['comedy', 'european']"
+7.3,['comedy']
+5.5,"['drama', 'family', 'documentation', 'sport']"
+4.4,['family']
+5.0,"['romance', 'comedy', 'drama']"
+7.7,"['animation', 'drama', 'sport']"
+5.4,"['war', 'drama', 'thriller']"
+7.6,['drama']
+6.7,"['thriller', 'drama', 'family']"
+6.6,"['romance', 'drama', 'comedy']"
+5.4,"['fantasy', 'horror', 'animation', 'comedy', 'family', 'european']"
+7.9,"['documentation', 'crime', 'thriller']"
+6.3,"['thriller', 'action', 'crime']"
+6.8,['documentation']
+4.0,"['reality', 'comedy']"
+6.5,"['thriller', 'crime', 'european']"
+7.3,['comedy']
+6.6,"['documentation', 'drama', 'family', 'european']"
+6.9,['documentation']
+6.2,"['comedy', 'european']"
+6.9,"['thriller', 'drama', 'music', 'european']"
+6.0,['family']
+8.5,"['drama', 'comedy', 'thriller', 'fantasy', 'romance']"
+7.5,"['documentation', 'music']"
+6.5,['documentation']
+6.5,['comedy']
+7.0,['comedy']
+,['documentation']
+5.6,"['documentation', 'reality']"
+6.9,"['reality', 'music']"
+5.1,"['horror', 'thriller', 'animation', 'drama', 'fantasy', 'european']"
+5.8,"['crime', 'drama', 'thriller']"
+7.9,"['drama', 'comedy']"
+6.3,"['drama', 'history', 'thriller', 'action', 'crime', 'european']"
+7.6,"['comedy', 'drama', 'music', 'romance']"
+6.6,['comedy']
+5.5,"['comedy', 'european']"
+7.1,['comedy']
+6.8,['documentation']
+6.0,"['drama', 'comedy', 'crime']"
+6.4,"['romance', 'action', 'comedy']"
+5.8,['comedy']
+4.3,['romance']
+7.6,"['drama', 'history', 'action']"
+4.9,"['scifi', 'family']"
+6.2,"['drama', 'music']"
+5.5,"['drama', 'family', 'action', 'thriller']"
+6.4,['comedy']
+6.2,"['comedy', 'drama']"
+4.5,"['comedy', 'documentation']"
+7.6,['drama']
+6.9,"['documentation', 'crime', 'history', 'music']"
+,"['family', 'animation']"
+7.1,"['documentation', 'music']"
+7.2,['comedy']
+6.4,['comedy']
+6.4,"['comedy', 'family']"
+7.6,['animation']
+6.5,"['drama', 'crime', 'thriller']"
+5.6,"['thriller', 'crime', 'drama', 'action', 'european']"
+7.2,"['comedy', 'documentation']"
+6.6,['comedy']
+7.2,['comedy']
+5.9,"['crime', 'thriller', 'action', 'european']"
+,['documentation']
+7.1,"['drama', 'romance', 'comedy']"
+6.6,"['drama', 'european']"
+7.2,"['drama', 'family', 'scifi']"
+5.7,['drama']
+6.2,"['drama', 'european']"
+6.5,['documentation']
+7.3,"['animation', 'comedy', 'fantasy']"
+,['comedy']
+8.0,"['action', 'drama', 'comedy', 'thriller']"
+6.1,['documentation']
+7.7,"['reality', 'comedy', 'horror']"
+5.8,"['drama', 'comedy']"
+5.9,"['thriller', 'drama', 'european']"
+7.4,"['documentation', 'european']"
+7.1,['action']
+6.8,['drama']
+6.4,"['romance', 'drama', 'action']"
+7.1,"['drama', 'comedy', 'romance', 'european']"
+6.5,"['music', 'documentation']"
+5.4,['drama']
+6.0,"['drama', 'thriller', 'action']"
+6.2,['comedy']
+6.2,"['comedy', 'family']"
+6.2,"['drama', 'european']"
+4.2,"['thriller', 'horror']"
+5.4,"['action', 'comedy']"
+6.0,"['horror', 'comedy']"
+6.6,['drama']
+7.2,['comedy']
+,['documentation']
+7.3,['drama']
+5.8,"['romance', 'thriller', 'action', 'drama', 'european']"
+5.5,['documentation']
+8.1,['documentation']
+6.5,"['drama', 'comedy', 'european']"
+3.9,"['western', 'fantasy', 'music']"
+4.7,"['comedy', 'fantasy', 'animation', 'family']"
+6.0,['drama']
+6.7,['documentation']
+7.3,['documentation']
+7.3,"['drama', 'comedy', 'romance']"
+6.7,"['comedy', 'documentation']"
+8.2,"['drama', 'comedy', 'animation']"
+6.1,['documentation']
+8.1,"['romance', 'drama']"
+6.3,"['drama', 'history', 'european']"
+2.3,"['horror', 'thriller']"
+5.3,"['thriller', 'drama', 'european']"
+,['documentation']
+2.2,['drama']
+,['documentation']
+,"['animation', 'comedy']"
+6.5,"['drama', 'thriller']"
+6.9,['comedy']
+6.7,"['comedy', 'music', 'romance']"
+5.9,['family']
+6.5,"['documentation', 'history']"
+7.3,"['drama', 'european']"
+6.0,['reality']
+6.3,"['documentation', 'sport']"
+7.2,"['romance', 'comedy']"
+7.1,"['drama', 'crime']"
+4.6,"['horror', 'comedy', 'european']"
+7.0,"['drama', 'comedy', 'fantasy', 'romance']"
+6.2,['comedy']
+6.2,"['action', 'comedy', 'scifi', 'animation']"
+6.1,"['thriller', 'scifi']"
+3.9,['reality']
+7.5,"['family', 'animation', 'action', 'comedy']"
+7.7,['comedy']
+5.4,"['comedy', 'european']"
+,[]
+6.9,"['comedy', 'romance']"
+7.3,"['animation', 'comedy']"
+8.1,['drama']
+6.5,['drama']
+5.1,"['animation', 'comedy']"
+5.0,"['action', 'thriller']"
+5.8,"['romance', 'comedy']"
+7.1,['documentation']
+6.7,['documentation']
+6.7,"['action', 'crime']"
+5.2,"['romance', 'drama']"
+,['comedy']
+5.7,['drama']
+3.6,"['drama', 'comedy']"
+6.1,['reality']
+6.3,"['drama', 'thriller', 'crime', 'european']"
+8.2,"['comedy', 'drama', 'family', 'sport']"
+4.6,"['comedy', 'horror', 'family']"
+6.3,"['drama', 'thriller', 'history']"
+7.6,"['comedy', 'drama']"
+7.5,['documentation']
+6.8,['reality']
+5.7,"['romance', 'comedy', 'drama', 'fantasy']"
+6.2,"['crime', 'drama', 'scifi']"
+,['documentation']
+3.5,['action']
+6.5,['reality']
+7.2,['documentation']
+6.7,"['comedy', 'drama', 'family']"
+6.1,['drama']
+6.6,['documentation']
+6.8,"['drama', 'comedy']"
+7.6,['documentation']
+5.1,"['romance', 'drama']"
+7.4,"['drama', 'crime', 'comedy']"
+3.7,"['thriller', 'horror']"
+7.2,['comedy']
+9.0,['drama']
+,"['drama', 'horror', 'thriller', 'animation', 'european']"
+4.8,"['crime', 'thriller', 'drama', 'romance']"
+7.5,"['drama', 'romance']"
+7.3,['documentation']
+5.7,"['comedy', 'drama', 'family']"
+6.9,['comedy']
+5.1,"['thriller', 'european']"
+6.9,"['scifi', 'animation', 'fantasy']"
+6.5,['documentation']
+3.5,['thriller']
+4.5,"['thriller', 'action', 'crime']"
+5.9,"['drama', 'horror', 'thriller', 'european']"
+5.7,"['fantasy', 'drama']"
+,"['drama', 'comedy']"
+4.9,['drama']
+5.8,['comedy']
+5.4,"['romance', 'drama']"
+7.7,"['comedy', 'drama']"
+7.2,['comedy']
+6.7,"['comedy', 'documentation']"
+5.9,"['comedy', 'romance']"
+7.9,"['crime', 'action']"
+,['documentation']
+7.6,"['drama', 'family', 'history', 'european']"
+7.1,"['documentation', 'sport', 'war']"
+,['animation']
+7.0,['documentation']
+4.7,['comedy']
+3.9,"['documentation', 'comedy', 'romance']"
+5.0,['comedy']
+6.9,"['drama', 'european']"
+7.8,['documentation']
+3.9,"['horror', 'thriller', 'comedy']"
+6.0,['documentation']
+8.6,"['drama', 'romance', 'crime']"
+6.2,"['thriller', 'action', 'drama']"
+6.1,"['drama', 'action', 'documentation']"
+6.3,['romance']
+7.7,"['drama', 'action']"
+6.1,['comedy']
+4.7,"['thriller', 'drama', 'romance']"
+5.5,"['horror', 'comedy', 'drama', 'thriller']"
+5.2,"['thriller', 'horror']"
+6.1,['comedy']
+4.8,"['comedy', 'music']"
+6.1,"['comedy', 'romance']"
+4.8,"['documentation', 'european']"
+6.2,"['comedy', 'drama']"
+6.5,"['thriller', 'crime', 'drama', 'european']"
+6.6,['comedy']
+6.7,"['drama', 'family', 'music', 'comedy']"
+5.0,"['drama', 'romance', 'comedy']"
+,"['documentation', 'drama']"
+6.5,['reality']
+7.2,"['romance', 'comedy', 'drama']"
+6.8,['comedy']
+7.9,"['comedy', 'european']"
+7.5,"['animation', 'family']"
+6.9,"['comedy', 'european']"
+7.8,"['drama', 'romance', 'thriller', 'fantasy', 'horror', 'scifi']"
+7.9,"['comedy', 'drama']"
+6.9,['comedy']
+6.4,"['drama', 'sport', 'european']"
+7.9,"['drama', 'comedy']"
+6.1,['comedy']
+6.6,"['comedy', 'documentation']"
+,['drama']
+,['comedy']
+5.8,"['romance', 'comedy', 'drama']"
+7.4,"['drama', 'romance']"
+6.7,['comedy']
+6.6,"['drama', 'crime']"
+5.4,"['comedy', 'scifi', 'action', 'european']"
+6.6,['documentation']
+5.9,"['crime', 'action', 'drama']"
+7.4,"['drama', 'sport']"
+6.4,['comedy']
+6.8,"['comedy', 'drama']"
+3.9,"['family', 'fantasy', 'comedy']"
+4.7,"['horror', 'fantasy', 'drama', 'european']"
+6.2,['comedy']
+7.4,['comedy']
+5.6,"['drama', 'music', 'romance', 'european']"
+8.0,"['thriller', 'romance']"
+6.7,"['history', 'action', 'war']"
+5.5,['comedy']
+5.6,"['documentation', 'european']"
+7.1,"['music', 'documentation']"
+6.4,"['romance', 'comedy', 'music']"
+6.1,"['drama', 'crime']"
+6.7,"['drama', 'comedy', 'romance']"
+4.6,['drama']
+6.4,"['documentation', 'history', 'european']"
+6.2,['drama']
+6.6,"['comedy', 'documentation']"
+,[]
+,['drama']
+6.6,"['crime', 'action', 'comedy']"
+7.3,['comedy']
+4.1,['drama']
+5.6,"['drama', 'comedy', 'romance']"
+6.8,"['action', 'drama']"
+7.3,['documentation']
+,['documentation']
+4.9,"['thriller', 'comedy', 'romance']"
+5.4,"['drama', 'thriller', 'crime']"
+5.2,"['drama', 'music']"
+6.9,"['thriller', 'action', 'drama', 'romance']"
+,['documentation']
+2.3,"['horror', 'drama']"
+6.7,['documentation']
+7.8,"['comedy', 'documentation']"
+9.6,[]
+,['comedy']
+4.3,"['thriller', 'horror']"
+6.8,"['drama', 'thriller', 'crime', 'documentation', 'european']"
+6.6,"['thriller', 'crime']"
+6.8,['comedy']
+7.2,['documentation']
+6.1,"['comedy', 'fantasy']"
+4.5,"['comedy', 'european']"
+6.0,['documentation']
+6.9,['comedy']
+8.4,"['animation', 'comedy']"
+8.2,"['comedy', 'family']"
+6.8,"['comedy', 'drama']"
+6.5,['comedy']
+4.9,['comedy']
+5.8,"['comedy', 'sport']"
+7.5,"['animation', 'comedy', 'family', 'fantasy']"
+6.5,"['thriller', 'crime']"
+8.5,['drama']
+7.0,['comedy']
+,"['drama', 'comedy']"
+6.8,"['fantasy', 'drama', 'european']"
+6.5,['comedy']
+5.7,"['fantasy', 'comedy', 'family']"
+,['reality']
+5.6,"['drama', 'crime']"
+5.7,"['drama', 'comedy']"
+5.4,"['romance', 'comedy', 'drama', 'european']"
+6.6,['reality']
+3.4,['reality']
+7.3,['drama']
+5.4,['comedy']
+7.6,"['drama', 'comedy', 'romance']"
+6.5,"['comedy', 'documentation']"
+7.8,"['comedy', 'sport', 'animation', 'action', 'family']"
+7.1,"['documentation', 'european']"
+6.2,"['drama', 'romance']"
+5.5,['comedy']
+7.0,"['action', 'comedy']"
+6.4,"['comedy', 'drama']"
+6.3,['horror']
+6.7,"['drama', 'comedy', 'romance']"
+8.6,['documentation']
+4.4,['comedy']
+4.4,"['comedy', 'documentation']"
+4.3,['comedy']
+6.6,"['comedy', 'drama', 'european']"
+6.6,['animation']
+5.7,['comedy']
+4.7,"['comedy', 'drama']"
+5.9,['drama']
+4.7,"['romance', 'drama', 'music', 'comedy']"
+6.2,['comedy']
+4.7,['comedy']
+5.6,['comedy']
+6.8,"['drama', 'comedy']"
+4.9,"['fantasy', 'comedy', 'family', 'scifi', 'animation']"
+7.8,"['comedy', 'drama']"
+7.2,"['documentation', 'sport']"
+6.6,"['drama', 'romance']"
+5.2,"['thriller', 'action', 'drama']"
+7.0,['reality']
+6.7,"['drama', 'romance', 'action']"
+6.3,[]
+5.7,['drama']
+,['comedy']
+7.4,['documentation']
+5.8,"['drama', 'comedy', 'european']"
+6.2,"['comedy', 'sport']"
+5.7,"['drama', 'comedy']"
+,[]
+6.0,"['thriller', 'action', 'crime', 'drama']"
+5.9,"['drama', 'romance']"
+7.5,['comedy']
+5.8,['comedy']
+6.3,['comedy']
+6.9,['comedy']
+5.6,"['horror', 'comedy']"
+6.0,"['scifi', 'action', 'comedy']"
+3.4,"['thriller', 'drama']"
+7.3,"['drama', 'comedy', 'crime', 'romance', 'action']"
+4.1,['comedy']
+6.1,"['comedy', 'documentation']"
+7.2,['documentation']
+5.5,"['comedy', 'romance']"
+7.7,"['fantasy', 'animation', 'action']"
+6.6,['thriller']
+,['thriller']
+6.2,"['scifi', 'animation', 'action', 'drama']"
+,['fantasy']
+7.3,"['comedy', 'documentation']"
+,['reality']
+5.4,['comedy']
+3.6,"['fantasy', 'comedy']"
+6.3,"['documentation', 'european']"
+6.1,['comedy']
+5.2,"['comedy', 'european']"
+7.1,['comedy']
+6.7,"['comedy', 'drama', 'family']"
+6.2,"['romance', 'drama']"
+7.4,"['comedy', 'action', 'romance', 'family', 'drama']"
+3.7,['comedy']
+5.6,['drama']
+,"['comedy', 'drama']"
+5.7,['comedy']
+5.6,"['comedy', 'romance']"
+6.5,['documentation']
+6.1,['comedy']
+,[]
+7.7,"['drama', 'comedy']"
+3.6,"['family', 'comedy']"
+7.3,"['comedy', 'documentation']"
+6.2,['comedy']
+,"['comedy', 'drama']"
+6.8,"['action', 'family', 'animation', 'comedy']"
+7.5,['drama']
+,[]
+5.9,"['comedy', 'drama']"
+5.8,"['crime', 'comedy', 'drama', 'history', 'documentation']"
+6.4,"['drama', 'romance']"
+5.6,"['drama', 'action']"
+6.1,['comedy']
+6.8,"['documentation', 'european']"
+3.4,"['fantasy', 'scifi', 'action', 'horror', 'western', 'family']"
+3.8,"['comedy', 'family']"
+6.8,"['comedy', 'drama', 'family']"
+6.5,"['comedy', 'documentation']"
+,['drama']
+4.0,"['romance', 'comedy']"
+6.1,['comedy']
+6.6,['comedy']
+7.8,['drama']
+5.7,"['comedy', 'drama']"
+7.4,"['drama', 'comedy', 'romance']"
+8.6,['drama']
+5.1,['comedy']
+4.8,['comedy']
+4.0,['comedy']
+6.2,['drama']
+5.5,['comedy']
+,['animation']
+7.3,"['romance', 'comedy', 'drama']"
+4.9,['comedy']
+6.6,"['thriller', 'drama']"
+5.9,"['comedy', 'documentation']"
+6.7,['comedy']
+6.6,['comedy']
+6.0,"['drama', 'romance']"
+6.3,['comedy']
+,['comedy']
+6.2,['documentation']
+6.3,['comedy']
+4.6,"['romance', 'comedy']"
+6.4,"['drama', 'comedy']"
+6.8,"['music', 'documentation']"
+5.0,['comedy']
+4.4,"['comedy', 'drama', 'sport']"
+4.8,['comedy']
+6.3,"['drama', 'family']"
+7.6,['drama']
+,['comedy']
+5.2,['comedy']
+7.6,['drama']
+6.3,"['thriller', 'crime', 'drama']"
+7.2,['drama']
+,['drama']
+7.4,"['drama', 'documentation']"
+5.1,"['comedy', 'drama']"
+7.8,['documentation']
+5.1,['comedy']
+5.7,['thriller']
+5.9,"['documentation', 'european']"
+,['comedy']
+5.5,"['comedy', 'european']"
+7.0,"['documentation', 'drama']"
+7.2,"['romance', 'drama']"
+4.2,"['drama', 'european']"
+6.6,"['drama', 'comedy']"
+5.1,['comedy']
+6.2,['comedy']
+6.5,"['romance', 'comedy', 'family']"
+5.3,['comedy']
+6.5,['documentation']
+4.2,"['thriller', 'action', 'crime']"
+,['drama']
+5.3,"['romance', 'comedy', 'crime']"
+6.3,['drama']
+6.3,['scifi']
+6.9,"['romance', 'comedy', 'drama']"
+5.1,"['romance', 'sport', 'comedy']"
+6.4,['comedy']
+,['animation']
+7.9,"['drama', 'family']"
+6.8,"['drama', 'romance', 'comedy', 'family']"
+6.1,['drama']
+,['comedy']
+6.8,"['romance', 'comedy']"
+4.6,"['drama', 'romance', 'comedy']"
+,[]
+5.9,['comedy']
+8.0,['animation']
+,[]
+,"['animation', 'family']"
+,['family']
+4.6,['comedy']
+5.9,"['drama', 'romance']"
+5.8,"['drama', 'comedy']"
+6.4,"['scifi', 'family', 'drama']"
+7.5,['documentation']
+5.5,['comedy']
+6.7,['drama']
+6.4,"['comedy', 'drama']"
+4.9,['comedy']
+6.9,"['drama', 'thriller']"
+,['animation']
+,[]
+4.3,['comedy']
+7.0,['comedy']
+7.1,"['romance', 'comedy']"
+6.9,['comedy']
+,['drama']
+7.0,"['romance', 'drama']"
+5.4,"['thriller', 'drama', 'romance']"
+5.8,"['comedy', 'european']"
+,[]
+7.0,"['comedy', 'drama', 'crime']"
+6.4,['comedy']
+6.3,"['thriller', 'action', 'romance']"
+5.6,"['romance', 'drama']"
+4.0,"['action', 'comedy']"
+4.4,"['drama', 'fantasy', 'scifi', 'action']"
+5.9,['drama']
+7.2,['drama']
+5.1,['drama']
+7.3,['drama']
+6.3,['thriller']
+5.4,"['comedy', 'family', 'action', 'drama']"
+7.4,['documentation']
+4.2,"['music', 'animation', 'family']"
+5.7,"['comedy', 'romance']"
+5.4,"['animation', 'family']"
+5.3,"['animation', 'fantasy']"
+4.5,"['crime', 'drama']"
+6.2,['documentation']
+7.4,['drama']
+6.7,"['drama', 'music', 'romance']"
+4.8,['animation']
+6.9,"['drama', 'comedy', 'romance']"
+7.0,['drama']
+,['documentation']
+7.8,"['drama', 'comedy']"
+7.8,"['comedy', 'crime', 'action']"
+7.3,"['drama', 'romance']"
+8.7,"['animation', 'scifi', 'action', 'fantasy', 'thriller', 'horror']"
+8.3,"['drama', 'comedy']"
+8.5,"['comedy', 'drama']"
+8.4,"['scifi', 'thriller', 'fantasy', 'horror', 'animation', 'action', 'drama', 'comedy']"
+8.0,"['comedy', 'drama', 'fantasy', 'scifi', 'action']"
+8.2,"['scifi', 'action', 'drama', 'fantasy', 'horror']"
+5.7,"['thriller', 'drama', 'horror']"
+7.4,"['drama', 'thriller', 'comedy', 'crime']"
+6.7,['comedy']
+8.6,"['documentation', 'sport']"
+3.3,"['romance', 'drama', 'european']"
+8.6,"['drama', 'sport']"
+6.5,['reality']
+8.0,"['drama', 'crime', 'comedy']"
+7.9,['comedy']
+9.1,"['documentation', 'history', 'sport']"
+7.3,"['crime', 'thriller', 'drama']"
+6.9,"['drama', 'comedy', 'romance']"
+8.4,"['drama', 'crime']"
+6.8,"['scifi', 'action', 'drama', 'fantasy', 'animation']"
+7.5,"['action', 'family', 'scifi', 'animation']"
+7.4,"['drama', 'romance']"
+7.5,"['action', 'drama', 'romance', 'thriller', 'crime']"
+7.4,"['scifi', 'thriller', 'drama', 'fantasy', 'horror']"
+6.1,"['thriller', 'western', 'action']"
+7.3,['reality']
+6.7,"['scifi', 'thriller', 'drama']"
+7.3,"['drama', 'history', 'romance', 'war']"
+7.1,"['thriller', 'horror', 'family', 'drama', 'fantasy']"
+6.6,"['thriller', 'fantasy', 'drama']"
+7.7,"['comedy', 'drama', 'crime', 'horror', 'action']"
+6.8,"['crime', 'drama', 'thriller']"
+7.1,"['drama', 'thriller', 'crime', 'horror']"
+7.3,"['comedy', 'animation']"
+8.1,['documentation']
+7.8,"['drama', 'crime', 'history', 'thriller']"
+6.2,"['horror', 'scifi', 'thriller', 'drama']"
+6.7,['drama']
+7.5,"['drama', 'comedy', 'romance']"
+,['drama']
+6.6,"['action', 'drama', 'crime', 'thriller']"
+6.1,"['reality', 'romance']"
+7.9,"['drama', 'romance', 'comedy']"
+7.7,"['drama', 'history', 'thriller']"
+7.1,"['scifi', 'drama', 'thriller']"
+7.6,"['drama', 'thriller', 'crime']"
+7.8,"['drama', 'comedy']"
+7.2,"['scifi', 'comedy', 'fantasy', 'animation', 'action']"
+7.3,"['thriller', 'drama', 'crime', 'action']"
+6.5,"['comedy', 'music']"
+7.1,"['scifi', 'drama', 'fantasy', 'thriller']"
+5.3,['reality']
+7.1,"['thriller', 'scifi', 'drama', 'crime', 'horror']"
+7.3,"['drama', 'romance']"
+6.2,"['thriller', 'crime', 'scifi']"
+7.6,"['action', 'drama', 'scifi', 'thriller', 'fantasy']"
+7.1,"['scifi', 'drama']"
+7.0,"['romance', 'drama', 'war']"
+8.3,"['action', 'thriller', 'drama', 'scifi', 'horror', 'history']"
+7.6,"['drama', 'documentation']"
+6.5,"['scifi', 'action', 'drama', 'horror', 'thriller']"
+7.4,['documentation']
+8.4,"['scifi', 'action', 'thriller', 'drama', 'fantasy', 'horror', 'animation']"
+6.8,"['action', 'drama', 'fantasy', 'horror', 'thriller']"
+6.8,"['comedy', 'drama']"
+6.1,"['action', 'thriller', 'comedy']"
+6.3,"['comedy', 'crime', 'drama', 'thriller']"
+6.5,"['drama', 'thriller', 'horror']"
+8.4,"['scifi', 'drama', 'animation', 'fantasy', 'family', 'horror', 'action']"
+8.9,"['drama', 'history', 'crime']"
+4.9,"['animation', 'comedy', 'family']"
+5.2,"['scifi', 'thriller', 'drama']"
+,['drama']
+7.2,"['drama', 'comedy', 'scifi']"
+7.0,"['horror', 'scifi', 'thriller', 'european']"
+7.6,"['history', 'documentation', 'family']"
+7.8,"['thriller', 'crime', 'drama']"
+8.0,"['crime', 'documentation']"
+7.1,"['drama', 'war', 'history', 'documentation', 'european']"
+6.8,"['romance', 'comedy']"
+6.6,"['crime', 'drama', 'action']"
+6.2,"['horror', 'thriller']"
+7.1,"['thriller', 'crime', 'drama', 'scifi']"
+6.4,"['thriller', 'action', 'crime', 'drama']"
+6.0,"['thriller', 'drama', 'scifi']"
+5.6,"['drama', 'scifi', 'thriller', 'fantasy']"
+7.3,"['thriller', 'crime', 'drama', 'war', 'romance']"
+,"['western', 'crime', 'thriller', 'drama']"
+7.2,"['action', 'drama', 'history']"
+6.7,"['scifi', 'thriller', 'horror', 'drama']"
+7.4,"['thriller', 'drama', 'horror']"
+7.3,"['drama', 'scifi', 'thriller', 'horror']"
+6.2,"['scifi', 'drama', 'romance']"
+6.6,"['fantasy', 'action', 'thriller']"
+7.5,"['drama', 'history']"
+,['scifi']
+6.8,"['drama', 'action', 'history', 'war']"
+5.8,"['scifi', 'action', 'drama', 'fantasy']"
+6.7,"['thriller', 'crime', 'drama', 'action']"
+7.2,"['scifi', 'thriller', 'drama']"
+6.9,"['animation', 'action', 'scifi', 'comedy', 'family', 'fantasy']"
+7.0,"['drama', 'thriller']"
+5.6,"['action', 'scifi']"
+7.8,"['crime', 'history', 'documentation']"
+6.7,"['crime', 'drama', 'thriller']"
+7.5,"['comedy', 'drama', 'fantasy', 'scifi']"
+7.5,"['crime', 'documentation']"
+6.3,"['thriller', 'horror', 'action', 'drama']"
+8.0,['drama']
+5.4,"['fantasy', 'thriller', 'drama', 'horror']"
+6.9,"['comedy', 'romance', 'drama']"
+5.2,"['drama', 'romance']"
+7.2,"['comedy', 'drama']"
+6.8,"['scifi', 'action', 'drama', 'fantasy']"
+7.5,"['action', 'drama', 'fantasy', 'thriller', 'scifi']"
+6.7,"['scifi', 'horror', 'drama', 'fantasy', 'crime', 'thriller']"
+7.2,"['thriller', 'drama', 'history', 'european']"
+6.3,"['comedy', 'action']"
+7.0,['drama']
+8.6,"['reality', 'documentation', 'romance']"
+6.1,"['scifi', 'thriller', 'action', 'crime', 'drama']"
+2.9,"['fantasy', 'action', 'scifi', 'thriller', 'comedy']"
+6.5,"['comedy', 'reality']"
+6.6,"['scifi', 'drama', 'romance']"
+5.5,"['western', 'thriller', 'horror']"
+7.7,"['crime', 'documentation']"
+7.2,"['romance', 'drama']"
+,['scifi']
+6.2,"['scifi', 'animation', 'action', 'thriller', 'crime', 'drama']"
+6.0,"['comedy', 'action', 'crime', 'romance']"
+5.4,"['action', 'drama', 'family', 'fantasy', 'thriller']"
+6.0,"['thriller', 'romance', 'drama']"
+7.5,"['comedy', 'drama']"
+7.0,"['scifi', 'thriller', 'drama']"
+8.8,"['action', 'comedy', 'romance', 'drama', 'fantasy', 'horror']"
+,"['horror', 'thriller', 'european']"
+7.2,"['documentation', 'crime', 'music']"
+6.4,['thriller']
+6.5,"['war', 'drama']"
+9.3,['documentation']
+6.4,"['documentation', 'sport', 'reality']"
+7.9,"['drama', 'history']"
+,['thriller']
+6.7,"['scifi', 'drama', 'fantasy', 'horror', 'thriller', 'comedy', 'action']"
+6.9,"['thriller', 'crime', 'drama']"
+7.1,"['drama', 'music']"
+8.2,['documentation']
+6.9,"['drama', 'music', 'comedy']"
+,['drama']
+5.4,"['drama', 'thriller', 'action', 'crime']"
+7.4,"['war', 'drama']"
+7.6,"['drama', 'comedy']"
+,['comedy']
+4.6,"['reality', 'romance']"
+5.5,"['thriller', 'crime', 'drama', 'romance']"
+6.9,"['music', 'drama']"
+7.2,"['crime', 'drama', 'thriller']"
+6.3,"['action', 'crime', 'drama', 'thriller', 'european']"
+7.2,"['scifi', 'comedy', 'family', 'fantasy', 'drama', 'animation', 'action']"
+6.1,"['comedy', 'drama']"
+5.9,"['comedy', 'drama', 'music']"
+6.5,"['drama', 'thriller']"
+7.3,"['documentation', 'drama', 'thriller', 'crime']"
+5.2,"['horror', 'thriller', 'music', 'comedy']"
+,['drama']
+6.2,"['romance', 'comedy']"
+7.1,"['crime', 'documentation']"
+6.2,"['drama', 'history']"
+5.8,"['horror', 'thriller', 'scifi', 'drama', 'fantasy']"
+6.3,"['drama', 'thriller']"
+5.7,"['comedy', 'romance']"
+9.0,['documentation']
+4.7,"['scifi', 'action']"
+6.3,"['drama', 'comedy', 'crime', 'history']"
+8.6,"['drama', 'comedy', 'romance']"
+7.0,"['comedy', 'crime', 'drama']"
+6.3,"['family', 'fantasy', 'scifi', 'romance', 'animation', 'comedy']"
+7.6,"['drama', 'comedy', 'history']"
+7.6,"['drama', 'thriller']"
+7.7,"['drama', 'romance', 'thriller', 'animation', 'crime', 'fantasy']"
+8.1,"['scifi', 'horror', 'animation', 'action', 'comedy', 'fantasy']"
+7.8,"['drama', 'crime', 'thriller']"
+4.7,"['scifi', 'romance', 'drama']"
+6.5,"['drama', 'romance']"
+5.7,"['thriller', 'horror', 'comedy']"
+7.1,"['comedy', 'drama']"
+8.1,"['documentation', 'sport', 'reality']"
+6.4,"['thriller', 'european', 'drama']"
+5.3,"['comedy', 'romance']"
+6.4,"['scifi', 'action', 'crime', 'drama', 'fantasy']"
+8.7,"['documentation', 'history', 'war']"
+6.4,"['action', 'family', 'fantasy', 'animation']"
+6.7,"['scifi', 'animation', 'comedy', 'family']"
+6.6,"['thriller', 'drama', 'history']"
+8.1,"['action', 'family', 'fantasy', 'drama', 'animation', 'comedy', 'romance']"
+7.7,"['documentation', 'history']"
+7.4,['documentation']
+7.5,['drama']
+5.9,"['scifi', 'drama', 'action', 'thriller']"
+8.2,"['war', 'crime', 'drama', 'thriller']"
+8.0,"['documentation', 'history', 'reality']"
+5.4,"['comedy', 'drama']"
+6.1,['comedy']
+6.5,"['action', 'crime', 'thriller']"
+7.1,"['crime', 'documentation']"
+6.9,"['thriller', 'war', 'drama', 'action', 'scifi', 'european']"
+5.3,"['horror', 'thriller', 'fantasy', 'drama', 'scifi', 'comedy', 'european']"
+6.0,"['drama', 'romance']"
+6.1,"['drama', 'crime', 'thriller', 'action', 'comedy']"
+6.5,['drama']
+6.8,['comedy']
+6.4,['reality']
+6.8,"['comedy', 'animation', 'family', 'fantasy', 'scifi']"
+,"['action', 'scifi']"
+7.5,"['comedy', 'drama', 'romance']"
+6.6,"['thriller', 'crime', 'reality']"
+6.7,"['fantasy', 'drama', 'romance']"
+7.7,"['documentation', 'european']"
+7.0,"['scifi', 'drama', 'fantasy']"
+7.6,"['drama', 'history']"
+5.6,"['thriller', 'drama']"
+6.2,"['thriller', 'comedy', 'crime', 'action', 'drama']"
+3.7,"['scifi', 'horror', 'thriller', 'action']"
+6.1,"['drama', 'fantasy', 'horror', 'scifi']"
+6.4,"['reality', 'drama']"
+7.1,"['reality', 'documentation', 'comedy', 'history']"
+4.7,"['thriller', 'drama', 'horror']"
+5.9,['comedy']
+7.1,"['documentation', 'history']"
+7.4,['drama']
+6.9,"['drama', 'music']"
+6.6,"['thriller', 'crime', 'drama']"
+,['horror']
+7.0,"['drama', 'history', 'action']"
+6.6,"['drama', 'history', 'romance', 'thriller', 'war']"
+5.0,"['romance', 'drama']"
+7.6,"['documentation', 'crime', 'history']"
+8.1,"['drama', 'comedy', 'romance']"
+6.7,['documentation']
+5.4,"['drama', 'thriller', 'horror', 'scifi']"
+6.5,"['crime', 'action', 'drama', 'thriller']"
+5.3,"['fantasy', 'thriller', 'scifi', 'european']"
+7.4,"['documentation', 'drama']"
+7.2,"['crime', 'documentation']"
+5.9,"['thriller', 'crime', 'drama', 'horror']"
+8.6,['comedy']
+,['drama']
+7.5,"['thriller', 'drama']"
+,['scifi']
+5.8,"['horror', 'thriller', 'drama']"
+7.5,"['fantasy', 'drama', 'animation', 'romance', 'european']"
+7.1,"['crime', 'documentation']"
+,['scifi']
+7.6,"['action', 'drama', 'crime', 'comedy']"
+8.1,"['comedy', 'family', 'animation', 'european']"
+7.9,"['action', 'comedy', 'crime', 'drama', 'animation']"
+6.6,"['drama', 'war']"
+6.3,"['comedy', 'drama']"
+7.1,"['drama', 'family']"
+5.6,"['action', 'family', 'comedy']"
+7.4,"['documentation', 'history']"
+4.3,"['drama', 'thriller', 'crime']"
+8.3,"['animation', 'action', 'comedy', 'family', 'fantasy', 'scifi']"
+7.6,"['music', 'documentation', 'history']"
+6.3,"['thriller', 'crime', 'action']"
+5.7,"['drama', 'romance', 'european']"
+5.7,"['thriller', 'crime', 'action']"
+7.2,"['crime', 'documentation']"
+7.4,"['reality', 'documentation']"
+5.7,"['thriller', 'drama', 'horror']"
+7.5,"['documentation', 'drama']"
+6.5,"['thriller', 'animation', 'fantasy', 'scifi', 'drama', 'family']"
+7.4,"['crime', 'documentation']"
+,['drama']
+7.8,['documentation']
+6.6,"['war', 'thriller']"
+6.5,"['drama', 'comedy', 'romance']"
+6.6,['reality']
+6.3,"['western', 'drama']"
+,['animation']
+8.0,['comedy']
+7.4,['drama']
+5.9,"['crime', 'drama', 'documentation']"
+7.7,['comedy']
+5.3,['comedy']
+5.8,"['horror', 'thriller', 'drama']"
+8.1,['comedy']
+6.6,"['drama', 'fantasy', 'thriller', 'action']"
+8.0,"['documentation', 'history', 'european']"
+4.9,"['thriller', 'drama', 'fantasy', 'horror', 'romance', 'european']"
+7.8,"['documentation', 'history']"
+6.8,"['drama', 'crime']"
+6.7,"['fantasy', 'drama', 'family', 'romance', 'animation']"
+6.1,"['thriller', 'crime', 'drama']"
+4.7,"['fantasy', 'comedy', 'family', 'action', 'drama']"
+7.5,['drama']
+7.6,"['thriller', 'drama', 'documentation']"
+8.3,"['fantasy', 'romance', 'animation', 'drama']"
+4.6,"['drama', 'scifi', 'reality']"
+7.4,"['crime', 'documentation', 'sport']"
+7.5,"['drama', 'music', 'crime', 'documentation', 'reality']"
+7.1,"['drama', 'comedy']"
+7.9,['documentation']
+4.3,"['horror', 'thriller', 'scifi']"
+5.7,"['comedy', 'horror']"
+7.4,"['documentation', 'music']"
+6.4,"['drama', 'thriller', 'fantasy', 'horror']"
+8.0,['documentation']
+,"['action', 'scifi']"
+8.2,['documentation']
+6.9,"['action', 'crime', 'thriller', 'european']"
+7.9,"['documentation', 'drama', 'history', 'war', 'action']"
+7.3,"['documentation', 'drama', 'history', 'romance', 'war']"
+5.3,"['horror', 'drama', 'fantasy', 'european']"
+6.8,"['drama', 'european']"
+7.3,"['scifi', 'action', 'drama', 'animation']"
+7.9,"['drama', 'comedy', 'crime', 'romance']"
+6.4,"['drama', 'european']"
+6.4,"['fantasy', 'comedy', 'family', 'scifi', 'animation', 'action']"
+6.8,"['scifi', 'thriller', 'drama']"
+,['reality']
+5.5,"['drama', 'thriller', 'horror']"
+,['drama']
+6.0,"['action', 'crime', 'scifi', 'thriller']"
+7.1,"['crime', 'documentation']"
+7.3,"['comedy', 'drama']"
+8.2,"['action', 'comedy', 'drama', 'fantasy', 'horror', 'romance', 'scifi']"
+7.5,"['romance', 'comedy', 'drama']"
+7.7,"['drama', 'comedy', 'romance']"
+5.2,"['comedy', 'scifi', 'action']"
+6.9,"['drama', 'thriller']"
+6.5,"['animation', 'scifi', 'action', 'comedy', 'drama', 'fantasy', 'thriller']"
+4.4,"['horror', 'thriller']"
+6.6,"['thriller', 'crime', 'drama']"
+5.8,"['fantasy', 'thriller', 'drama']"
+7.3,"['drama', 'history']"
+7.7,"['comedy', 'drama', 'romance']"
+7.5,"['drama', 'crime', 'thriller']"
+6.9,['documentation']
+5.2,"['thriller', 'horror', 'fantasy', 'comedy']"
+6.4,"['comedy', 'family', 'animation']"
+4.4,"['thriller', 'drama']"
+6.1,"['thriller', 'drama', 'horror']"
+7.5,"['drama', 'action', 'comedy']"
+,['music']
+7.0,"['comedy', 'romance', 'scifi']"
+5.1,"['thriller', 'horror', 'drama']"
+5.7,"['thriller', 'action', 'crime', 'drama']"
+7.6,"['comedy', 'drama']"
+6.3,"['crime', 'family', 'documentation']"
+8.2,"['drama', 'romance']"
+5.2,"['drama', 'action', 'crime', 'scifi', 'thriller']"
+7.1,"['drama', 'comedy', 'music']"
+6.6,"['crime', 'documentation']"
+5.3,['reality']
+7.0,"['drama', 'sport']"
+7.4,"['documentation', 'music']"
+8.4,['comedy']
+,['scifi']
+5.8,"['horror', 'comedy']"
+6.0,"['romance', 'comedy', 'drama']"
+7.2,"['comedy', 'drama']"
+6.3,"['drama', 'horror', 'thriller']"
+5.6,"['thriller', 'action']"
+6.3,"['comedy', 'animation', 'drama', 'family', 'fantasy']"
+8.0,"['animation', 'action', 'sport']"
+1.7,"['comedy', 'family', 'european']"
+7.1,"['scifi', 'crime', 'fantasy', 'romance', 'comedy']"
+7.4,"['documentation', 'music']"
+5.2,"['comedy', 'drama', 'family', 'romance']"
+8.1,"['crime', 'documentation']"
+,['drama']
+8.5,"['drama', 'comedy', 'romance']"
+6.2,"['drama', 'sport']"
+6.7,"['crime', 'drama', 'thriller']"
+7.6,"['drama', 'sport']"
+6.8,"['drama', 'music']"
+,['drama']
+7.6,"['drama', 'comedy', 'music']"
+7.6,"['drama', 'history']"
+6.5,"['animation', 'drama', 'scifi', 'thriller', 'action', 'crime']"
+7.4,['comedy']
+6.2,"['romance', 'drama']"
+6.7,['documentation']
+6.2,"['reality', 'documentation', 'romance']"
+7.1,"['documentation', 'history']"
+6.8,"['drama', 'crime', 'comedy']"
+,"['fantasy', 'european']"
+5.9,"['drama', 'thriller', 'crime']"
+,['scifi']
+6.5,"['comedy', 'drama', 'european']"
+8.4,"['scifi', 'music', 'comedy', 'drama', 'family', 'fantasy', 'documentation']"
+5.5,"['horror', 'thriller', 'fantasy', 'war']"
+6.5,"['crime', 'comedy', 'action']"
+6.3,"['crime', 'drama', 'thriller']"
+6.7,"['thriller', 'action', 'crime', 'drama']"
+5.8,"['romance', 'comedy']"
+3.0,['comedy']
+5.8,"['animation', 'action', 'family']"
+8.0,"['drama', 'action', 'fantasy', 'horror']"
+5.4,"['music', 'animation', 'family']"
+,['drama']
+7.6,['documentation']
+7.3,"['drama', 'history']"
+6.1,"['scifi', 'drama', 'horror']"
+,"['comedy', 'romance']"
+7.7,"['drama', 'comedy']"
+4.4,"['comedy', 'drama']"
+6.0,"['comedy', 'drama', 'sport']"
+,['comedy']
+7.3,"['family', 'comedy', 'drama']"
+6.9,['documentation']
+5.9,"['fantasy', 'action', 'family', 'scifi']"
+5.7,"['thriller', 'action', 'drama']"
+6.8,['documentation']
+7.7,['drama']
+6.6,"['drama', 'romance', 'history', 'music']"
+5.9,"['thriller', 'drama']"
+7.3,"['thriller', 'crime', 'drama', 'scifi']"
+8.0,"['comedy', 'drama', 'romance']"
+6.0,"['comedy', 'drama', 'family']"
+7.7,"['animation', 'comedy', 'drama', 'family', 'fantasy', 'scifi']"
+7.8,"['documentation', 'history', 'crime']"
+6.6,['drama']
+3.3,"['drama', 'european']"
+7.2,"['scifi', 'animation', 'action', 'fantasy']"
+7.9,"['action', 'crime', 'animation', 'thriller', 'family']"
+6.3,"['drama', 'thriller', 'crime', 'horror']"
+7.6,"['animation', 'action', 'drama', 'war']"
+7.1,"['crime', 'documentation']"
+7.5,"['documentation', 'comedy']"
+7.3,['comedy']
+5.7,"['animation', 'action', 'fantasy', 'family']"
+6.8,"['scifi', 'romance', 'comedy', 'drama']"
+4.7,"['comedy', 'drama']"
+6.8,['drama']
+7.1,"['drama', 'music', 'thriller']"
+7.4,"['comedy', 'drama', 'romance']"
+8.3,"['drama', 'action', 'romance', 'fantasy', 'history']"
+5.8,"['comedy', 'romance']"
+6.0,"['thriller', 'action']"
+,['drama']
+6.8,"['thriller', 'crime', 'drama']"
+,"['scifi', 'documentation']"
+8.2,['documentation']
+5.8,"['drama', 'fantasy', 'thriller', 'action', 'comedy', 'scifi']"
+6.2,"['drama', 'history', 'sport', 'thriller', 'european']"
+6.8,['comedy']
+6.1,['comedy']
+5.4,"['crime', 'drama', 'comedy']"
+7.8,"['scifi', 'music', 'animation', 'drama']"
+5.6,"['scifi', 'drama', 'fantasy', 'horror']"
+,['crime']
+6.8,['documentation']
+5.3,"['crime', 'drama']"
+7.4,"['drama', 'family', 'horror', 'action', 'fantasy', 'animation', 'comedy', 'scifi', 'thriller']"
+7.2,"['crime', 'thriller', 'drama']"
+,['scifi']
+7.6,"['documentation', 'crime', 'sport']"
+7.6,"['documentation', 'crime']"
+7.3,"['animation', 'comedy', 'family', 'horror', 'scifi']"
+,['comedy']
+6.4,"['action', 'scifi', 'animation', 'drama']"
+5.6,"['comedy', 'drama', 'european']"
+7.4,"['documentation', 'history']"
+7.2,"['comedy', 'drama', 'european']"
+8.7,['documentation']
+7.1,"['documentation', 'crime']"
+6.2,['drama']
+6.1,"['romance', 'drama']"
+5.7,"['thriller', 'horror']"
+7.0,"['documentation', 'crime']"
+7.1,"['documentation', 'history']"
+6.1,"['romance', 'comedy']"
+5.8,['thriller']
+,['fantasy']
+,"['romance', 'horror', 'thriller', 'drama', 'action', 'family']"
+6.9,"['comedy', 'drama']"
+6.4,['documentation']
+,['comedy']
+7.7,"['documentation', 'drama']"
+7.7,"['comedy', 'drama', 'romance']"
+7.2,['comedy']
+8.2,"['drama', 'action', 'thriller', 'romance']"
+,"['drama', 'comedy']"
+7.4,"['comedy', 'family', 'music']"
+5.4,['comedy']
+,"['thriller', 'horror', 'european']"
+6.1,['comedy']
+5.3,"['crime', 'drama', 'horror', 'thriller', 'action', 'european']"
+6.5,"['music', 'family', 'fantasy']"
+,['documentation']
+7.5,"['comedy', 'drama', 'romance']"
+7.4,['reality']
+,"['action', 'scifi']"
+7.7,"['drama', 'romance']"
+8.8,"['comedy', 'drama']"
+,"['documentation', 'reality']"
+6.5,"['drama', 'documentation']"
+5.3,['romance']
+,['drama']
+7.0,"['crime', 'documentation']"
+5.6,"['thriller', 'action', 'crime']"
+5.5,['reality']
+6.8,"['drama', 'history']"
+5.7,"['comedy', 'romance']"
+6.3,"['animation', 'family']"
+6.8,"['scifi', 'fantasy', 'thriller', 'action', 'drama', 'war']"
+5.9,"['scifi', 'animation', 'action', 'comedy', 'fantasy']"
+5.5,"['drama', 'comedy']"
+6.1,"['thriller', 'comedy', 'action', 'crime', 'drama']"
+5.7,"['comedy', 'crime', 'drama', 'family', 'animation', 'action']"
+6.8,['comedy']
+6.4,"['drama', 'history', 'thriller', 'horror', 'action']"
+,['documentation']
+5.6,"['comedy', 'romance']"
+7.6,['comedy']
+,['drama']
+5.3,"['thriller', 'horror', 'drama', 'comedy', 'crime']"
+,['drama']
+7.7,"['documentation', 'thriller']"
+6.3,['drama']
+,['drama']
+7.8,"['documentation', 'drama']"
+5.9,"['romance', 'thriller', 'crime', 'drama']"
+5.6,"['animation', 'action', 'comedy', 'family']"
+7.4,"['documentation', 'sport']"
+4.8,['action']
+4.8,"['crime', 'thriller', 'action', 'drama']"
+7.4,"['comedy', 'family']"
+6.6,['drama']
+,"['documentation', 'reality']"
+7.1,['documentation']
+7.1,['documentation']
+7.5,['drama']
+7.2,['comedy']
+,"['scifi', 'animation']"
+7.3,"['drama', 'romance']"
+6.5,"['documentation', 'animation', 'scifi']"
+7.3,"['music', 'documentation']"
+8.1,"['crime', 'family', 'comedy']"
+,['crime']
+7.4,['reality']
+5.2,"['comedy', 'romance']"
+7.4,"['comedy', 'drama']"
+6.9,['documentation']
+6.7,['documentation']
+6.7,"['comedy', 'drama']"
+,['thriller']
+7.1,['reality']
+5.4,"['thriller', 'fantasy', 'scifi', 'action', 'drama']"
+6.8,"['documentation', 'history']"
+7.2,['comedy']
+6.3,"['scifi', 'thriller', 'drama', 'romance', 'comedy']"
+6.6,['documentation']
+6.8,"['documentation', 'comedy']"
+7.1,['comedy']
+6.6,['comedy']
+5.5,"['drama', 'fantasy', 'romance', 'comedy']"
+7.1,"['romance', 'family', 'history', 'drama']"
+7.8,['documentation']
+6.3,"['drama', 'scifi', 'thriller', 'action', 'crime']"
+,['drama']
+7.8,"['drama', 'european']"
+7.4,"['crime', 'drama', 'documentation', 'thriller']"
+,['animation']
+,['reality']
+7.4,"['music', 'documentation']"
+7.3,['comedy']
+6.1,['comedy']
+7.7,"['drama', 'crime']"
+5.7,"['action', 'scifi', 'sport', 'thriller', 'animation', 'fantasy']"
+6.2,"['drama', 'history', 'romance', 'documentation']"
+,['drama']
+8.3,"['action', 'scifi', 'animation']"
+7.8,"['drama', 'romance']"
+6.7,"['drama', 'european']"
+7.4,"['comedy', 'drama', 'music', 'romance']"
+5.7,"['thriller', 'action', 'drama']"
+7.2,"['documentation', 'music']"
+5.5,"['romance', 'comedy']"
+7.8,['documentation']
+,[]
+,"['thriller', 'european']"
+7.8,"['documentation', 'music']"
+6.6,"['documentation', 'history']"
+7.4,"['drama', 'comedy', 'romance']"
+4.1,"['comedy', 'sport']"
+7.3,['drama']
+6.8,['reality']
+6.9,"['comedy', 'animation', 'fantasy', 'scifi', 'action', 'family']"
+5.8,"['comedy', 'drama']"
+5.9,"['comedy', 'drama']"
+7.8,['documentation']
+5.9,"['animation', 'action', 'comedy', 'family', 'fantasy', 'scifi']"
+6.6,['family']
+6.4,"['drama', 'comedy']"
+8.0,"['action', 'history', 'romance', 'drama']"
+7.1,['comedy']
+3.4,"['action', 'comedy']"
+5.6,"['comedy', 'romance']"
+7.3,['crime']
+3.7,"['comedy', 'animation']"
+5.4,"['romance', 'comedy']"
+5.9,['reality']
+6.8,"['drama', 'history', 'thriller']"
+5.1,"['animation', 'action', 'comedy', 'family', 'fantasy']"
+5.8,"['thriller', 'drama', 'comedy', 'crime']"
+4.5,"['scifi', 'action', 'animation', 'fantasy']"
+6.1,"['romance', 'comedy', 'drama']"
+6.5,"['crime', 'drama', 'thriller']"
+6.6,"['action', 'animation']"
+7.0,['comedy']
+7.4,['comedy']
+7.2,"['documentation', 'history']"
+4.4,['comedy']
+5.0,"['thriller', 'action']"
+5.7,"['thriller', 'drama']"
+8.0,"['scifi', 'comedy', 'fantasy']"
+6.5,['reality']
+7.0,"['drama', 'thriller']"
+7.0,"['crime', 'documentation']"
+5.1,"['animation', 'family']"
+8.6,['documentation']
+7.6,"['thriller', 'documentation', 'crime', 'history']"
+,['documentation']
+6.3,"['crime', 'drama']"
+,['thriller']
+5.9,"['family', 'sport']"
+5.7,"['documentation', 'reality']"
+7.7,"['comedy', 'drama', 'fantasy']"
+8.0,"['scifi', 'comedy', 'drama', 'fantasy']"
+7.5,['drama']
+6.4,"['reality', 'documentation']"
+7.5,"['animation', 'action', 'comedy', 'scifi']"
+8.2,['drama']
+5.8,"['drama', 'sport']"
+7.0,"['comedy', 'drama']"
+5.3,"['comedy', 'animation', 'family']"
+,['documentation']
+8.0,"['documentation', 'crime', 'drama']"
+5.6,"['thriller', 'drama', 'horror']"
+6.5,"['fantasy', 'horror', 'scifi', 'crime', 'drama']"
+3.4,"['thriller', 'action']"
+7.3,['reality']
+7.6,"['documentation', 'sport', 'comedy', 'european']"
+9.3,"['drama', 'comedy']"
+7.5,"['documentation', 'history']"
+6.4,"['scifi', 'comedy', 'drama', 'fantasy']"
+6.1,"['music', 'comedy']"
+6.2,['drama']
+7.4,"['documentation', 'sport']"
+5.5,"['scifi', 'fantasy', 'animation', 'comedy', 'family']"
+7.8,['drama']
+6.8,"['sport', 'drama']"
+4.8,"['drama', 'thriller', 'horror']"
+,['drama']
+6.5,['drama']
+6.4,"['crime', 'documentation']"
+7.1,['documentation']
+6.3,"['drama', 'comedy', 'family']"
+5.7,"['comedy', 'action']"
+6.9,"['music', 'documentation']"
+6.5,['drama']
+5.1,"['action', 'comedy', 'crime']"
+6.9,['animation']
+6.9,"['comedy', 'drama']"
+6.4,"['family', 'comedy']"
+7.3,['comedy']
+7.3,"['drama', 'romance']"
+2.7,"['thriller', 'horror', 'action']"
+,"['drama', 'european']"
+6.2,"['crime', 'thriller', 'european']"
+6.4,"['action', 'crime']"
+6.6,"['crime', 'drama', 'thriller']"
+,['comedy']
+,"['drama', 'documentation']"
+6.6,"['romance', 'drama', 'european']"
+6.9,"['fantasy', 'drama', 'european']"
+7.0,"['drama', 'comedy']"
+7.8,['documentation']
+5.8,"['scifi', 'romance']"
+6.8,"['action', 'thriller', 'drama', 'romance']"
+5.6,"['crime', 'thriller', 'drama', 'action', 'european']"
+6.6,"['animation', 'action', 'comedy', 'family', 'fantasy']"
+6.9,"['drama', 'war', 'animation', 'history', 'european']"
+7.1,"['documentation', 'history']"
+3.5,"['scifi', 'drama', 'fantasy', 'horror', 'thriller']"
+5.3,['comedy']
+,['drama']
+7.5,"['drama', 'sport']"
+5.4,['comedy']
+6.7,"['crime', 'documentation']"
+5.8,"['comedy', 'reality']"
+,['drama']
+6.3,"['scifi', 'drama', 'fantasy']"
+7.6,"['scifi', 'drama', 'romance']"
+7.6,['documentation']
+5.9,['drama']
+6.5,"['scifi', 'drama', 'thriller']"
+7.1,"['drama', 'fantasy', 'animation', 'action', 'crime']"
+5.1,['comedy']
+7.3,"['drama', 'sport', 'thriller', 'crime']"
+6.7,['comedy']
+6.6,"['action', 'reality']"
+7.4,['documentation']
+6.6,"['reality', 'comedy']"
+7.5,"['documentation', 'music']"
+8.4,"['thriller', 'action', 'comedy', 'crime', 'drama']"
+,['documentation']
+6.2,"['drama', 'action']"
+7.5,"['crime', 'history', 'documentation']"
+6.3,['documentation']
+,['scifi']
+5.9,"['drama', 'thriller', 'action', 'crime']"
+4.8,"['comedy', 'romance', 'european']"
+,['drama']
+,['thriller']
+6.0,"['drama', 'fantasy', 'thriller', 'scifi']"
+5.6,"['comedy', 'horror', 'scifi']"
+7.4,"['documentation', 'sport']"
+8.2,"['romance', 'comedy', 'drama', 'history']"
+8.5,"['drama', 'crime']"
+8.5,['documentation']
+6.6,['comedy']
+7.4,['comedy']
+7.6,"['drama', 'comedy']"
+6.2,"['thriller', 'crime', 'horror']"
+7.6,"['documentation', 'music']"
+5.0,"['romance', 'drama']"
+6.5,"['fantasy', 'horror', 'drama']"
+7.4,"['reality', 'drama']"
+5.9,"['drama', 'thriller', 'action', 'crime']"
+2.5,"['documentation', 'reality']"
+7.4,['documentation']
+6.2,"['comedy', 'drama']"
+7.3,"['drama', 'thriller', 'crime']"
+,['drama']
+5.5,['drama']
+,['action']
+6.6,['family']
+8.2,"['action', 'fantasy']"
+7.1,"['crime', 'documentation']"
+7.2,"['comedy', 'documentation']"
+7.9,['documentation']
+5.3,"['drama', 'music', 'romance', 'european']"
+7.0,"['documentation', 'sport']"
+6.7,"['family', 'scifi', 'thriller']"
+5.5,"['thriller', 'action', 'crime', 'drama', 'romance']"
+7.0,"['thriller', 'drama', 'scifi']"
+7.2,"['drama', 'music']"
+7.6,"['animation', 'comedy']"
+6.8,"['action', 'drama']"
+5.4,"['comedy', 'action', 'family']"
+7.0,"['documentation', 'sport']"
+5.3,"['comedy', 'drama', 'european']"
+,"['comedy', 'drama']"
+7.1,['comedy']
+,['comedy']
+6.9,['drama']
+5.8,"['comedy', 'family', 'music', 'animation']"
+4.3,"['horror', 'thriller']"
+5.8,['comedy']
+7.2,"['documentation', 'history']"
+,['documentation']
+,['comedy']
+6.7,"['action', 'thriller', 'drama', 'crime', 'romance']"
+8.1,"['documentation', 'sport']"
+6.9,"['documentation', 'reality']"
+6.3,"['scifi', 'drama', 'animation', 'action', 'horror', 'romance']"
+6.1,"['fantasy', 'animation', 'action', 'family', 'romance']"
+7.3,"['drama', 'crime']"
+7.3,['documentation']
+7.7,"['drama', 'romance']"
+7.1,"['thriller', 'action', 'crime', 'drama']"
+4.8,"['comedy', 'action', 'family', 'fantasy', 'sport']"
+,['scifi']
+7.9,"['comedy', 'drama', 'romance']"
+6.6,['comedy']
+6.5,"['drama', 'romance', 'sport']"
+7.3,"['drama', 'comedy', 'romance']"
+4.7,"['war', 'scifi', 'drama']"
+7.4,"['family', 'animation', 'drama', 'fantasy']"
+5.8,"['romance', 'comedy', 'family']"
+6.4,['comedy']
+5.6,"['drama', 'romance', 'comedy']"
+7.2,"['drama', 'romance']"
+6.5,"['comedy', 'action']"
+5.6,"['family', 'fantasy', 'animation', 'comedy', 'european']"
+6.5,"['fantasy', 'action', 'comedy', 'drama', 'family']"
+5.8,['drama']
+4.6,"['drama', 'thriller']"
+5.4,['comedy']
+6.2,"['reality', 'comedy']"
+6.8,['drama']
+6.7,"['drama', 'thriller', 'crime']"
+,"['romance', 'comedy']"
+6.0,"['romance', 'comedy']"
+7.0,"['scifi', 'thriller', 'drama']"
+6.3,['comedy']
+7.4,"['documentation', 'sport']"
+6.0,"['comedy', 'family', 'fantasy']"
+6.5,['drama']
+5.2,"['crime', 'action', 'drama', 'thriller']"
+7.0,"['crime', 'thriller', 'drama']"
+6.4,"['scifi', 'action', 'drama', 'fantasy']"
+7.1,['documentation']
+,[]
+,['scifi']
+6.7,"['drama', 'comedy', 'romance']"
+7.9,"['drama', 'romance']"
+5.8,"['drama', 'comedy', 'fantasy']"
+7.9,"['crime', 'documentation']"
+8.1,"['war', 'thriller', 'drama']"
+4.5,"['romance', 'music', 'family']"
+6.7,"['scifi', 'action', 'animation', 'fantasy']"
+4.2,['reality']
+6.4,['drama']
+6.4,"['drama', 'crime']"
+,[]
+6.0,['drama']
+3.9,['documentation']
+6.7,"['drama', 'romance']"
+7.3,['documentation']
+5.5,"['thriller', 'crime']"
+8.0,"['comedy', 'drama', 'romance', 'thriller']"
+5.3,"['thriller', 'crime', 'drama']"
+6.8,"['crime', 'horror', 'thriller', 'drama']"
+6.2,"['drama', 'thriller', 'european']"
+5.9,"['action', 'scifi', 'animation']"
+3.7,"['crime', 'thriller', 'action', 'drama', 'scifi']"
+7.6,"['drama', 'sport']"
+6.6,['drama']
+7.4,['drama']
+6.3,"['drama', 'thriller', 'action', 'crime']"
+6.0,"['action', 'fantasy', 'animation']"
+6.2,"['crime', 'drama', 'european']"
+,['comedy']
+6.2,"['comedy', 'romance', 'european']"
+6.0,"['drama', 'history']"
+6.9,"['documentation', 'sport']"
+5.8,"['romance', 'comedy', 'drama']"
+5.8,"['fantasy', 'scifi', 'drama']"
+,['documentation']
+3.9,"['comedy', 'horror', 'european']"
+5.9,"['drama', 'comedy', 'european']"
+7.0,"['reality', 'crime', 'thriller']"
+7.4,"['documentation', 'crime']"
+,['drama']
+,"['comedy', 'drama']"
+7.2,"['drama', 'european']"
+6.7,['reality']
+7.2,"['thriller', 'war', 'action', 'drama', 'history', 'european']"
+7.3,"['drama', 'thriller', 'crime']"
+4.9,"['drama', 'horror', 'thriller']"
+7.1,"['comedy', 'family']"
+8.1,"['comedy', 'family', 'animation']"
+7.8,"['documentation', 'history', 'crime']"
+5.9,['drama']
+6.5,"['drama', 'documentation', 'history']"
+7.4,"['comedy', 'family', 'documentation', 'animation']"
+7.5,"['comedy', 'animation']"
+,['scifi']
+4.5,"['documentation', 'horror', 'european']"
+7.2,"['drama', 'crime', 'action', 'romance']"
+6.6,"['action', 'crime', 'drama', 'thriller']"
+7.0,['drama']
+5.2,"['thriller', 'action']"
+5.4,"['romance', 'family', 'comedy', 'drama']"
+7.6,"['reality', 'music']"
+7.1,"['documentation', 'war']"
+,[]
+,['drama']
+5.6,['war']
+5.6,['comedy']
+4.9,"['drama', 'romance']"
+4.4,['reality']
+,[]
+,"['documentation', 'family']"
+4.9,"['comedy', 'family']"
+5.2,"['fantasy', 'horror', 'scifi', 'thriller', 'crime']"
+7.3,"['documentation', 'sport', 'comedy', 'drama']"
+7.0,"['documentation', 'music']"
+5.1,"['comedy', 'drama']"
+6.1,"['history', 'drama']"
+6.8,"['comedy', 'documentation']"
+6.8,['reality']
+7.3,"['action', 'comedy']"
+7.1,['documentation']
+6.0,"['action', 'scifi', 'animation', 'fantasy']"
+5.3,"['scifi', 'action', 'fantasy', 'animation']"
+5.1,"['comedy', 'drama', 'romance']"
+5.5,"['comedy', 'family', 'fantasy']"
+6.3,['documentation']
+6.3,"['comedy', 'animation', 'family']"
+,['documentation']
+5.2,"['action', 'fantasy', 'thriller', 'drama', 'scifi']"
+,['documentation']
+7.7,"['thriller', 'horror']"
+4.3,"['comedy', 'romance', 'european']"
+5.8,['comedy']
+7.0,['comedy']
+7.1,"['drama', 'comedy', 'romance']"
+,"['romance', 'drama']"
+5.0,"['documentation', 'family', 'drama']"
+6.4,['drama']
+5.4,"['thriller', 'fantasy', 'drama', 'family', 'horror', 'european']"
+7.7,"['scifi', 'drama', 'animation', 'action', 'fantasy']"
+,"['drama', 'comedy']"
+3.8,"['action', 'drama']"
+,['drama']
+,['documentation']
+,['horror']
+6.1,"['romance', 'drama', 'comedy', 'european']"
+7.2,['documentation']
+,['thriller']
+2.6,['documentation']
+7.2,"['crime', 'documentation']"
+7.5,"['drama', 'comedy']"
+5.7,"['drama', 'comedy']"
+6.3,"['drama', 'thriller']"
+6.8,"['thriller', 'crime']"
+7.8,"['thriller', 'crime', 'drama']"
+7.5,"['documentation', 'music']"
+5.6,"['thriller', 'crime', 'drama']"
+5.6,['drama']
+4.9,['reality']
+8.1,"['crime', 'documentation']"
+6.8,['comedy']
+7.0,"['documentation', 'crime']"
+,['drama']
+6.8,"['romance', 'animation', 'comedy', 'drama']"
+3.4,"['action', 'war']"
+6.9,['comedy']
+5.1,"['action', 'comedy', 'european']"
+6.5,['drama']
+7.3,"['romance', 'action', 'drama']"
+6.4,"['romance', 'comedy']"
+5.6,"['crime', 'drama', 'thriller', 'action']"
+,['thriller']
+,"['documentation', 'music']"
+,['drama']
+,"['crime', 'thriller', 'scifi', 'drama', 'action']"
+5.9,['drama']
+7.9,"['crime', 'drama', 'history', 'sport']"
+7.3,"['crime', 'documentation']"
+5.3,"['drama', 'history', 'action']"
+2.8,"['comedy', 'european']"
+,"['thriller', 'european']"
+7.5,"['drama', 'romance', 'family']"
+,[]
+5.9,['comedy']
+6.3,"['romance', 'drama', 'comedy']"
+,['thriller']
+5.9,['drama']
+6.4,['drama']
+5.4,['comedy']
+6.0,"['drama', 'sport']"
+4.6,"['drama', 'european']"
+4.6,"['horror', 'thriller', 'drama', 'crime']"
+,['comedy']
+7.5,"['war', 'crime', 'drama', 'thriller']"
+8.5,"['music', 'documentation']"
+6.3,"['music', 'documentation']"
+7.2,['comedy']
+5.6,['reality']
+5.5,['comedy']
+,['documentation']
+,['documentation']
+5.4,"['action', 'horror', 'thriller']"
+6.1,"['thriller', 'drama']"
+,"['drama', 'comedy']"
+6.7,['documentation']
+6.3,"['reality', 'romance']"
+7.1,"['crime', 'drama']"
+5.4,"['fantasy', 'comedy', 'family']"
+6.8,"['romance', 'drama', 'comedy']"
+7.6,"['drama', 'thriller', 'crime']"
+5.5,"['comedy', 'drama', 'romance']"
+4.9,"['comedy', 'scifi', 'documentation', 'animation', 'family']"
+6.7,['drama']
+8.3,"['comedy', 'drama', 'family', 'animation']"
+6.5,"['action', 'animation', 'family', 'fantasy']"
+6.7,"['animation', 'action', 'comedy', 'family', 'fantasy']"
+7.0,"['documentation', 'music', 'crime']"
+2.4,"['comedy', 'family', 'animation']"
+5.7,"['drama', 'family', 'comedy']"
+,"['crime', 'drama']"
+5.7,"['drama', 'comedy']"
+7.5,['comedy']
+7.5,['comedy']
+,['animation']
+,"['documentation', 'european']"
+,['war']
+6.7,['comedy']
+6.4,['drama']
+7.2,"['documentation', 'history']"
+5.4,"['fantasy', 'family']"
+7.6,"['crime', 'action', 'comedy', 'drama']"
+5.2,"['comedy', 'family']"
+5.1,"['family', 'fantasy', 'animation']"
+2.7,"['comedy', 'scifi']"
+7.2,['comedy']
+,['documentation']
+5.8,"['comedy', 'romance']"
+6.9,['documentation']
+5.2,"['comedy', 'romance', 'sport']"
+7.7,['reality']
+6.7,"['crime', 'drama', 'music']"
+4.5,['comedy']
+7.6,['documentation']
+,"['thriller', 'crime']"
+,['drama']
+5.3,"['drama', 'european']"
+4.9,"['crime', 'thriller']"
+4.6,"['action', 'drama', 'thriller', 'crime', 'european']"
+3.4,['action']
+5.6,"['drama', 'thriller', 'fantasy', 'action']"
+,['documentation']
+8.2,"['drama', 'crime']"
+5.0,"['thriller', 'action', 'crime']"
+,['drama']
+7.6,['documentation']
+8.2,"['thriller', 'crime', 'drama', 'horror']"
+7.3,['animation']
+7.7,['documentation']
+6.5,['comedy']
+7.3,"['drama', 'action']"
+6.8,"['documentation', 'european']"
+5.1,"['drama', 'comedy', 'family']"
+6.3,['comedy']
+,"['thriller', 'european']"
+5.6,"['thriller', 'crime', 'war', 'action', 'drama', 'european']"
+8.4,['documentation']
+,[]
+8.3,"['animation', 'comedy', 'family']"
+7.4,"['comedy', 'drama']"
+3.8,"['comedy', 'drama', 'romance']"
+5.0,"['action', 'crime', 'drama', 'thriller']"
+4.8,"['comedy', 'european']"
+5.8,"['comedy', 'romance']"
+5.9,"['drama', 'comedy', 'music', 'family']"
+6.0,['comedy']
+4.9,['drama']
+6.5,['comedy']
+6.5,['comedy']
+3.9,"['comedy', 'european']"
+6.6,"['history', 'drama']"
+5.8,['drama']
+,['drama']
+5.1,"['family', 'animation', 'comedy']"
+5.8,['reality']
+5.3,"['reality', 'documentation', 'romance']"
+6.5,"['drama', 'comedy']"
+,['romance']
+5.2,"['action', 'comedy', 'family', 'fantasy', 'animation']"
+6.3,"['music', 'documentation']"
+6.6,"['romance', 'drama', 'thriller', 'action', 'crime']"
+4.3,['action']
+4.9,"['comedy', 'drama', 'romance', 'family']"
+7.2,['drama']
+4.8,"['thriller', 'crime', 'comedy']"
+6.3,['documentation']
+5.3,"['comedy', 'european']"
+7.3,['comedy']
+5.1,"['action', 'drama']"
+6.5,"['thriller', 'horror', 'drama']"
+5.1,['reality']
+7.2,"['drama', 'romance']"
+3.3,"['romance', 'drama', 'history']"
+6.6,['drama']
+8.7,['documentation']
+5.9,"['comedy', 'romance']"
+4.5,['thriller']
+6.8,"['documentation', 'music']"
+6.1,"['action', 'fantasy']"
+6.2,"['crime', 'thriller', 'drama']"
+7.3,['drama']
+6.1,"['drama', 'comedy']"
+5.7,"['drama', 'documentation', 'comedy']"
+6.9,"['documentation', 'comedy']"
+,['reality']
+6.5,"['music', 'documentation']"
+3.5,"['thriller', 'horror', 'drama']"
+,['drama']
+6.8,"['comedy', 'drama']"
+5.6,"['drama', 'action', 'war']"
+6.9,"['drama', 'action', 'thriller', 'comedy', 'crime']"
+5.3,"['romance', 'family']"
+,['romance']
+2.5,"['reality', 'comedy']"
+,['documentation']
+,"['animation', 'action', 'family']"
+,"['comedy', 'music']"
+,"['horror', 'thriller']"
+6.1,['comedy']
+5.6,"['drama', 'fantasy', 'scifi']"
+8.2,"['crime', 'drama', 'thriller']"
+5.6,['drama']
+5.0,"['action', 'comedy', 'family']"
+7.4,"['documentation', 'music']"
+5.0,['documentation']
+6.3,"['drama', 'comedy', 'crime', 'romance', 'thriller', 'european']"
+7.8,"['drama', 'comedy', 'crime']"
+3.4,"['comedy', 'drama', 'romance']"
+8.0,['drama']
+7.1,['romance']
+6.8,['drama']
+6.9,['comedy']
+6.6,"['drama', 'romance', 'action']"
+6.0,"['drama', 'romance']"
+5.2,"['documentation', 'european']"
+,"['drama', 'european']"
+5.3,"['drama', 'fantasy']"
+6.6,['reality']
+6.6,"['crime', 'documentation']"
+,['documentation']
+4.6,['family']
+6.8,['reality']
+6.4,['comedy']
+7.9,"['fantasy', 'romance', 'action', 'comedy', 'drama']"
+,['documentation']
+8.2,['reality']
+7.2,['documentation']
+6.8,"['action', 'drama', 'thriller']"
+7.6,"['drama', 'romance']"
+6.7,"['comedy', 'family', 'drama']"
+5.4,"['documentation', 'reality']"
+4.7,"['comedy', 'family', 'action']"
+7.5,"['scifi', 'animation', 'comedy', 'family', 'fantasy', 'action']"
+6.6,"['action', 'comedy']"
+5.2,"['comedy', 'horror', 'reality', 'scifi']"
+7.2,['documentation']
+7.0,"['documentation', 'family']"
+6.6,"['animation', 'comedy', 'family', 'action']"
+5.0,['comedy']
+2.6,"['thriller', 'action', 'scifi']"
+,['comedy']
+6.0,"['comedy', 'documentation']"
+5.1,"['animation', 'family', 'fantasy']"
+6.9,"['animation', 'action', 'scifi']"
+6.4,"['thriller', 'drama']"
+6.4,"['drama', 'thriller']"
+6.5,[]
+7.9,"['animation', 'comedy', 'family']"
+,"['comedy', 'drama']"
+6.2,['reality']
+,['drama']
+7.5,['documentation']
+4.6,"['fantasy', 'romance']"
+6.7,"['animation', 'action', 'fantasy']"
+6.4,"['romance', 'drama', 'horror']"
+4.0,['comedy']
+6.6,['comedy']
+,['drama']
+7.2,"['comedy', 'documentation']"
+3.6,"['romance', 'comedy', 'drama']"
+6.5,"['drama', 'comedy', 'crime']"
+6.9,['documentation']
+7.4,"['romance', 'comedy']"
+7.0,['animation']
+8.0,"['drama', 'romance', 'comedy']"
+7.6,['documentation']
+6.5,"['drama', 'comedy', 'horror', 'thriller']"
+6.2,['documentation']
+5.4,"['comedy', 'family']"
+5.4,"['romance', 'action', 'drama', 'history', 'war']"
+6.2,"['animation', 'comedy', 'family']"
+5.7,['comedy']
+5.6,"['romance', 'comedy', 'drama']"
+5.7,"['drama', 'romance', 'comedy']"
+,['documentation']
+,['comedy']
+,['scifi']
+6.4,['drama']
+6.4,"['comedy', 'action']"
+7.0,"['drama', 'comedy']"
+6.5,['comedy']
+7.2,"['documentation', 'sport']"
+6.6,"['thriller', 'drama', 'action']"
+7.1,"['animation', 'comedy', 'drama', 'family']"
+5.5,"['drama', 'comedy']"
+6.1,"['romance', 'drama', 'comedy']"
+7.3,"['war', 'documentation']"
+6.3,"['comedy', 'drama']"
+5.9,"['action', 'family', 'animation', 'comedy', 'scifi']"
+7.1,"['documentation', 'music']"
+5.1,['drama']
+6.8,"['comedy', 'drama']"
+5.1,['thriller']
+6.7,"['drama', 'comedy']"
+5.5,['comedy']
+6.2,"['drama', 'crime', 'european']"
+4.3,['comedy']
+,['documentation']
+5.9,['comedy']
+6.7,"['action', 'comedy']"
+6.9,"['comedy', 'romance', 'family', 'drama']"
+7.6,['comedy']
+6.9,"['drama', 'crime']"
+4.7,['horror']
+4.6,"['romance', 'comedy']"
+7.0,"['thriller', 'drama']"
+5.2,"['romance', 'drama']"
+3.9,"['action', 'drama', 'crime']"
+6.3,"['crime', 'thriller', 'european']"
+3.8,"['horror', 'fantasy']"
+6.8,['family']
+6.8,"['documentation', 'history', 'war']"
+,"['documentation', 'drama']"
+5.4,"['reality', 'music']"
+7.1,['documentation']
+4.0,['comedy']
+,['comedy']
+6.4,"['reality', 'music']"
+3.0,"['comedy', 'drama']"
+6.7,['documentation']
+3.1,['action']
+7.0,"['drama', 'romance', 'european']"
+3.7,"['thriller', 'crime', 'drama', 'action']"
+,['drama']
+4.7,"['family', 'drama', 'sport']"
+8.1,"['drama', 'family']"
+6.2,"['drama', 'fantasy', 'romance', 'scifi']"
+5.9,"['scifi', 'fantasy', 'romance']"
+,[]
+5.7,"['comedy', 'drama', 'romance']"
+,['comedy']
+4.3,['comedy']
+7.1,"['documentation', 'sport']"
+5.3,"['horror', 'thriller', 'fantasy', 'drama']"
+6.6,['documentation']
+5.6,"['comedy', 'romance']"
+6.2,['reality']
+7.3,"['thriller', 'crime', 'drama']"
+6.0,"['comedy', 'family', 'animation', 'action']"
+6.3,"['reality', 'music']"
+5.8,"['comedy', 'drama', 'crime']"
+6.4,"['comedy', 'family', 'fantasy', 'animation']"
+,['thriller']
+6.1,['drama']
+4.3,"['scifi', 'war', 'action']"
+6.4,['comedy']
+,"['drama', 'crime']"
+7.5,"['animation', 'comedy', 'family']"
+5.8,['drama']
+6.5,"['action', 'comedy']"
+,"['drama', 'comedy']"
+,['drama']
+8.0,"['drama', 'animation']"
+7.0,"['drama', 'thriller', 'action', 'sport']"
+6.4,['comedy']
+4.3,['comedy']
+3.8,['drama']
+4.8,"['comedy', 'drama', 'romance']"
+,['documentation']
+5.5,['comedy']
+6.2,"['comedy', 'drama']"
+7.6,['documentation']
+,['fantasy']
+6.9,"['music', 'documentation']"
+7.2,"['documentation', 'drama']"
+6.5,['comedy']
+,"['drama', 'comedy']"
+5.8,"['comedy', 'romance', 'drama']"
+,"['drama', 'european']"
+6.0,['drama']
+,['romance']
+5.3,"['crime', 'comedy', 'drama']"
+3.5,"['crime', 'action', 'comedy', 'drama']"
+5.5,"['thriller', 'comedy']"
+,[]
+8.0,"['comedy', 'romance', 'drama']"
+5.4,"['comedy', 'romance', 'fantasy', 'action']"
+,['family']
+8.1,['drama']
+7.2,"['drama', 'comedy']"
+,['comedy']
+,['animation']
+6.9,"['drama', 'comedy']"
+8.4,['reality']
+5.7,"['drama', 'thriller']"
+6.5,"['comedy', 'reality']"
+6.9,['comedy']
+7.2,"['drama', 'thriller']"
+5.9,['reality']
+6.5,"['documentation', 'sport']"
+6.2,"['romance', 'comedy', 'drama']"
+6.3,"['family', 'animation', 'horror']"
+5.0,"['music', 'family']"
+,['comedy']
+6.4,['comedy']
+8.8,"['documentation', 'music']"
+6.2,['comedy']
+,['documentation']
+6.0,"['music', 'reality']"
+,"['comedy', 'drama']"
+8.0,"['drama', 'romance']"
+,['comedy']
+5.8,"['action', 'drama']"
+6.5,['reality']
+7.5,"['comedy', 'romance']"
+5.9,['comedy']
+6.3,['comedy']
+4.8,"['drama', 'thriller', 'action']"
+4.7,['comedy']
+6.0,['comedy']
+7.2,"['comedy', 'romance']"
+6.7,"['music', 'documentation']"
+6.0,"['action', 'drama', 'thriller']"
+5.1,"['comedy', 'drama', 'family', 'sport']"
+,['comedy']
+6.1,"['thriller', 'drama']"
+6.8,"['music', 'reality']"
+,"['romance', 'drama']"
+7.3,"['documentation', 'comedy']"
+7.0,['comedy']
+5.7,['reality']
+,[]
+6.2,"['music', 'comedy', 'drama']"
+6.4,"['documentation', 'sport']"
+5.7,['comedy']
+5.6,['comedy']
+,['thriller']
+5.5,"['drama', 'crime']"
+7.2,['documentation']
+6.0,"['crime', 'comedy']"
+5.5,['comedy']
+4.4,"['comedy', 'romance']"
+4.4,"['romance', 'comedy']"
+7.6,"['action', 'animation']"
+3.4,['animation']
+5.9,['animation']
+6.2,['comedy']
+5.2,"['comedy', 'music']"
+3.2,"['crime', 'thriller', 'action']"
+5.7,"['drama', 'comedy']"
+7.8,['documentation']
+7.2,"['comedy', 'drama']"
+6.3,['comedy']
+7.1,"['horror', 'drama']"
+7.0,"['animation', 'family']"
+7.4,"['scifi', 'drama', 'fantasy']"
+5.8,"['comedy', 'family']"
+,[]
+,['drama']
+6.7,"['documentation', 'music']"
+6.8,['thriller']
+3.8,"['comedy', 'romance']"
+7.3,['comedy']
+7.3,['drama']
+6.7,"['romance', 'drama']"
+5.3,['drama']
+6.6,"['animation', 'comedy', 'family', 'fantasy', 'scifi']"
+6.5,['documentation']
+5.0,['family']
+5.2,['comedy']
+8.3,"['documentation', 'music']"
+,['documentation']
+5.7,['comedy']
+5.2,"['animation', 'action', 'comedy', 'drama', 'family']"
+5.8,"['comedy', 'drama', 'romance']"
+,['comedy']
+,['drama']
+5.8,"['crime', 'action', 'drama', 'thriller']"
+,['animation']
+4.0,"['thriller', 'action', 'horror']"
+7.7,['comedy']
+4.7,['comedy']
+5.3,"['romance', 'horror']"
+7.8,['documentation']
+6.8,['documentation']
+6.1,"['family', 'fantasy', 'animation', 'action']"
+,['animation']
+6.8,['documentation']
+,['action']
+,['animation']
+4.0,"['thriller', 'drama']"
+7.0,"['drama', 'comedy']"
+5.8,"['drama', 'romance']"
+,['animation']
+5.0,"['comedy', 'romance']"
+7.5,['drama']
+5.7,"['fantasy', 'animation']"
+6.2,['animation']
+,['romance']
+,['drama']
+6.8,['drama']
+7.7,"['documentation', 'music']"
+6.8,"['animation', 'family']"
+4.5,['documentation']
+,['animation']
+,['drama']
+6.2,"['romance', 'animation', 'drama']"
+6.9,['drama']
+3.0,"['comedy', 'family']"
+6.5,"['documentation', 'european']"
+5.9,"['animation', 'action', 'drama', 'family', 'western', 'comedy']"
+,['comedy']
+,['documentation']
+6.7,['drama']
+6.2,"['horror', 'thriller']"
+5.5,"['animation', 'comedy', 'family']"
+4.7,['comedy']
+7.2,"['animation', 'comedy']"
+7.2,['comedy']
+4.2,"['romance', 'sport', 'comedy', 'drama']"
+6.8,['drama']
+6.1,['comedy']
+8.0,['drama']
+4.6,['drama']
+7.5,['documentation']
+7.3,['documentation']
+6.6,"['documentation', 'drama']"
+5.3,"['drama', 'music', 'documentation']"
+7.2,"['comedy', 'drama', 'action']"
+2.7,"['scifi', 'thriller', 'drama']"
+7.0,['comedy']
+6.1,"['drama', 'comedy', 'european']"
+6.7,"['thriller', 'crime']"
+3.2,"['comedy', 'drama']"
+5.6,"['comedy', 'romance']"
+4.9,"['drama', 'romance', 'fantasy']"
+4.5,"['crime', 'drama', 'comedy']"
+7.4,"['drama', 'romance']"
+6.4,"['drama', 'comedy']"
+7.0,"['drama', 'romance']"
+6.4,['comedy']
+7.0,"['documentation', 'music']"
+6.9,['animation']
+5.7,['reality']
+7.6,"['drama', 'music']"
+5.5,['comedy']
+5.9,['comedy']
+4.3,['family']
+4.3,"['drama', 'comedy', 'history', 'scifi']"
+7.9,"['comedy', 'romance', 'drama']"
+6.4,"['action', 'crime', 'drama']"
+6.7,"['romance', 'drama']"
+,['music']
+8.5,['drama']
+,['documentation']
+4.6,['documentation']
+,['drama']
+6.5,['comedy']
+2.9,['drama']
+4.9,['drama']
+,['animation']
+,[]
+7.6,['comedy']
+6.5,['music']
+6.3,"['comedy', 'fantasy', 'sport']"
+7.7,"['comedy', 'drama', 'romance', 'thriller']"
+,['documentation']
+8.1,"['drama', 'romance']"
+6.4,['reality']
+6.8,"['music', 'documentation']"
+6.8,"['comedy', 'drama']"
+3.7,['comedy']
+6.7,"['documentation', 'music']"
+8.1,['drama']
+5.8,"['comedy', 'family', 'animation']"
+8.4,"['drama', 'thriller']"
+,"['documentation', 'music']"
+7.8,"['family', 'comedy', 'romance']"
+8.3,['drama']
+6.9,['comedy']
+5.8,"['romance', 'comedy', 'drama']"
+5.5,['comedy']
+7.4,['drama']
+5.9,['comedy']
+5.3,"['drama', 'romance']"
+,[]
+3.3,['thriller']
+5.5,"['comedy', 'thriller', 'drama']"
+7.4,"['drama', 'family', 'music', 'documentation']"
+7.5,"['action', 'comedy', 'fantasy', 'romance', 'drama']"
+6.2,"['comedy', 'romance']"
+,['romance']
+5.7,"['animation', 'family']"
+8.1,['documentation']
+,['comedy']
+7.3,"['drama', 'romance']"
+7.8,"['animation', 'family', 'comedy']"
+,"['fantasy', 'action', 'animation', 'comedy', 'thriller']"
+,['drama']
+6.8,"['documentation', 'music']"
+,['animation']
+7.3,['drama']
+,"['comedy', 'drama']"
+4.2,"['comedy', 'action', 'romance']"
+7.1,"['thriller', 'action']"
+,"['crime', 'action']"
+7.0,"['comedy', 'drama']"
+,[]
+5.5,['drama']
+4.7,"['drama', 'comedy', 'romance']"
+6.4,"['thriller', 'scifi']"
+5.2,['comedy']
+6.4,['drama']
+,['animation']
+,['documentation']
+6.2,"['thriller', 'drama']"
+6.5,['documentation']
+6.2,"['comedy', 'drama']"
+7.0,"['drama', 'european']"
+6.6,['romance']
+,['documentation']
+5.7,"['comedy', 'family']"
+4.9,['reality']
+6.1,"['animation', 'comedy', 'action']"
+,['romance']
+5.9,"['comedy', 'family', 'fantasy', 'history', 'animation']"
+,['documentation']
+5.3,"['sport', 'drama']"
+,['documentation']
+5.6,"['fantasy', 'thriller', 'action', 'crime', 'drama']"
+5.9,"['romance', 'action', 'drama']"
+,"['animation', 'family']"
+7.2,['drama']
+6.4,"['documentation', 'music']"
+4.8,"['animation', 'fantasy', 'family']"
+4.7,"['comedy', 'drama']"
+,['comedy']
+,['thriller']
+7.7,[]
+6.9,['drama']
+,[]
+,['documentation']
+6.6,"['romance', 'comedy']"
+6.6,"['thriller', 'crime', 'drama']"
+,['comedy']
+,"['documentation', 'music']"
+6.4,"['drama', 'thriller']"
+5.5,['drama']
+6.9,"['drama', 'history']"
+5.2,['comedy']
+,[]
+7.1,"['comedy', 'drama']"
+5.9,"['comedy', 'drama', 'animation']"
+7.2,"['family', 'drama']"
+,['animation']
+3.7,"['drama', 'comedy']"
+5.0,"['romance', 'drama']"
+,['action']
+,['drama']
+,"['animation', 'family']"
+5.9,"['comedy', 'drama', 'romance']"
+,"['drama', 'romance', 'comedy']"
+,['comedy']
+5.5,"['drama', 'thriller']"
+7.0,"['romance', 'drama']"
+5.9,"['family', 'animation']"
+5.0,"['comedy', 'horror']"
+6.3,"['drama', 'sport', 'thriller', 'action']"
+,['comedy']
+7.2,"['drama', 'comedy']"
+6.5,['comedy']
+6.2,['comedy']
+5.1,['action']
+,"['documentation', 'sport']"
+7.0,['comedy']
+,['documentation']
+6.3,"['animation', 'family']"
+6.6,['comedy']
+6.9,"['comedy', 'drama']"
+6.6,['documentation']
+6.1,"['comedy', 'romance', 'drama']"
+,"['documentation', 'music']"
+5.2,"['comedy', 'drama', 'romance']"
+4.5,"['animation', 'family']"
+,['animation']
+5.8,"['romance', 'comedy', 'drama', 'family']"
+5.9,['drama']
+5.0,"['thriller', 'fantasy']"
+,['comedy']
+5.6,"['comedy', 'romance']"
+,"['drama', 'fantasy']"
+2.5,"['comedy', 'family']"
+,[]
+,"['documentation', 'music']"
+,['comedy']
+5.8,['reality']
+,"['drama', 'comedy']"
+,['music']
+,['reality']
+,['drama']
+,['music']
+7.1,"['fantasy', 'animation', 'comedy', 'family']"
+8.4,['documentation']
+5.1,['comedy']
+4.3,"['reality', 'comedy']"
+5.6,"['crime', 'thriller']"
+7.0,"['romance', 'drama', 'comedy']"
+6.6,"['comedy', 'drama']"
+,['reality']
+7.7,"['drama', 'romance', 'comedy']"
+5.6,"['comedy', 'romance']"
+6.4,['drama']
+,['thriller']
+6.2,"['crime', 'drama']"
+6.3,"['drama', 'comedy']"
+5.6,['reality']
+6.2,['comedy']
+7.5,['documentation']
+8.0,['family']
+,['documentation']
+5.4,"['thriller', 'drama']"
+4.9,['horror']
+7.7,['drama']
+,[]
+7.8,"['action', 'drama']"
+3.6,"['animation', 'family']"
+5.9,"['comedy', 'drama']"
+7.8,"['drama', 'family']"
+,['comedy']
+,['drama']
+,"['romance', 'comedy']"
+7.4,['comedy']
+,['drama']
+6.8,"['drama', 'romance']"
+,[]
+6.2,"['drama', 'romance']"
+7.4,"['drama', 'comedy', 'sport']"
+6.7,"['drama', 'romance']"
+6.3,['drama']
+7.4,"['drama', 'crime']"
+6.1,"['drama', 'comedy']"
+7.1,"['romance', 'drama']"
+6.8,"['drama', 'romance']"
+5.8,['drama']
+7.8,"['comedy', 'drama']"
+4.7,"['animation', 'fantasy']"
+6.8,['drama']
+,[]
+5.9,"['documentation', 'music']"
+,['animation']
+6.9,"['drama', 'comedy', 'romance']"
+2.8,['comedy']
+5.7,['drama']
+2.6,"['thriller', 'drama']"
+7.1,"['comedy', 'romance']"
+6.4,"['drama', 'romance']"
+7.7,"['comedy', 'animation']"
+,"['thriller', 'crime']"
+5.5,['comedy']
+6.4,"['romance', 'drama']"
+4.4,['comedy']
+,['reality']
+5.0,"['drama', 'romance']"
+7.0,"['drama', 'thriller']"
+8.9,"['drama', 'romance']"
+6.1,['comedy']
+,['documentation']
+6.8,['drama']
+6.7,"['drama', 'action', 'comedy', 'scifi']"
+6.9,"['drama', 'war']"
+6.9,"['drama', 'romance', 'western']"
+6.4,"['crime', 'drama', 'thriller']"
+4.7,"['thriller', 'drama', 'horror']"
+6.7,"['drama', 'comedy', 'music']"
+7.2,"['crime', 'documentation']"
+4.7,['comedy']
+5.6,['documentation']
+7.0,"['animation', 'action', 'scifi']"
+7.1,"['war', 'action', 'drama', 'history', 'romance']"
+9.1,"['action', 'scifi', 'drama', 'fantasy', 'animation']"
+5.7,"['thriller', 'crime', 'drama']"
+7.5,['drama']
+6.1,"['crime', 'drama', 'thriller']"
+5.8,"['crime', 'documentation']"
+7.7,"['action', 'drama', 'fantasy', 'horror', 'scifi']"
+7.2,"['scifi', 'drama', 'comedy']"
+6.9,"['crime', 'comedy']"
+7.5,"['comedy', 'crime', 'drama', 'thriller', 'action']"
+5.4,['reality']
+7.3,"['comedy', 'action', 'animation', 'romance', 'family', 'horror', 'drama', 'scifi']"
+6.1,"['comedy', 'documentation', 'sport']"
+6.3,"['crime', 'comedy', 'drama', 'thriller']"
+7.3,"['scifi', 'drama', 'horror', 'thriller']"
+6.2,"['fantasy', 'family', 'comedy', 'action', 'animation', 'crime', 'drama']"
+6.7,"['crime', 'documentation']"
+8.0,"['action', 'drama', 'thriller']"
+6.2,['documentation']
+5.6,"['war', 'action', 'drama', 'scifi', 'thriller']"
+6.1,"['scifi', 'action', 'drama', 'thriller']"
+6.5,"['scifi', 'thriller', 'animation', 'action', 'drama', 'fantasy', 'romance', 'sport']"
+6.7,['drama']
+2.5,"['romance', 'drama']"
+4.9,"['drama', 'action', 'thriller']"
+7.6,"['animation', 'comedy', 'family', 'scifi']"
+6.3,"['comedy', 'crime', 'thriller', 'action']"
+6.9,"['crime', 'drama', 'thriller']"
+8.4,"['drama', 'comedy']"
+6.3,"['thriller', 'drama']"
+7.0,"['documentation', 'history']"
+7.6,"['scifi', 'drama', 'fantasy', 'action']"
+7.5,"['crime', 'drama', 'comedy', 'action']"
+8.0,['documentation']
+,['scifi']
+6.5,"['action', 'drama', 'western']"
+,['crime']
+6.5,"['drama', 'history']"
+7.1,"['thriller', 'drama', 'horror', 'scifi']"
+,['comedy']
+7.2,"['comedy', 'romance', 'animation']"
+7.5,"['action', 'scifi', 'thriller', 'drama', 'fantasy', 'horror']"
+7.0,"['comedy', 'scifi', 'drama', 'history']"
+6.8,"['animation', 'drama', 'comedy', 'thriller']"
+7.3,['documentation']
+5.6,"['thriller', 'crime', 'drama']"
+7.2,"['drama', 'thriller']"
+7.0,"['drama', 'crime']"
+5.7,['reality']
+6.0,"['romance', 'drama']"
+7.7,['documentation']
+5.4,"['scifi', 'thriller', 'action']"
+7.1,"['drama', 'family']"
+7.5,"['family', 'fantasy', 'animation', 'action', 'comedy']"
+5.7,"['crime', 'drama', 'action', 'comedy']"
+4.3,['drama']
+6.6,"['scifi', 'comedy', 'crime', 'drama', 'fantasy', 'action']"
+7.4,['drama']
+7.5,"['drama', 'thriller', 'crime', 'fantasy']"
+7.1,"['drama', 'crime']"
+6.3,"['drama', 'thriller', 'action', 'crime']"
+5.7,"['horror', 'thriller']"
+7.2,"['crime', 'documentation']"
+6.9,"['horror', 'drama', 'scifi', 'thriller']"
+7.8,"['scifi', 'drama', 'fantasy', 'action']"
+5.8,"['horror', 'thriller']"
+7.2,"['thriller', 'crime', 'drama']"
+8.1,"['crime', 'documentation', 'drama', 'thriller']"
+6.6,"['scifi', 'horror', 'thriller', 'crime', 'drama', 'fantasy']"
+6.2,"['drama', 'scifi', 'thriller', 'action', 'crime']"
+6.1,"['drama', 'action', 'crime', 'thriller']"
+7.8,"['drama', 'comedy', 'animation', 'romance']"
+7.7,"['drama', 'action', 'comedy', 'fantasy']"
+,['reality']
+6.8,"['drama', 'history', 'thriller']"
+7.4,"['drama', 'comedy']"
+4.8,"['thriller', 'crime', 'horror']"
+6.7,"['drama', 'thriller']"
+7.4,['documentation']
+7.6,"['comedy', 'fantasy', 'scifi', 'animation']"
+7.3,"['drama', 'history']"
+5.6,"['family', 'fantasy', 'animation']"
+6.4,"['comedy', 'horror', 'action', 'crime', 'thriller', 'romance', 'scifi']"
+6.0,"['action', 'crime', 'thriller']"
+5.5,"['scifi', 'family']"
+7.8,"['documentation', 'music', 'comedy', 'history']"
+7.2,"['drama', 'comedy']"
+6.9,"['comedy', 'thriller', 'horror', 'action']"
+5.4,"['drama', 'romance', 'comedy']"
+7.7,"['crime', 'drama', 'thriller']"
+6.9,"['crime', 'thriller', 'action']"
+5.7,"['horror', 'thriller', 'crime', 'scifi', 'action']"
+8.4,"['drama', 'romance']"
+8.1,"['documentation', 'music']"
+7.5,"['drama', 'thriller', 'comedy', 'crime']"
+7.8,"['documentation', 'sport']"
+7.5,['drama']
+6.8,"['crime', 'drama', 'comedy']"
+8.7,"['comedy', 'drama', 'music', 'reality']"
+8.3,"['drama', 'romance']"
+,['documentation']
+6.5,"['horror', 'scifi', 'thriller', 'fantasy', 'drama']"
+7.3,"['drama', 'history', 'war']"
+5.8,"['action', 'scifi', 'horror', 'animation']"
+7.7,['drama']
+7.6,"['drama', 'thriller', 'crime']"
+7.9,['documentation']
+7.1,"['action', 'drama', 'thriller', 'crime']"
+,"['crime', 'drama', 'thriller']"
+,['documentation']
+5.4,"['scifi', 'comedy', 'fantasy']"
+6.3,"['crime', 'documentation']"
+7.0,"['crime', 'history', 'documentation']"
+6.2,"['action', 'crime', 'drama', 'thriller']"
+6.8,"['history', 'drama']"
+7.0,"['scifi', 'thriller', 'drama']"
+5.0,"['scifi', 'comedy', 'drama', 'family', 'fantasy']"
+5.5,"['scifi', 'drama', 'fantasy', 'horror', 'thriller']"
+7.0,"['crime', 'documentation']"
+8.7,"['drama', 'romance']"
+6.2,"['drama', 'comedy']"
+5.7,"['fantasy', 'horror', 'family']"
+7.4,"['drama', 'romance']"
+6.2,"['action', 'crime', 'drama']"
+8.0,"['drama', 'thriller', 'crime']"
+5.0,"['thriller', 'scifi', 'action']"
+5.3,"['drama', 'comedy']"
+5.3,"['thriller', 'horror', 'drama']"
+5.7,"['thriller', 'crime', 'drama']"
+6.9,"['romance', 'drama']"
+4.7,['documentation']
+5.8,['comedy']
+8.2,['documentation']
+6.0,"['comedy', 'sport']"
+7.0,"['drama', 'crime']"
+7.0,['reality']
+,['comedy']
+5.9,"['crime', 'drama', 'fantasy', 'scifi']"
+4.6,"['drama', 'romance']"
+7.8,"['thriller', 'action', 'crime', 'drama']"
+5.3,"['horror', 'drama', 'thriller']"
+8.0,"['war', 'history', 'documentation']"
+6.2,"['action', 'thriller', 'crime']"
+6.4,"['action', 'thriller', 'crime', 'fantasy']"
+7.4,"['war', 'history', 'documentation']"
+,['documentation']
+4.6,"['romance', 'comedy']"
+6.4,"['drama', 'crime', 'thriller']"
+7.8,"['crime', 'drama', 'thriller']"
+5.2,"['scifi', 'animation', 'action', 'drama', 'family', 'fantasy', 'comedy']"
+7.1,"['drama', 'history']"
+8.1,"['comedy', 'drama', 'family', 'fantasy', 'animation', 'action']"
+5.3,"['horror', 'thriller', 'drama']"
+7.5,"['crime', 'documentation']"
+6.3,"['drama', 'thriller']"
+6.6,"['action', 'fantasy', 'scifi', 'animation', 'comedy', 'family']"
+7.3,"['comedy', 'documentation']"
+7.2,"['fantasy', 'scifi', 'animation', 'action', 'drama']"
+7.3,['drama']
+4.8,"['thriller', 'horror']"
+4.9,"['thriller', 'scifi']"
+8.4,"['action', 'comedy', 'crime', 'drama', 'romance']"
+6.6,"['crime', 'drama', 'scifi', 'thriller', 'action']"
+6.1,"['fantasy', 'horror', 'thriller', 'action']"
+6.8,"['comedy', 'action', 'thriller']"
+6.3,"['comedy', 'drama', 'fantasy']"
+5.7,"['scifi', 'crime', 'drama', 'fantasy', 'horror', 'thriller']"
+5.3,"['drama', 'thriller']"
+6.8,"['fantasy', 'scifi', 'drama', 'comedy', 'family', 'animation', 'action']"
+2.5,"['scifi', 'action']"
+7.1,"['crime', 'drama', 'history']"
+6.8,['documentation']
+6.8,"['thriller', 'comedy', 'crime', 'action']"
+7.2,"['action', 'drama', 'fantasy', 'horror', 'thriller']"
+6.7,"['scifi', 'action', 'drama', 'fantasy']"
+7.5,"['animation', 'thriller', 'history', 'drama', 'sport']"
+6.7,"['comedy', 'animation', 'drama', 'family']"
+5.6,"['thriller', 'drama', 'action']"
+7.2,"['animation', 'comedy', 'family']"
+,['comedy']
+6.2,"['horror', 'drama']"
+4.0,"['thriller', 'crime', 'drama', 'romance']"
+,['comedy']
+8.1,"['comedy', 'documentation']"
+5.4,"['romance', 'comedy', 'drama']"
+5.9,"['documentation', 'crime', 'thriller']"
+6.5,"['fantasy', 'comedy', 'romance']"
+7.1,"['scifi', 'drama', 'animation', 'action', 'crime', 'fantasy']"
+5.5,['reality']
+5.6,"['comedy', 'action', 'crime', 'drama', 'fantasy', 'horror', 'thriller']"
+,[]
+7.0,"['drama', 'action', 'crime', 'thriller', 'documentation']"
+3.0,"['comedy', 'animation']"
+7.1,"['documentation', 'crime']"
+6.3,"['comedy', 'romance']"
+7.9,['documentation']
+8.5,"['comedy', 'romance', 'drama']"
+5.6,"['thriller', 'scifi', 'drama']"
+,"['crime', 'drama']"
+5.3,"['horror', 'thriller', 'drama']"
+4.5,"['fantasy', 'action', 'crime', 'drama']"
+7.2,['documentation']
+7.1,['drama']
+6.1,"['drama', 'sport', 'thriller']"
+6.5,"['scifi', 'fantasy', 'action', 'drama']"
+6.6,"['romance', 'drama']"
+6.0,"['action', 'comedy']"
+4.3,"['scifi', 'thriller', 'drama']"
+8.0,['comedy']
+7.1,"['comedy', 'romance']"
+6.8,"['crime', 'documentation', 'history']"
+5.7,"['comedy', 'family']"
+6.2,"['comedy', 'drama']"
+9.2,"['drama', 'fantasy', 'romance']"
+6.2,"['crime', 'documentation']"
+7.9,['documentation']
+8.0,"['drama', 'history', 'thriller']"
+6.5,"['crime', 'history', 'documentation']"
+6.9,['documentation']
+6.8,['comedy']
+4.6,"['thriller', 'drama', 'horror']"
+6.7,"['drama', 'horror']"
+6.0,"['action', 'romance', 'comedy', 'crime', 'thriller']"
+7.1,['documentation']
+6.8,"['crime', 'documentation']"
+6.4,"['comedy', 'documentation']"
+7.0,"['crime', 'action', 'fantasy', 'horror', 'thriller', 'animation', 'scifi']"
+8.0,"['drama', 'fantasy', 'music']"
+4.8,"['scifi', 'thriller', 'action', 'drama']"
+,['documentation']
+5.8,"['drama', 'thriller']"
+6.6,"['drama', 'romance']"
+7.1,"['drama', 'crime']"
+8.1,['documentation']
+1.6,"['drama', 'comedy', 'romance']"
+6.6,"['drama', 'comedy']"
+5.8,"['scifi', 'action', 'fantasy', 'animation', 'comedy', 'drama', 'family']"
+6.7,"['comedy', 'drama', 'music']"
+7.4,"['drama', 'action']"
+6.4,"['documentation', 'music']"
+6.5,['comedy']
+5.4,"['drama', 'sport']"
+7.0,"['documentation', 'crime', 'history']"
+6.5,"['family', 'animation', 'comedy']"
+6.5,"['crime', 'documentation', 'history']"
+7.3,"['comedy', 'drama', 'crime']"
+5.6,"['comedy', 'drama', 'romance']"
+6.3,"['drama', 'crime', 'thriller']"
+,['horror']
+6.6,"['action', 'horror', 'scifi', 'thriller', 'animation']"
+,['comedy']
+6.2,"['scifi', 'drama', 'fantasy', 'thriller', 'animation', 'action']"
+5.5,"['drama', 'thriller']"
+5.6,"['comedy', 'drama']"
+5.6,"['thriller', 'action', 'crime', 'drama']"
+7.1,"['drama', 'crime']"
+6.9,['documentation']
+,['thriller']
+,"['animation', 'action', 'scifi']"
+7.4,"['drama', 'history', 'sport']"
+7.3,"['animation', 'action', 'comedy', 'crime', 'drama', 'romance']"
+6.8,"['scifi', 'drama', 'fantasy', 'action']"
+7.0,"['comedy', 'fantasy', 'animation', 'action', 'scifi']"
+5.2,"['action', 'thriller']"
+5.7,"['war', 'action', 'drama', 'history']"
+8.0,"['drama', 'comedy']"
+6.2,"['scifi', 'action', 'drama', 'fantasy', 'thriller', 'animation']"
+7.6,"['animation', 'comedy']"
+,"['thriller', 'western', 'action', 'drama', 'crime']"
+5.4,"['drama', 'horror', 'thriller']"
+5.6,"['action', 'animation', 'comedy', 'fantasy', 'history', 'scifi', 'war']"
+6.2,['comedy']
+5.3,['documentation']
+6.3,"['romance', 'comedy']"
+6.8,"['documentation', 'music']"
+6.2,['drama']
+7.1,"['thriller', 'comedy', 'drama']"
+7.4,['drama']
+7.9,"['drama', 'romance']"
+5.3,"['horror', 'scifi', 'thriller']"
+,['animation']
+7.4,"['scifi', 'thriller', 'drama', 'fantasy']"
+5.7,"['comedy', 'drama', 'romance']"
+7.7,['documentation']
+,['reality']
+5.5,['reality']
+6.5,"['comedy', 'drama']"
+5.5,"['drama', 'thriller', 'action']"
+5.8,"['thriller', 'action', 'crime']"
+7.2,"['drama', 'action']"
+,['horror']
+6.4,"['drama', 'romance']"
+6.7,"['thriller', 'action', 'comedy', 'drama']"
+6.6,"['thriller', 'animation', 'action', 'drama', 'sport']"
+,['drama']
+5.5,"['fantasy', 'comedy', 'animation']"
+8.0,"['drama', 'crime']"
+6.1,['drama']
+7.8,"['scifi', 'action', 'thriller', 'animation', 'fantasy']"
+7.7,"['animation', 'drama']"
+7.9,"['drama', 'comedy']"
+6.4,"['documentation', 'crime', 'history']"
+7.6,['reality']
+5.7,"['romance', 'comedy']"
+7.4,"['sport', 'documentation']"
+7.2,"['fantasy', 'comedy', 'family', 'romance', 'animation']"
+8.4,"['drama', 'comedy', 'romance']"
+6.8,"['fantasy', 'animation', 'action']"
+6.6,"['drama', 'family']"
+6.5,"['scifi', 'animation', 'action', 'thriller']"
+7.6,"['drama', 'thriller', 'action', 'crime']"
+7.1,['comedy']
+,['thriller']
+7.1,"['documentation', 'crime', 'history']"
+7.2,"['drama', 'comedy']"
+5.6,"['romance', 'comedy']"
+,"['action', 'scifi']"
+5.2,"['romance', 'comedy', 'family']"
+3.9,"['horror', 'thriller', 'comedy']"
+,['action']
+6.8,['comedy']
+3.6,"['drama', 'horror', 'thriller']"
+7.0,['comedy']
+6.6,"['drama', 'romance']"
+6.9,"['drama', 'documentation', 'crime']"
+7.1,"['drama', 'comedy', 'romance', 'action']"
+6.6,"['documentation', 'sport']"
+7.2,"['drama', 'romance']"
+6.1,"['comedy', 'drama', 'romance']"
+7.3,['comedy']
+6.6,"['scifi', 'fantasy', 'animation', 'action', 'drama', 'family']"
+8.1,"['action', 'comedy', 'drama', 'fantasy', 'scifi']"
+6.7,"['scifi', 'fantasy', 'action', 'drama']"
+6.1,"['comedy', 'family', 'action']"
+6.4,"['scifi', 'animation', 'action', 'comedy', 'crime', 'fantasy']"
+6.3,"['romance', 'comedy', 'drama']"
+7.3,"['crime', 'sport', 'documentation']"
+7.4,"['drama', 'history', 'war', 'documentation', 'action']"
+4.3,"['comedy', 'romance']"
+5.8,['reality']
+6.7,"['documentation', 'drama']"
+6.1,"['documentation', 'reality']"
+3.9,"['drama', 'sport', 'action', 'crime']"
+7.3,"['crime', 'documentation']"
+7.0,"['drama', 'thriller']"
+6.6,"['comedy', 'drama', 'family', 'romance']"
+7.5,"['crime', 'documentation', 'sport']"
+7.0,['reality']
+6.3,['comedy']
+8.1,"['crime', 'thriller', 'drama']"
+6.1,"['comedy', 'documentation']"
+7.7,"['fantasy', 'animation', 'comedy', 'drama', 'family']"
+,"['thriller', 'horror']"
+4.2,['comedy']
+4.6,"['scifi', 'thriller', 'drama', 'horror']"
+6.9,"['documentation', 'action']"
+6.4,['drama']
+5.4,"['comedy', 'family', 'animation']"
+4.3,"['drama', 'thriller']"
+7.6,"['scifi', 'action', 'family', 'fantasy', 'animation', 'comedy']"
+6.9,['documentation']
+7.3,"['crime', 'documentation']"
+7.0,"['comedy', 'drama', 'fantasy', 'scifi', 'thriller', 'action']"
+,"['drama', 'comedy']"
+7.4,"['documentation', 'crime', 'history']"
+6.8,"['drama', 'thriller', 'crime']"
+6.5,"['scifi', 'drama', 'thriller']"
+,['drama']
+6.2,"['crime', 'documentation']"
+8.7,"['drama', 'comedy', 'animation']"
+6.5,['documentation']
+6.4,"['drama', 'romance', 'comedy']"
+,"['animation', 'family', 'action', 'comedy']"
+6.2,"['crime', 'drama']"
+7.4,"['family', 'animation']"
+,"['crime', 'documentation']"
+6.5,['comedy']
+7.0,"['drama', 'crime']"
+6.7,"['family', 'fantasy', 'drama']"
+4.7,"['romance', 'comedy', 'drama', 'family']"
+5.7,"['fantasy', 'drama', 'romance', 'comedy']"
+2.6,['reality']
+6.5,"['drama', 'crime']"
+,['comedy']
+6.7,['documentation']
+4.8,"['comedy', 'romance']"
+1.7,"['animation', 'comedy', 'fantasy', 'drama', 'music', 'family']"
+6.2,['reality']
+7.4,"['drama', 'crime', 'thriller']"
+6.1,"['comedy', 'drama']"
+4.5,['horror']
+5.5,['documentation']
+4.4,"['scifi', 'comedy', 'fantasy', 'action']"
+6.7,"['drama', 'romance']"
+7.0,"['comedy', 'reality']"
+6.4,"['action', 'scifi', 'drama', 'fantasy', 'animation']"
+8.6,['drama']
+,['comedy']
+7.2,"['fantasy', 'animation', 'comedy', 'family']"
+7.4,"['crime', 'drama', 'thriller']"
+7.2,['reality']
+5.5,"['romance', 'comedy', 'drama', 'family']"
+5.4,"['scifi', 'thriller', 'action', 'fantasy']"
+6.2,"['animation', 'action', 'thriller', 'fantasy', 'drama', 'family', 'music', 'comedy']"
+6.9,"['action', 'comedy', 'thriller']"
+8.3,"['documentation', 'sport']"
+7.5,['family']
+7.0,"['action', 'fantasy', 'scifi', 'drama']"
+7.1,"['reality', 'romance']"
+6.6,"['comedy', 'drama']"
+6.6,"['drama', 'comedy', 'family']"
+7.4,"['animation', 'action', 'comedy', 'family', 'fantasy', 'scifi']"
+7.2,['comedy']
+7.1,['documentation']
+5.4,"['scifi', 'comedy', 'fantasy']"
+7.9,"['crime', 'thriller', 'drama']"
+7.0,"['action', 'crime', 'drama', 'thriller']"
+7.3,"['comedy', 'animation', 'family']"
+6.7,"['comedy', 'drama', 'family', 'fantasy', 'animation', 'action']"
+6.3,"['drama', 'romance']"
+6.7,"['crime', 'drama', 'thriller']"
+5.5,"['thriller', 'crime', 'drama']"
+6.3,"['comedy', 'romance']"
+,[]
+6.7,['reality']
+8.4,"['documentation', 'animation']"
+6.0,['reality']
+6.4,['drama']
+5.4,['comedy']
+5.9,"['crime', 'drama', 'thriller']"
+7.4,['reality']
+4.7,"['romance', 'comedy']"
+7.9,"['documentation', 'drama', 'family', 'comedy']"
+5.7,"['thriller', 'drama']"
+7.0,['comedy']
+,['documentation']
+6.9,"['music', 'documentation']"
+7.0,"['documentation', 'sport']"
+7.2,"['action', 'crime', 'drama', 'thriller']"
+6.3,"['documentation', 'crime']"
+,"['action', 'scifi']"
+4.3,"['romance', 'fantasy', 'horror']"
+6.2,"['comedy', 'drama', 'romance']"
+7.5,"['documentation', 'drama']"
+6.4,"['drama', 'romance']"
+7.7,['drama']
+7.2,"['drama', 'romance']"
+,['crime']
+6.9,['comedy']
+5.5,"['thriller', 'drama', 'romance']"
+6.5,"['drama', 'crime']"
+7.8,"['war', 'documentation', 'history']"
+7.2,['animation']
+6.6,"['drama', 'romance', 'scifi', 'animation', 'action']"
+5.5,"['drama', 'comedy']"
+7.5,"['thriller', 'crime', 'drama', 'action']"
+4.4,['reality']
+5.1,"['horror', 'thriller', 'drama']"
+,"['drama', 'comedy']"
+5.5,"['fantasy', 'horror', 'thriller', 'family', 'drama', 'scifi']"
+5.7,"['drama', 'family', 'romance']"
+6.6,"['comedy', 'romance']"
+6.2,"['action', 'crime', 'horror', 'thriller', 'drama']"
+7.4,"['drama', 'thriller', 'crime']"
+6.9,"['documentation', 'crime']"
+6.5,"['action', 'comedy', 'family', 'fantasy', 'scifi', 'animation']"
+7.6,"['comedy', 'drama']"
+,[]
+8.1,"['animation', 'comedy', 'family']"
+7.4,"['comedy', 'drama', 'romance']"
+7.0,"['drama', 'thriller', 'action', 'crime']"
+6.1,"['comedy', 'drama']"
+6.2,"['drama', 'crime', 'thriller']"
+7.4,"['drama', 'comedy']"
+7.3,"['drama', 'crime', 'thriller']"
+4.6,['reality']
+5.3,"['horror', 'thriller']"
+6.6,"['drama', 'family', 'sport']"
+6.8,['drama']
+6.9,"['drama', 'romance']"
+4.7,"['drama', 'thriller', 'action', 'crime']"
+7.9,"['action', 'comedy', 'family', 'fantasy', 'scifi', 'animation']"
+6.8,"['comedy', 'crime']"
+7.4,['drama']
+5.5,"['comedy', 'documentation']"
+7.4,['drama']
+5.5,"['comedy', 'animation']"
+6.9,"['comedy', 'drama', 'thriller', 'crime']"
+6.3,"['drama', 'music']"
+6.7,['reality']
+4.8,"['scifi', 'thriller', 'drama']"
+3.9,['reality']
+6.6,"['comedy', 'drama']"
+4.2,"['horror', 'thriller']"
+6.3,"['action', 'comedy', 'family', 'fantasy', 'animation']"
+5.4,"['comedy', 'romance', 'drama']"
+6.6,"['documentation', 'drama', 'history']"
+6.3,['comedy']
+6.5,"['action', 'crime', 'drama', 'thriller']"
+7.0,"['documentation', 'music']"
+7.5,['documentation']
+7.2,['comedy']
+5.3,"['comedy', 'action', 'crime', 'thriller']"
+7.5,"['drama', 'romance', 'thriller', 'fantasy']"
+7.8,['documentation']
+6.4,"['drama', 'european']"
+5.1,"['comedy', 'crime', 'romance', 'thriller', 'action']"
+5.6,"['documentation', 'crime']"
+7.0,['comedy']
+5.3,"['comedy', 'animation']"
+6.3,['scifi']
+7.7,"['documentation', 'crime', 'drama']"
+7.5,['reality']
+6.1,"['documentation', 'crime']"
+5.6,['reality']
+6.1,"['drama', 'romance']"
+6.5,"['action', 'crime', 'thriller']"
+6.2,"['documentation', 'sport']"
+,['documentation']
+6.5,"['drama', 'comedy']"
+4.8,['reality']
+6.7,"['scifi', 'war', 'drama']"
+4.4,"['crime', 'drama', 'romance', 'thriller', 'comedy']"
+7.0,['documentation']
+7.0,['drama']
+7.3,"['drama', 'documentation']"
+7.7,"['drama', 'fantasy', 'thriller', 'crime']"
+7.1,"['drama', 'romance', 'comedy']"
+4.3,['horror']
+6.9,"['documentation', 'history', 'sport']"
+7.2,['drama']
+7.7,['documentation']
+5.4,"['comedy', 'music', 'romance', 'drama']"
+6.2,"['romance', 'drama']"
+5.4,"['reality', 'romance']"
+3.4,['comedy']
+6.0,"['drama', 'crime']"
+6.5,"['comedy', 'reality']"
+5.7,"['romance', 'drama']"
+4.6,"['reality', 'romance']"
+6.3,"['action', 'crime']"
+6.6,['documentation']
+8.2,"['documentation', 'history', 'war']"
+6.2,"['comedy', 'drama']"
+5.2,"['romance', 'comedy', 'drama']"
+6.1,"['drama', 'romance']"
+7.2,"['comedy', 'drama']"
+5.9,['documentation']
+6.5,['comedy']
+6.7,"['comedy', 'romance']"
+6.7,['reality']
+5.3,"['crime', 'documentation']"
+5.3,"['drama', 'comedy', 'romance']"
+,['documentation']
+6.8,"['crime', 'documentation']"
+6.7,['comedy']
+7.6,"['thriller', 'comedy', 'crime', 'action']"
+7.7,['documentation']
+7.2,"['romance', 'fantasy', 'comedy', 'drama']"
+4.7,"['action', 'fantasy']"
+6.5,"['crime', 'documentation']"
+6.1,"['drama', 'romance']"
+4.2,['reality']
+5.2,"['fantasy', 'comedy', 'family']"
+5.6,"['comedy', 'romance']"
+5.2,"['reality', 'romance']"
+6.5,['drama']
+4.3,"['romance', 'drama', 'music']"
+7.5,"['action', 'crime', 'thriller', 'drama']"
+,['action']
+6.6,['documentation']
+5.0,['thriller']
+4.1,"['comedy', 'family']"
+7.8,['drama']
+7.9,"['drama', 'comedy', 'romance']"
+6.2,"['comedy', 'family', 'animation']"
+6.3,['documentation']
+8.1,"['crime', 'drama', 'thriller']"
+,"['action', 'music']"
+5.5,"['animation', 'action', 'fantasy', 'thriller']"
+6.1,"['romance', 'reality']"
+5.5,"['drama', 'thriller', 'fantasy']"
+5.8,['reality']
+6.9,['reality']
+6.9,"['drama', 'comedy', 'action', 'family', 'music']"
+5.9,"['drama', 'family', 'music']"
+,['drama']
+5.2,"['comedy', 'animation']"
+4.8,"['drama', 'romance', 'documentation']"
+7.8,['documentation']
+7.6,"['documentation', 'sport']"
+5.4,"['drama', 'romance']"
+6.8,"['animation', 'action', 'comedy', 'family', 'fantasy', 'scifi']"
+5.6,"['drama', 'family', 'romance', 'comedy']"
+5.5,"['romance', 'comedy', 'drama']"
+5.6,"['scifi', 'action', 'comedy', 'drama', 'fantasy']"
+6.8,"['animation', 'documentation']"
+6.1,"['action', 'drama', 'crime', 'thriller']"
+6.1,['comedy']
+4.4,"['drama', 'thriller', 'crime']"
+7.3,"['comedy', 'family', 'fantasy', 'animation', 'action']"
+7.2,"['drama', 'thriller', 'crime']"
+7.9,"['drama', 'romance', 'horror', 'thriller']"
+6.0,['comedy']
+6.4,"['crime', 'documentation']"
+6.8,['documentation']
+6.5,"['crime', 'history', 'thriller', 'documentation']"
+5.1,['comedy']
+5.4,"['drama', 'thriller', 'european', 'romance']"
+5.5,"['comedy', 'documentation']"
+5.4,"['drama', 'crime', 'romance']"
+5.7,['comedy']
+6.8,"['action', 'comedy', 'crime', 'drama']"
+8.8,['drama']
+5.1,['drama']
+,"['comedy', 'family']"
+4.5,['comedy']
+2.3,['reality']
+6.3,"['romance', 'drama']"
+7.3,"['scifi', 'comedy', 'fantasy', 'romance']"
+7.0,"['crime', 'drama']"
+6.1,['comedy']
+,"['action', 'scifi']"
+5.1,"['music', 'comedy']"
+5.5,"['horror', 'thriller', 'drama']"
+6.5,"['drama', 'romance']"
+7.5,"['music', 'documentation']"
+5.5,"['drama', 'comedy', 'music', 'thriller', 'crime']"
+6.1,"['drama', 'sport']"
+4.7,"['animation', 'comedy', 'family', 'fantasy']"
+6.8,"['documentation', 'crime']"
+6.9,"['crime', 'drama', 'romance', 'comedy']"
+5.9,"['fantasy', 'animation', 'drama']"
+5.2,['reality']
+6.9,['drama']
+7.2,"['comedy', 'family', 'fantasy', 'scifi', 'animation', 'action']"
+6.8,"['fantasy', 'action', 'animation']"
+6.8,['documentation']
+6.8,"['animation', 'comedy']"
+,['animation']
+6.7,"['documentation', 'crime', 'thriller']"
+5.2,"['drama', 'comedy']"
+5.8,"['animation', 'family']"
+6.4,"['animation', 'comedy', 'family', 'music']"
+5.1,"['thriller', 'drama']"
+7.2,"['documentation', 'crime']"
+6.7,['reality']
+7.5,['reality']
+6.4,['comedy']
+4.7,"['fantasy', 'comedy', 'romance']"
+6.4,"['animation', 'action', 'fantasy']"
+7.1,"['drama', 'history', 'crime']"
+5.5,"['romance', 'comedy', 'drama', 'family']"
+,['fantasy']
+,['romance']
+7.0,['comedy']
+1.8,"['comedy', 'family', 'drama', 'sport']"
+6.8,"['music', 'documentation']"
+,['documentation']
+6.7,['drama']
+6.3,"['animation', 'history', 'documentation']"
+8.0,"['comedy', 'drama']"
+,['documentation']
+6.2,"['drama', 'comedy', 'music', 'romance', 'family']"
+6.2,"['animation', 'comedy', 'family']"
+,"['comedy', 'documentation']"
+8.6,['documentation']
+6.5,"['animation', 'comedy', 'family']"
+,['drama']
+6.2,"['crime', 'documentation']"
+6.5,"['drama', 'thriller']"
+6.5,['comedy']
+5.7,"['romance', 'drama', 'sport']"
+,"['thriller', 'drama', 'crime']"
+6.4,"['crime', 'documentation']"
+,['fantasy']
+6.2,"['documentation', 'reality']"
+6.5,"['drama', 'animation', 'music']"
+,"['animation', 'family']"
+,['romance']
+7.4,"['action', 'crime', 'drama', 'romance']"
+,"['drama', 'comedy']"
+7.0,['documentation']
+6.7,"['drama', 'western', 'history']"
+2.5,"['comedy', 'documentation']"
+3.4,"['thriller', 'history', 'drama']"
+6.7,['drama']
+7.0,"['drama', 'romance', 'thriller', 'crime']"
+4.4,"['romance', 'drama', 'scifi']"
+3.9,"['drama', 'action', 'history']"
+5.7,['reality']
+5.3,"['comedy', 'thriller', 'drama', 'scifi']"
+6.2,"['comedy', 'fantasy', 'reality']"
+5.5,"['crime', 'drama']"
+,[]
+6.7,"['comedy', 'romance']"
+6.6,"['scifi', 'thriller', 'drama']"
+,['drama']
+8.3,"['romance', 'comedy']"
+6.2,"['scifi', 'family', 'fantasy', 'comedy']"
+3.4,"['family', 'music', 'animation', 'comedy']"
+7.5,"['reality', 'romance', 'documentation']"
+5.6,['comedy']
+7.0,['drama']
+5.1,['reality']
+6.9,['comedy']
+5.7,"['drama', 'romance']"
+7.9,"['reality', 'romance']"
+5.7,"['comedy', 'romance', 'family', 'fantasy']"
+5.9,"['documentation', 'sport']"
+,"['comedy', 'drama']"
+5.5,"['thriller', 'drama']"
+6.3,"['crime', 'documentation', 'history']"
+,['drama']
+6.2,"['fantasy', 'comedy', 'family', 'animation']"
+4.9,"['comedy', 'reality']"
+,['animation']
+5.3,"['reality', 'horror']"
+6.4,"['documentation', 'sport']"
+6.4,"['drama', 'romance']"
+6.3,"['documentation', 'crime']"
+6.0,['drama']
+5.8,"['thriller', 'fantasy', 'action', 'crime', 'drama']"
+4.9,"['reality', 'family']"
+5.2,"['horror', 'thriller', 'drama']"
+4.7,['comedy']
+5.3,"['romance', 'comedy']"
+8.4,"['sport', 'family']"
+7.1,"['documentation', 'family']"
+8.1,"['drama', 'romance']"
+5.8,"['drama', 'romance', 'comedy']"
+5.1,['romance']
+4.4,"['comedy', 'horror']"
+6.2,"['drama', 'family']"
+5.9,"['crime', 'documentation']"
+7.1,['drama']
+5.5,"['drama', 'comedy']"
+6.9,['animation']
+6.9,"['documentation', 'crime']"
+6.3,"['documentation', 'crime']"
+6.6,"['comedy', 'family', 'action', 'animation']"
+,[]
+6.9,['documentation']
+6.5,['animation']
+6.1,"['drama', 'comedy']"
+8.3,"['drama', 'documentation']"
+5.0,"['family', 'music', 'comedy']"
+5.5,['drama']
+5.9,"['crime', 'action', 'drama', 'romance']"
+5.7,"['comedy', 'romance']"
+4.6,"['drama', 'action', 'comedy']"
+6.7,['comedy']
+6.9,"['romance', 'drama']"
+,['reality']
+7.4,"['comedy', 'romance']"
+,[]
+4.5,"['romance', 'comedy']"
+6.7,"['drama', 'romance']"
+7.0,"['comedy', 'family', 'animation']"
+5.3,"['romance', 'comedy']"
+6.5,"['documentation', 'reality']"
+6.5,['comedy']
+4.4,['comedy']
+7.6,"['crime', 'documentation']"
+5.3,['action']
+6.3,"['crime', 'documentation']"
+5.6,['reality']
+7.2,"['animation', 'documentation']"
+,['action']
+5.3,"['crime', 'comedy']"
+6.6,"['music', 'documentation']"
+7.8,['animation']
+6.0,"['crime', 'romance', 'drama']"
+5.0,"['romance', 'comedy']"
+,[]
+6.1,"['comedy', 'drama']"
+3.6,"['animation', 'family']"
+7.2,['documentation']
+5.4,"['reality', 'sport']"
+5.6,"['drama', 'comedy', 'family']"
+5.6,"['comedy', 'drama']"
+4.2,"['documentation', 'crime']"
+6.0,"['reality', 'comedy']"
+,['drama']
+5.3,['romance']
+,['documentation']
+7.5,"['drama', 'action', 'fantasy', 'horror', 'romance']"
+5.3,"['drama', 'romance']"
+6.8,"['documentation', 'sport']"
+4.0,['comedy']
+,"['drama', 'comedy']"
+6.4,"['comedy', 'drama']"
+5.6,"['crime', 'drama']"
+5.3,['documentation']
+7.5,"['drama', 'comedy', 'crime']"
+6.6,['documentation']
+6.9,"['comedy', 'drama']"
+6.8,['reality']
+7.4,['documentation']
+3.7,"['thriller', 'scifi', 'drama']"
+5.4,"['documentation', 'music', 'reality']"
+,"['thriller', 'horror']"
+5.9,"['drama', 'thriller', 'action', 'crime']"
+6.1,"['comedy', 'crime', 'action']"
+5.1,"['thriller', 'action', 'crime', 'sport']"
+4.4,['comedy']
+,['horror']
+8.0,"['comedy', 'drama']"
+5.2,"['drama', 'romance', 'sport', 'comedy']"
+,['drama']
+4.9,"['drama', 'comedy']"
+6.7,"['documentation', 'crime', 'history']"
+6.3,"['animation', 'comedy', 'fantasy', 'action']"
+6.6,"['drama', 'sport']"
+5.8,['thriller']
+5.1,"['music', 'documentation']"
+,[]
+4.2,"['drama', 'romance']"
+6.7,['comedy']
+6.2,"['thriller', 'action', 'crime']"
+6.8,"['comedy', 'drama']"
+5.9,['comedy']
+8.1,"['drama', 'thriller', 'crime']"
+3.9,['comedy']
+6.4,"['drama', 'romance', 'music']"
+7.4,"['crime', 'thriller']"
+7.7,"['drama', 'comedy']"
+,[]
+5.7,"['horror', 'music', 'thriller', 'crime', 'drama']"
+5.8,"['action', 'reality']"
+7.5,"['documentation', 'music']"
+6.5,"['comedy', 'drama']"
+4.4,['thriller']
+4.4,"['action', 'crime', 'comedy']"
+8.2,"['drama', 'comedy']"
+5.6,"['comedy', 'animation', 'family', 'european']"
+7.0,"['animation', 'family']"
+,['documentation']
+7.1,"['comedy', 'documentation']"
+6.6,"['documentation', 'reality']"
+6.6,['comedy']
+5.3,['drama']
+5.8,"['documentation', 'sport']"
+6.6,"['fantasy', 'family', 'animation', 'comedy']"
+7.2,"['thriller', 'crime', 'drama']"
+,"['documentation', 'music']"
+5.2,"['thriller', 'drama']"
+3.0,['comedy']
+,"['comedy', 'documentation']"
+7.2,"['action', 'animation', 'family']"
+5.3,"['comedy', 'drama', 'romance']"
+6.2,['reality']
+6.3,"['comedy', 'drama', 'family']"
+5.9,['drama']
+7.1,"['documentation', 'sport']"
+6.1,"['comedy', 'drama']"
+6.2,"['drama', 'comedy']"
+3.9,['thriller']
+5.4,['documentation']
+,"['thriller', 'drama']"
+,"['family', 'thriller']"
+6.5,"['documentation', 'sport']"
+6.4,['comedy']
+,['drama']
+,['comedy']
+,[]
+7.3,['reality']
+7.0,"['music', 'documentation']"
+5.3,"['drama', 'comedy', 'romance']"
+4.4,"['drama', 'thriller', 'crime']"
+,"['action', 'animation']"
+,['animation']
+5.8,"['family', 'animation']"
+,['drama']
+,[]
+7.5,"['animation', 'family']"
+6.6,"['drama', 'comedy']"
+3.7,"['comedy', 'horror']"
+,['documentation']
+6.1,"['drama', 'history']"
+5.7,"['animation', 'family']"
+,[]
+7.0,"['drama', 'comedy']"
+5.0,"['scifi', 'drama']"
+6.7,['drama']
+4.3,"['comedy', 'drama']"
+,[]
+,[]
+3.8,['comedy']
+6.0,"['crime', 'comedy', 'drama', 'thriller', 'action']"
+6.8,"['documentation', 'history', 'crime']"
+5.5,"['drama', 'romance']"
+5.4,"['thriller', 'action']"
+,['drama']
+6.9,"['comedy', 'crime']"
+5.7,"['drama', 'romance']"
+5.2,['drama']
+4.9,"['romance', 'drama']"
+5.4,"['comedy', 'drama', 'thriller']"
+5.6,"['drama', 'romance']"
+5.0,"['romance', 'drama']"
+8.0,"['drama', 'thriller']"
+3.4,"['drama', 'action']"
+6.2,"['drama', 'family']"
+5.9,['drama']
+7.8,"['drama', 'romance']"
+5.0,"['romance', 'comedy']"
+,"['comedy', 'fantasy']"
+6.9,['drama']
+,[]
+4.8,['drama']
+3.8,"['romance', 'comedy', 'music']"
+6.6,"['drama', 'comedy', 'crime']"
+4.7,"['comedy', 'drama', 'romance']"
+3.3,['comedy']
+,['comedy']
+6.0,['reality']
+4.3,"['romance', 'drama', 'comedy']"
+5.6,"['romance', 'comedy', 'drama']"
+,[]
+,['comedy']
+4.6,['comedy']
+5.8,"['music', 'romance', 'comedy']"
+5.5,"['drama', 'romance']"
+7.3,['documentation']
+6.6,"['drama', 'romance']"
+3.2,['drama']
+6.0,"['comedy', 'drama']"
+7.8,['drama']
+7.1,"['documentation', 'music']"
+4.9,['drama']
+,['documentation']
+2.3,"['documentation', 'music']"
+4.1,['comedy']
+,[]
+7.0,"['drama', 'comedy', 'family']"
+5.7,['drama']
+,[]
+6.9,['drama']
+5.1,"['drama', 'romance']"
+5.8,"['drama', 'romance']"
+5.4,['comedy']
+5.9,['comedy']
+6.1,"['drama', 'romance']"
+4.2,['drama']
+4.5,"['romance', 'comedy']"
+4.9,"['comedy', 'drama', 'romance']"
+,[]
+,[]
+6.2,"['comedy', 'drama', 'romance']"
+4.6,"['reality', 'romance']"
+7.2,"['romance', 'comedy']"
+2.2,"['drama', 'romance']"
+,['comedy']
+5.8,['comedy']
+6.9,"['romance', 'drama']"
+,"['music', 'documentation']"
+6.5,"['family', 'drama']"
+6.2,"['action', 'thriller']"
+8.8,"['family', 'comedy', 'animation']"
