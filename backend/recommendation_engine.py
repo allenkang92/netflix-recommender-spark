@@ -3,7 +3,7 @@ from pyspark.ml.feature import CountVectorizer
 from pyspark.ml.linalg import Vectors
 from pyspark.sql.functions import udf, col, split, expr
 from pyspark.sql.types import FloatType, ArrayType, StringType
-from kafka import KafkaProducer
+#from kafka import KafkaProducer
 import json
 import psycopg2
 from psycopg2.extras import execute_values
@@ -12,15 +12,9 @@ from psycopg2.extras import execute_values
 def init_spark():
     return SparkSession.builder.appName("NetflixRecommendation").getOrCreate()
 
-# PostgreSQL에서 영화 데이터 로드
-def load_movie_data(spark, db_params):
-    # JDBC를 통해 PostgreSQL에서 데이터 로드
-    movies_df = spark.read.format("jdbc").option("url", f"jdbc:postgresql://{db_params['host']}:{db_params['port']}/{db_params['database']}") \
-        .option("dbtable", "movies") \
-        .option("user", db_params['user']) \
-        .option("password", db_params['password']) \
-        .load()
-    return movies_df
+# 조인된 CSV 파일에서 영화 데이터 로드
+def load_movie_data(spark, file_path):
+    return spark.read.csv(file_path, header=True, inferSchema=True)
 
 # 장르 기반 추천 함수
 def recommend_movies(spark, movies_df, preferred_genres, disliked_genres, num_recommendations=10):
@@ -53,7 +47,7 @@ def recommend_movies(spark, movies_df, preferred_genres, disliked_genres, num_re
             .orderBy(col("similarity").desc())
             .filter(~expr("array_contains(genres_array, '" + "') AND NOT array_contains(genres_array, '".join(disliked_genres) + "')"))
             .limit(num_recommendations)
-            .select("movie_id", "title", "genres", "similarity")
+            .select("show_id", "title", "genres", "similarity")  # show_id를 사용
         )
 
         return recommendations
@@ -66,7 +60,7 @@ def recommend_movies(spark, movies_df, preferred_genres, disliked_genres, num_re
 def send_recommendations_to_kafka(recommendations, kafka_producer, topic):
     for row in recommendations.collect():
         message = json.dumps({
-            "movie_id": row["movie_id"],
+            "show_id": row["show_id"],
             "title": row["title"],
             "genres": row["genres"].split("|"),
             "similarity": row["similarity"]
@@ -82,7 +76,7 @@ def save_recommendations_to_postgres(recommendations, db_params):
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS recommendations (
         id SERIAL PRIMARY KEY,
-        movie_id INTEGER,
+        show_id TEXT,
         title TEXT,
         genres TEXT[],
         similarity FLOAT,
@@ -92,11 +86,11 @@ def save_recommendations_to_postgres(recommendations, db_params):
 
     # 데이터 삽입
     insert_query = """
-    INSERT INTO recommendations (movie_id, title, genres, similarity)
+    INSERT INTO recommendations (show_id, title, genres, similarity)
     VALUES %s
     """
     recs_data = [
-        (row["movie_id"], row["title"], row["genres"].split("|"), row["similarity"])
+        (row["show_id"], row["title"], row["genres"].split("|"), row["similarity"])
         for row in recommendations.collect()
     ]
     execute_values(cursor, insert_query, recs_data)
@@ -110,6 +104,12 @@ def main():
     # Spark 세션 초기화
     spark = init_spark()
 
+    # 조인된 CSV 파일 경로
+    joined_csv_path = "path/to/your/joined_netflix_data.csv"
+
+    # 영화 데이터 로드
+    movies_df = load_movie_data(spark, joined_csv_path)
+
     # 데이터베이스 연결 정보
     db_params = {
         "host": "localhost",
@@ -118,9 +118,6 @@ def main():
         "user": "your_username",
         "password": "your_password"
     }
-
-    # 영화 데이터 로드
-    movies_df = load_movie_data(spark, db_params)
 
     # 사용자 선호/불호 장르 (예시)
     preferred_genres = ["Action", "Sci-Fi"]
