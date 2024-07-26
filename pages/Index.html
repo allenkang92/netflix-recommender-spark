@@ -3,48 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Recommender</title>
+    <title>Netflix Recommendation System</title>
     <link rel="stylesheet" href="unify.css">
 </head>
 <body>
-    <div class="header">
-        <div id="branding">
-            <h1><span class="highlight">Netflix</span> Recommender</h1>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Netflix</span> Recommender</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="top-20.html">Top-20</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li class="current"><a href="index.html">HOME</a></li>
-                <li><a href="top-20.html">Top-20</a></li>
-            </ul>
-        </nav>
-    </div>
-
-    <div class="container">
-        <h1>Welcome to Netflix Recommender</h1>
-        <p>Discover movies you'll love based on your preferences.</p>
-        <button class="btn btn-open-modal">Get Recommendations</button>
-        <button class="btn testSVG">Test SVG Generation</button>
-    </div>
+    </header>
 
     <div class="modal">
         <div class="modal_body">
-            <h2 class="modal_text">Positive</h2>
+            <h1 class="modal_text">Positive</h1>
             <div id="positive-buttons"></div>
-            <h2 class="modal_text">Negative</h2>
+            <h1 class="modal_text">Negative</h1>
             <div id="negative-buttons"></div>
             <div class="modal-buttons">
-                <button class="btn-close-modal">Cancel</button>
-                <button class="btn-confirm">Confirm</button>
+                <button class="btn-close-modal btn">Cancel</button>
+                <button class="btn-confirm btn">Confirm</button>
             </div>
         </div>
+    </div>
+    
+    <div class="container">
+        <h1>Welcome to Netflix Recommender</h1>
+        <p>Discover movies you'll love based on your preferences.</p>
+        <button class="btn-open-modal btn">Get Recommendations</button>
     </div>
 
     <div id="recommendation-container"></div>
 
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="mock-movie-data.js"></script>
-    <script src="recommend.js"></script>
     <script src="app.js"></script>
-    
+    <script src="recommend.js"></script>
+    <script src="movieRecommendation.js"></script>
 </body>
 </html>
