@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeGenreButtons();
 });
 
+document.querySelector('.modal').style.display = 'flex';
+
 function openModal() {
     const modal = document.querySelector('.modal');
     modal.style.display = 'flex';
