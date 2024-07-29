@@ -1,16 +1,14 @@
 from pyspark.sql import SparkSession
 from pyspark.ml.feature import CountVectorizer
 from pyspark.ml.linalg import Vectors
-from pyspark.sql.functions import udf, col, split, expr, when, concat, lit, count, isnan, from_json
-from pyspark.sql.types import FloatType, StructType, StructField, StringType, ArrayType
-from kafka import KafkaProducer
+from pyspark.sql.functions import udf, col, split, expr, when, concat, lit, count, isnan
+from pyspark.sql.types import FloatType
 import json
 import os
 
 # Kafka 설정
-KAFKA_BOOTSTRAP_SERVERS = os.environ.get('KAFKA_BOOTSTRAP_SERVERS', '172.31.2.211:9092, 172.31.10.167:9092, 172.31.11.203:9092')
+KAFKA_BOOTSTRAP_SERVERS = os.environ.get('KAFKA_BOOTSTRAP_SERVERS', 'localhost:9092')
 KAFKA_TOPIC_RECOMMENDATIONS = 'movie-recommendations'
-KAFKA_TOPIC_USER_ACTIVITIES = 'user-activities'
 
 def init_spark():
     return SparkSession.builder \
@@ -84,15 +82,18 @@ def format_recommendations(recommendations):
     ]
 
 def send_recommendations_to_kafka(spark, recommendations):
-    recommendation_df = spark.createDataFrame([(json.dumps(recommendations),)],['value'])
-    recommendation_df \
-        .selectExpr("CAST(value AS STRING) AS value") \
-        .write \
-        .format("kafka") \
-        .option("kafka.bootstrap.servers", KAFKA_BOOTSTRAP_SERVERS) \
-        .option("topic", KAFKA_TOPIC_RECOMMENDATIONS) \
-        .save()
-    print("추천 결과가 Kafka로 전송되었습니다.")
+    try:
+        recommendation_df = spark.createDataFrame([(json.dumps(recommendations),)],['value'])
+        recommendation_df \
+            .selectExpr("CAST(value AS STRING) AS value") \
+            .write \
+            .format("kafka") \
+            .option("kafka.bootstrap.servers", KAFKA_BOOTSTRAP_SERVERS) \
+            .option("topic", KAFKA_TOPIC_RECOMMENDATIONS) \
+            .save()
+        print("추천 결과가 Kafka로 전송되었습니다.")
+    except Exception as e:
+        print(f"Kafka로 데이터 전송 중 오류 발생: {str(e)}")
 
 def process_kafka_stream(spark, movies_df):
     # Kafka에서 사용자 활동 데이터 읽기
@@ -138,51 +139,37 @@ def process_kafka_stream(spark, movies_df):
     query.awaitTermination()
 
 def main():
-    # Spark 세션 초기화
-    spark = init_spark()
+    try:
+        spark = init_spark()
+        parquet_file_path = "/home/ubuntu/spark/keyword.parquet"
+        movies_df = load_movie_data(spark, parquet_file_path)
 
-    # Parquet 파일 경로
-    parquet_file_path = "/home/ubuntu/spark/keyword.parquet"
+        print("데이터 샘플:")
+        movies_df.show(5)
+        print("스키마:")
+        movies_df.printSchema()
 
-    # 영화 데이터 로드
-    movies_df = load_movie_data(spark, parquet_file_path)
+        null_counts = movies_df.select([count(when(col(c).isNull() | isnan(c), c)).alias(c) for c in movies_df.columns])
+        print("Null 값 개수:")
+        null_counts.show()
 
-    # 데이터 확인
-    print("데이터 샘플:")
-    movies_df.show(5)
-    print("스키마:")
-    movies_df.printSchema()
+        preferred_genres = ["Action", "Sci-Fi"]
+        disliked_genres = ["Romance"]
 
-    # Null 값 개수 확인
-    null_counts = movies_df.select([count(when(col(c).isNull() | isnan(c), c)).alias(c) for c in movies_df.columns])
-    print("Null 값 개수:")
-    null_counts.show()
+        recommendations = recommend_movies(spark, movies_df, preferred_genres, disliked_genres)
 
-    # 사용자 선호/불호 장르 (예시)
-    preferred_genres = ["Action", "Sci-Fi"]
-    disliked_genres = ["Romance"]
-
-    # 영화 추천
-    recommendations = recommend_movies(spark, movies_df, preferred_genres, disliked_genres)
-
-    if recommendations is not None:
-        # 추천 결과 포맷팅
-        formatted_recommendations = format_recommendations(recommendations)
-        
-        # 결과 출력 (실제로는 여기서 백엔드로 전송)
-        print(json.dumps(formatted_recommendations, indent=2))
-        print("추천이 성공적으로 생성되었습니다.")
-
-        # Kafka로 추천 결과 전송
-        send_recommendations_to_kafka(spark, formatted_recommendations)
-    else:
-        print("추천 생성 중 오류가 발생했습니다.")
-
-    # Kafka에서 사용자 활동 데이터 읽기 및 처리
-    process_kafka_stream(spark, movies_df)
-
-    # Spark 세션 종료
-    spark.stop()
+        if recommendations is not None:
+            formatted_recommendations = format_recommendations(recommendations)
+            print(json.dumps(formatted_recommendations, indent=2))
+            print("추천이 성공적으로 생성되었습니다.")
+            send_recommendations_to_kafka(spark, formatted_recommendations)
+        else:
+            print("추천 생성 중 오류가 발생했습니다.")
+    except Exception as e:
+        print(f"메인 프로세스 실행 중 오류 발생: {str(e)}")
+    finally:
+        if 'spark' in locals():
+            spark.stop()
 
 if __name__ == "__main__":
     main()
