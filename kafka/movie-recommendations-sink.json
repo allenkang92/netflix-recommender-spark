@@ -1,0 +1,17 @@
+{
+    "name": "movie-recommendations-sink",
+    "config": {
+        "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+        "tasks.max": "1",
+        "connection.url": "jdbc:postgresql://localhost:5432/movie_recommendations",
+        "connection.user": "postgres",
+        "connection.password": "postgres",
+        "auto.create": "true",
+        "auto.evolve": "true",
+        "topics": "movie-recommendations",
+        "insert.mode": "upsert",
+        "pk.mode": "record_value",
+        "pk.fields": "unique_id",
+        "table.name.format": "movie_recommendations"
+    }
+}

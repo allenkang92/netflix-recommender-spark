@@ -83,9 +83,9 @@ def format_recommendations(recommendations):
 
 def send_recommendations_to_kafka(spark, recommendations):
     try:
-        recommendation_df = spark.createDataFrame([(json.dumps(recommendations),)],['value'])
+        recommendation_df = spark.createDataFrame(recommendations)
         recommendation_df \
-            .selectExpr("CAST(value AS STRING) AS value") \
+            .selectExpr("to_json(struct(*)) AS value") \
             .write \
             .format("kafka") \
             .option("kafka.bootstrap.servers", KAFKA_BOOTSTRAP_SERVERS) \
