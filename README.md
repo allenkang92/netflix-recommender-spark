@@ -1,6 +1,27 @@
-# 시스템 아키텍처
+# Netflix 콘텐츠 추천 시스템
 
-# Dependencies
+## 프로젝트 개요
+PySpark를 사용하여 Netflix 데이터셋 기반의 영화 추천 시스템을 구현을 목적으로 합니다.
+FastAPI를 사용한 백엔드 API, 기본적 프론트엔드 인터페이스, EK를 활용한 모니터링 시스템이 포함되어 있습니다.
+
+## 시스템 아키텍처
+(시스템 아키텍처 다이어그램 또는 설명 추가)
+
+## 주요 기능
+- 사용자 장르 선호도 기반 영화 추천
+- 장르 기반 필터링
+- 실시간 데이터 처리 
+- 추천 결과 시각화(for 데이터 분석)
+
+## 기술 스택
+- 백엔드: FastAPI, PySpark
+- 프론트엔드: HTML, CSS, JavaScript
+- 데이터베이스: PostgreSQL
+- 데이터 처리: PySpark, Pandas
+- 모니터링: Elasticsearch, Kibana
+
+## 의존성
+
 
 ## 웹 프레임워크
 
