@@ -4,6 +4,54 @@ const genres = ['action', 'animation', 'comedy', 'crime', 'documentation', 'dram
 let positiveGenres = [];
 let negativeGenres = [];
 
+// Ollama 챗봇 기능
+const chatMessages = document.getElementById('chat-messages');
+const userInput = document.getElementById('user-input');
+const sendButton = document.getElementById('send-button');
+
+function sendMessage() {
+    const message = userInput.value;
+    if (message) {
+        addMessage(message, "user");
+        fetch('http://localhost:5000/chat', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ message: message }),
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            addMessage(data.response, "bot");
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+            addMessage("Error: Could not get response from server", "bot");
+        });
+        userInput.value = '';
+    }
+}
+
+function addMessage(message, sender) {
+    const messageElement = document.createElement('div');
+    messageElement.textContent = message;
+    messageElement.className = sender + '-message';
+    chatMessages.appendChild(messageElement);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+
+sendButton.addEventListener('click', sendMessage);
+userInput.addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+        sendMessage();
+    }
+});
+
 function initializeGenreButtons() {
     createGenreButtons('positive-buttons', positiveGenres, 'positive');
     createGenreButtons('negative-buttons', negativeGenres, 'negative');

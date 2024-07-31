@@ -191,3 +191,47 @@ header a:hover {
     max-width: 800px;
     margin: 20px auto;
 }
+
+#chat-container {
+    width: 300px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#chat-messages {
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+#user-input {
+    width: calc(100% - 70px);
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+#send-button {
+    width: 60px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.user-message {
+    color: #e50914;
+    text-align: right;
+    margin-bottom: 5px;
+}
+.bot-message {
+    color: #221f1f;
+    text-align: left;
+    margin-bottom: 5px;
+}

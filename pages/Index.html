@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Recommendation System</title>
     <link rel="stylesheet" href="unify.css">
+    <style>
+        
+    </style>
 </head>
 <body>
     <header>
@@ -42,7 +45,70 @@
 
     <div id="recommendation-container"></div>
 
+    <div id="chat-container">
+        <div id="chat-messages"></div>
+        <input type="text" id="user-input" placeholder="Ask about movies...">
+        <button id="send-button">Send</button>
+    </div>
+
+    
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="recommend.js"></script>
+    <script>
+        const socket = new WebSocket('ws://your-server-ip:8765');
+        const chatMessages = document.getElementById('chat-messages');
+        const userInput = document.getElementById('user-input');
+        const sendButton = document.getElementById('send-button');
+
+        socket.onopen = function(e) {
+            console.log("Connection established");
+            addMessage("Connected to LLaMA", "bot");
+        };
+
+        socket.onmessage = function(event) {
+            const response = JSON.parse(event.data);
+            if (response.error) {
+                addMessage("Error: " + response.error, "bot");
+            } else {
+                addMessage(response.message, "bot");
+            }
+        };
+
+        socket.onclose = function(event) {
+            if (event.wasClean) {
+                addMessage(`Connection closed cleanly, code=${event.code} reason=${event.reason}`, "bot");
+            } else {
+                addMessage('Connection died', "bot");
+            }
+        };
+
+        socket.onerror = function(error) {
+            addMessage(`Error: ${error.message}`, "bot");
+        };
+
+        function sendMessage() {
+            const message = userInput.value;
+            if (message) {
+                socket.send(JSON.stringify({message: message}));
+                addMessage(message, "user");
+                userInput.value = '';
+            }
+        }
+
+        function addMessage(message, sender) {
+            const messageElement = document.createElement('div');
+            messageElement.textContent = message;
+            messageElement.className = sender + '-message';
+            chatMessages.appendChild(messageElement);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        sendButton.addEventListener('click', sendMessage);
+        userInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+    </script>
 </body>
 </html>
