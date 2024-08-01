@@ -104,15 +104,16 @@ def update_item(genres: Genres) -> List[Movie]:
     # 모든 장르 컬럼 가져오기
     genre_columns = [col for col in result.columns if col in genres.positive + genres.negative]
     
-    # 선택된 장르에 대해 조건 적용
+    # Positive 점수 계산
+    result['positive_score'] = result[genres.positive].sum(axis=1)
+    
+    # Negative 조건 적용
     condition = pd.Series(True, index=result.index)
-    for col in genres.positive:
-        condition &= (result[col] == 1)
     for col in genres.negative:
         condition &= (result[col] != 1)
     
-    # 조건을 만족하는 영화 선택 및 정렬
-    recommended = result[condition].sort_values(by='rating', ascending=False)
+    # 조건을 만족하는 영화 선택 및 정렬 (positive_score 내림차순, rating 내림차순)
+    recommended = result[condition].sort_values(by=['positive_score', 'rating'], ascending=[False, False])
     
     # 상위 20개 선택 (20개 미만일 경우 가능한 만큼)
     top20 = recommended.head(20)
