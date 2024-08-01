@@ -1,8 +1,11 @@
-from typing import Union
-
 from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
+
+from typing import Optional, List
+from pydantic import BaseModel, Field
+import pandas as pd
+import ast
 
 app = FastAPI()
 origins = [
@@ -38,11 +41,11 @@ class Genres(BaseModel):
 class Movie(BaseModel):
     title: str
     rating: str
-    imdb_score: float
-    genres: list
-    description: str
-    director: str
-    cast: str
+    imdb_score: Optional[float] = None
+    genres: Optional[List[str]] = Field(default_factory=list)
+    description: Optional[str] = None
+    director: Optional[str] = None
+    cast: Optional[str] = None
     
     model_config = {
         "json_schema_extra": {
@@ -61,10 +64,72 @@ class Movie(BaseModel):
     }
 
 @app.get("/top20")
-def read_item() -> list[Movie]:
-    return []
+def read_item() -> List[Movie]:
+    categories = ["title", "rating", "imdb_score", "genres", "description", "director", "cast"]
+    result = pd.read_parquet('../pyspark/keyword.parquet', engine='pyarrow')
+    result = result.drop_duplicates(subset=['title'])
+    
+    top20 = result.sort_values(by=['imdb_score'], axis=0, ascending=False).head(20)
+    top20list = top20[categories].values.tolist()
+        
+    movie_list = []
+    for item in top20list:
+        movie_dict = dict(zip(categories, item))
+        
+        # 데이터 정제
+        if pd.isna(movie_dict['imdb_score']):
+            movie_dict['imdb_score'] = None
+        
+        if pd.isna(movie_dict['genres']):
+            movie_dict['genres'] = []
+        elif isinstance(movie_dict['genres'], str):
+            try:
+                movie_dict['genres'] = eval(movie_dict['genres'])
+            except:
+                movie_dict['genres'] = [movie_dict['genres']]
+        
+        for field in ['description', 'director', 'cast']:
+            if pd.isna(movie_dict[field]):
+                movie_dict[field] = None
+        
+        movie_list.append(Movie(**movie_dict))
+    
+    return movie_list
 
 @app.post("/recommend")
-def update_item(genres: Genres) -> list[Movie]:
-    print(genres.positive, genres.negative)
-    return []
+def update_item(genres: Genres) -> List[Movie]:
+    # 파케이 파일 읽기
+    result = pd.read_parquet('../pyspark/keyword.parquet', engine='pyarrow')
+    
+    # 모든 장르 컬럼 가져오기
+    genre_columns = [col for col in result.columns if col in genres.positive + genres.negative]
+    
+    # 선택된 장르에 대해 조건 적용
+    condition = pd.Series(True, index=result.index)
+    for col in genres.positive:
+        condition &= (result[col] == 1)
+    for col in genres.negative:
+        condition &= (result[col] != 1)
+    
+    # 조건을 만족하는 영화 선택 및 정렬
+    recommended = result[condition].sort_values(by='rating', ascending=False)
+    
+    # 상위 20개 선택 (20개 미만일 경우 가능한 만큼)
+    top20 = recommended.head(20)
+    
+    # 결과를 Movie 객체 리스트로 변환
+    movie_list = []
+    for _, movie in top20.iterrows():
+        genres_list = [col for col in genre_columns if movie[col] == 1]
+        movie_dict = {
+            "title": movie['title'],
+            "rating": movie['rating'],
+            "imdb_score": movie['imdb_score'] if pd.notna(movie['imdb_score']) else None,
+            "genres": genres_list,
+            "description": movie['description'] if pd.notna(movie['description']) else None,
+            "director": movie['director'] if pd.notna(movie['director']) else None,
+            "cast": movie['cast'] if pd.notna(movie['cast']) else None
+        }
+        movie_list.append(Movie(**movie_dict))
+    
+    return movie_list
