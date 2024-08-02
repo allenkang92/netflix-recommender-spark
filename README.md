@@ -1,195 +1,128 @@
 # Netflix 콘텐츠 추천 시스템
 
 ## 프로젝트 개요
-PySpark를 사용하여 Netflix 데이터셋 기반의 영화 추천 시스템을 구현을 목적으로 합니다.
-FastAPI를 사용한 백엔드 API, 기본적 프론트엔드 인터페이스, EK를 활용한 모니터링 시스템이 포함되어 있습니다.
+이 프로젝트는 PySpark를 사용하여 Netflix 데이터셋 기반의 영화 추천 시스템을 구현합니다. FastAPI를 사용한 백엔드 API, 기본적 프론트엔드 인터페이스, ELK 스택을 활용한 모니터링 시스템, 그리고 Kafka를 이용한 실시간 데이터 처리 기능을 포함합니다.
 
 ## 시스템 아키텍처
-(시스템 아키텍처 다이어그램 또는 설명 추가)
+
+![Netflix 추천 시스템 아키텍처](./netflix_contents-recommender-system-with-spark/netflix_contents-recommender-system-with-spark/netflix-recommendation-architecture.svg)
 
 ## 주요 기능
 - 사용자 장르 선호도 기반 영화 추천
 - 장르 기반 필터링
-- 실시간 데이터 처리 
-- 추천 결과 시각화(for 데이터 분석)
+- 실시간 데이터 처리 (Kafka 활용)
+- 추천 결과 시각화 (데이터 분석용)
+- 로그 및 시스템 모니터링 (ELK 스택 활용)
 
 ## 기술 스택
 - 백엔드: FastAPI, PySpark
 - 프론트엔드: HTML, CSS, JavaScript
 - 데이터베이스: PostgreSQL
+- 메시지 큐: Apache Kafka
 - 데이터 처리: PySpark, Pandas
-- 모니터링: Elasticsearch, Kibana
+- 분석 도구: Jupyter Lab
+- 모니터링: Elasticsearch, Logstash, Kibana (ELK 스택)
+
+## 인스턴스 구성
+
+### 인스턴스 1: 데이터 처리 및 분석 서버
+- Kafka 클러스터: 실시간 데이터 스트리밍
+- Spark: 대규모 데이터 처리
+- Jupyter Lab: 데이터 분석가를 위한 대화형 분석 도구
+
+### 인스턴스 2: 애플리케이션 서버
+- 프론트엔드: 사용자 인터페이스
+- FastAPI 백엔드: RESTful API 제공
+- Kafka: 실시간 데이터 처리 및 이벤트 스트리밍
+
+### 인스턴스 3: 모니터링 서버
+- Logstash: 로그 수집 및 처리
+- Elasticsearch: 로그 및 메트릭 저장 및 검색
+- Kibana: 데이터 시각화 및 모니터링 대시보드
 
 ## 의존성
 
+```
+# 웹 프레임워크
+fastapi==0.109.0
+uvicorn==0.27.0
 
-## 웹 프레임워크
+# 파이썬 라이브러리 & 프레임워크
+pyspark==3.5.0
+pandas==2.2.0
+numpy==1.26.3
+scikit-learn==1.4.0
 
--   fastapi==0.109.0
--   uvicorn==0.27.0
+# 카프카
+kafka-python==2.0.2
 
-## 파이썬 라이브러리 & 프레임워크
+# ELK
+elasticsearch==7.17.9
+elasticsearch-dsl==7.4.1
 
--   pyspark==3.5.0
--   pandas==2.2.0
--   numpy==1.26.3
--   scikit-learn==1.4.0
+# DB
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
 
-## 카프카
+# API Client
+requests==2.31.0
 
--   kafka-python==2.0.2
+# Async Support for FastAPI
+aiohttp==3.9.1
 
-## ELK
+# Jupyter Notebook
+jupyter==1.0.0
 
--   elasticsearch==7.17.9
--   elasticsearch-dsl==7.4.1
-
-## DB
-
--   sqlalchemy==2.0.25
--   psycopg2-binary==2.9.9
-
-## API Client
-
--   requests==2.31.0
-
-## Async Support for FastAPI
-
--   aiohttp==3.9.1
-
-## Jupyter Notebook
-
--   jupyter==1.0.0
-
-## 이후 추가된 패키지
-
--   pyarrow==15.0.0 # PySpark 및 Pandas와 함께 사용하기 위해
--   python-dotenv==1.0.0 # 환경 변수 관리
--   pytest==7.4.4 # 테스트를 위해
--   black==23.12.1 # 코드 포맷팅
--   flake8==7.0.0 # 코드 린팅
-
-# 프로젝트 환경 설정
-
-## 인스턴스 1: 데이터 처리 및 모델 학습
-
-1. 기본 도구 및 라이브러리 설치:
-
-```bash
-sudo apt-get update
-sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+# 추가 패키지
+pyarrow==15.0.0
+python-dotenv==1.0.0
+pytest==7.4.4
+black==23.12.1
+flake8==7.0.0
 ```
 
-2. pyenv 설치:
+## 설치 및 설정 가이드
 
-```bash
-curl https://pyenv.run | bash
-```
+각 인스턴스별 설정 방법은 다음과 같습니다:
 
-3. .bashrc 파일에 pyenv 설정 추가:
+### 인스턴스 1: 데이터 처리 및 분석 서버
 
-```bash
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-source ~/.bashrc
-```
+1. Java 및 Python 설치
+2. Kafka 클러스터 설정
+3. Spark 설치 및 구성
+4. Jupyter Lab 설치 및 설정
 
-4. Python 3.12.3 설치 및 가상환경 생성:
+### 인스턴스 2: 애플리케이션 서버
 
-```bash
-pyenv install 3.12.3
-pyenv virtualenv 3.12.3 py3_12_3
-pyenv activate py3_12_3
-```
+1. Python 및 필요한 라이브러리 설치
+2. FastAPI 애플리케이션 설정
+3. 프론트엔드 파일 배포
+4. Kafka 클라이언트 설정
 
-5. 필요한 Python 패키지 설치:
+### 인스턴스 3: 모니터링 서버
 
-```bash
-pip install fastapi uvicorn sqlalchemy psycopg2-binary pandas scikit-learn pyspark
-```
+1. Java 설치
+2. ELK 스택 (Elasticsearch, Logstash, Kibana) 설치 및 구성
+3. Logstash 파이프라인 설정 (Kafka에서 데이터 수집)
 
-6. Java 설치:
+각 인스턴스의 상세한 설정 방법은 해당 디렉토리의 README 파일을 참조하세요.
 
-```bash
-sudo apt install openjdk-17-jre-headless
-```
+## 실행 방법
 
-7. JAVA_HOME 설정:
+1. 각 인스턴스의 서비스 시작 (Kafka, Spark, ELK 스택 등)
+2. FastAPI 애플리케이션 실행
+3. 브라우저에서 프론트엔드 접속
 
-```bash
-echo 'export JAVA_HOME=/usr/lib/jvm/java-1.17.0-openjdk-amd64' >> ~/.bashrc
-source ~/.bashrc
-```
+## 개발자 가이드
 
-8. 작업 디렉토리 생성:
+- 코드 스타일: Black 및 Flake8을 사용하여 일관된 코드 스타일 유지
+- 테스트: Pytest를 사용한 단위 테스트 및 통합 테스트 구현
+- 문서화: 각 주요 함수 및 클래스에 대한 문서 문자열(docstring) 작성
 
-```bash
-mkdir -p ~/work/spark
-```
+## 기여 방법
 
-## 인스턴스 2: FastAPI 백엔드 서버
+프로젝트에 기여하고 싶으신 분들은 CONTRIBUTING.md 파일을 참조해 주세요.
 
-1. 기본 도구 및 라이브러리 설치: (인스턴스 1과 동일)
+## 라이센스
 
-2. pyenv 설치 및 설정: (인스턴스 1과 동일)
-
-3. Python 3.12.3 설치 및 가상환경 생성: (인스턴스 1과 동일)
-
-4. FastAPI 및 관련 패키지 설치:
-
-```bash
-pip install fastapi uvicorn sqlalchemy psycopg2-binary
-```
-
-5. 작업 디렉토리 생성:
-
-```bash
-mkdir -p ~/fastapi_app
-```
-
-## 인스턴스 3: EK 스택 (Elasticsearch, Kibana)
-
-1. 시스템 업데이트 및 기본 도구 설치:
-
-```bash
-sudo apt-get update
-sudo apt-get install -y apt-transport-https
-```
-
-2. Java 설치:
-
-```bash
-sudo apt-get install -y openjdk-17-jre-headless
-```
-
-3. Elasticsearch 설치:
-
-```bash
-wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
-echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee /etc/apt/sources.list.d/elastic-7.x.list
-sudo apt-get update
-sudo apt-get install elasticsearch
-```
-
-4. Elasticsearch 설정 및 시작:
-
-```bash
-sudo nano /etc/elasticsearch/elasticsearch.yml
-sudo systemctl start elasticsearch
-sudo systemctl enable elasticsearch
-```
-
-5. Kibana 설치:
-
-```bash
-sudo apt-get install kibana
-```
-
-6. Kibana 설정 및 시작:
-
-```bash
-sudo nano /etc/kibana/kibana.yml
-sudo systemctl start kibana
-sudo systemctl enable kibana
-```
+이 프로젝트는 MIT 라이센스 하에 배포됩니다. 자세한 내용은 LICENSE 파일을 참조하세요.

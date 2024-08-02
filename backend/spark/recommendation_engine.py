@@ -141,7 +141,7 @@ def process_kafka_stream(spark, movies_df):
 def main():
     try:
         spark = init_spark()
-        parquet_file_path = "/home/ubuntu/spark/keyword.parquet"
+        parquet_file_path = "/home/ubuntu/netflix_contents-recommender-system-with-spark/pyspark"
         movies_df = load_movie_data(spark, parquet_file_path)
 
         print("데이터 샘플:")
