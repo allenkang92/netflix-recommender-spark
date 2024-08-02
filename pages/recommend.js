@@ -76,15 +76,6 @@ function toggleGenre(genre, genreArray, className) {
     console.log(`${className} genres:`, genreArray);
 }
 
-function resetGenreSelections() {
-    positiveGenres = [];
-    negativeGenres = [];
-    genres.forEach(genre => {
-        document.getElementById(`${genre}-positive-btn`).classList.remove('positive');
-        document.getElementById(`${genre}-negative-btn`).classList.remove('negative');
-    });
-}
-
 async function getRecommendations(positiveGenres, negativeGenres) {
         const response = await fetch(`${API_BASE_URL}/recommend`, {
             method: 'POST',
@@ -97,63 +88,6 @@ async function getRecommendations(positiveGenres, negativeGenres) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         return response.json();
-}
-
-function displayMovies(movies) {
-    const container = d3.select("#recommendation-container");
-    container.selectAll("*").remove();
-
-    movies.forEach((movie, index) => {
-        const svg = container.append("svg")
-            .attr("viewBox", "0 0 800 400")
-            .attr("preserveAspectRatio", "xMidYMid meet")
-            .style("width", "100%")
-            .style("height", "auto")
-            .style("margin-bottom", "20px");
-
-        svg.append("rect")
-            .attr("width", "100%")
-            .attr("height", "100%")
-            .attr("fill", "#141414");
-
-        svg.append("text")
-            .attr("x", 20)
-            .attr("y", 40)
-            .attr("fill", "#ffffff")
-            .attr("font-size", 24)
-            .text(movie.title);
-
-        svg.append("text")
-            .attr("x", 20)
-            .attr("y", 70)
-            .attr("fill", "#cccccc")
-            .attr("font-size", 16)
-            .text(`Rating: ${movie.rating} | IMDB Score: ${movie.imdb_score}`);
-
-        svg.append("text")
-            .attr("x", 20)
-            .attr("y", 100)
-            .attr("fill", "#cccccc")
-            .attr("font-size", 14)
-            .text(`Genres: ${movie.genres.join(', ')}`);
-
-        const button = svg.append("g")
-            .attr("transform", "translate(650, 360)")
-            .style("cursor", "pointer");
-
-        button.append("rect")
-            .attr("width", 130)
-            .attr("height", 30)
-            .attr("rx", 15)
-            .attr("fill", "#e50914");
-
-        button.append("text")
-            .attr("x", 65)
-            .attr("y", 20)
-            .attr("text-anchor", "middle")
-            .attr("fill", "#ffffff")
-            .text("More Info");
-    });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -170,7 +104,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     closeModalBtn.addEventListener('click', () => {
         modal.style.display = 'none';
-        resetGenreSelections();
     });
 
     confirmBtn.addEventListener('click', async () => {
@@ -179,10 +112,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         modal.style.display = 'none';
-        displayTop20Movies(positiveGenres, negativeGenres)
+        await displayTop20Movies(positiveGenres, negativeGenres)
         // const recommendedMovies = await getRecommendations(positiveGenres, negativeGenres);
         // displayMovies(recommendedMovies);
-        resetGenreSelections();
     });
 
     sendButton.addEventListener('click', sendMessage);
