@@ -9,6 +9,7 @@ numpy==1.26.3
 scikit-learn==1.4.0
 
 # 카프카
+kafka == 3.6.1
 kafka-python==2.0.2 # Kafka를 사용하기 위한 클라이언트 라이브러리
 
 # EK
