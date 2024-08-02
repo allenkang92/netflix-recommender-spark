@@ -6,6 +6,7 @@ from typing import Optional, List
 from pydantic import BaseModel, Field
 import pandas as pd
 import ast
+from kafka import KafkaProducer
 
 app = FastAPI()
 origins = [
@@ -98,6 +99,30 @@ def read_item() -> List[Movie]:
 
 @app.post("/recommend")
 def update_item(genres: Genres) -> List[Movie]:
+    # Kafka 브로커 주소 설정
+    bootstrap_servers = ['localhost:9092']
+
+    # KafkaProducer 인스턴스 생성
+    producer = KafkaProducer(
+        bootstrap_servers=bootstrap_servers,
+        value_serializer=lambda v: v.encode('utf-8')  # 문자열을 UTF-8로 인코딩
+    )
+
+    # 사용 예시
+    topic = 'fast_api'
+
+    for message in genres.positive:
+        # 메시지 전송 함수
+        future = producer.send(topic, message)
+        try:
+            record_metadata = future.get(timeout=10)
+            print(f"Message sent successfully to {record_metadata.topic}")
+        except Exception as e:
+            print(f"Error sending message: {e}")
+
+    # 프로듀서 종료
+    producer.close()
+
     # 파케이 파일 읽기
     result = pd.read_parquet('../pyspark/keyword.parquet', engine='pyarrow')
     
