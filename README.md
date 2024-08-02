@@ -159,3 +159,8 @@ flake8==7.0.0
 - 코드 스타일: Black 및 Flake8을 사용하여 일관된 코드 스타일 유지
 - 테스트: Pytest를 사용한 단위 테스트 및 통합 테스트 구현
 - 문서화: 각 주요 함수 및 클래스에 대한 문서 문자열(docstring) 작성
+
+## 실행 화면
+![index화면](./개발 관련/initial.png)
+![modal화면](./개발 관련/modal.png)
+![모니터링화면](./개발 관련/monitoring.png)
