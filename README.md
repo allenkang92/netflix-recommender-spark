@@ -161,5 +161,5 @@ flake8==7.0.0
 ## 실행 화면
 ![index화면](./개발%20관련/initial.png)
 ![modal화면](./개발%20관련/modal.png)
-![추천예시화면](./개발%20관련/exam_file.png)
+![추천예시화면](./개발%20관련/exam_file.svg)
 ![모니터링화면](./개발%20관련/monitoring.png)
