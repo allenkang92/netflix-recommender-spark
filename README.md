@@ -5,7 +5,47 @@
 
 ## 시스템 아키텍처
 
-![Netflix 추천 시스템 아키텍처](./netflix_contents-recommender-system-with-spark/netflix_contents-recommender-system-with-spark/netflix-recommendation-architecture.svg)
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<rect width="100%" height="100%" fill="#f0f0f0"/>
+    
+    <!-- Frontend -->
+    <rect x="300" y="20" width="200" height="60" fill="#ff9999" stroke="#000" stroke-width="2"/>
+    <text x="400" y="55" font-family="Arial" font-size="14" text-anchor="middle">프론트엔드 (HTML/JS/CSS)</text>
+    
+    <!-- Instance 1 -->
+    <rect x="50" y="150" width="200" height="200" fill="#99ccff" stroke="#000" stroke-width="2"/>
+    <text x="150" y="175" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">인스턴스 1 (분석 서버)</text>
+    <text x="150" y="205" font-family="Arial" font-size="14" text-anchor="middle">Kafka</text>
+    <text x="150" y="230" font-family="Arial" font-size="14" text-anchor="middle">Spark</text>
+    <text x="150" y="255" font-family="Arial" font-size="14" text-anchor="middle">Jupyter Lab</text>
+    
+    <!-- Instance 2 -->
+    <rect x="300" y="150" width="200" height="200" fill="#99ff99" stroke="#000" stroke-width="2"/>
+    <text x="400" y="175" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">인스턴스 2 (애플리케이션)</text>
+    <text x="400" y="205" font-family="Arial" font-size="14" text-anchor="middle">Kafka</text>
+    <text x="400" y="230" font-family="Arial" font-size="14" text-anchor="middle">FastAPI 백엔드</text>
+    <text x="400" y="255" font-family="Arial" font-size="14" text-anchor="middle">PostgreSQL</text>
+    
+    <!-- Instance 3 -->
+    <rect x="550" y="150" width="200" height="200" fill="#ffcc99" stroke="#000" stroke-width="2"/>
+    <text x="650" y="175" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">인스턴스 3 (모니터링)</text>
+    <text x="650" y="205" font-family="Arial" font-size="14" text-anchor="middle">Kafka</text>
+    <text x="650" y="230" font-family="Arial" font-size="14" text-anchor="middle">Logstash</text>
+    <text x="650" y="255" font-family="Arial" font-size="14" text-anchor="middle">Elasticsearch</text>
+    <text x="650" y="280" font-family="Arial" font-size="14" text-anchor="middle">Kibana</text>
+    
+    <!-- Connections -->
+    <line x1="400" y1="80" x2="400" y2="150" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="250" y1="250" x2="300" y2="250" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="500" y1="250" x2="550" y2="250" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Arrowhead definition -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" />
+        </marker>
+    </defs>
+</svg>
 
 ## 주요 기능
 - 사용자 장르 선호도 기반 영화 추천
@@ -34,9 +74,11 @@
 - 프론트엔드: 사용자 인터페이스
 - FastAPI 백엔드: RESTful API 제공
 - Kafka: 실시간 데이터 처리 및 이벤트 스트리밍
+- PostgreSQL: 데이터베이스
 
 ### 인스턴스 3: 모니터링 서버
-- Logstash: 로그 수집 및 처리
+- Kafka: 로그 및 메트릭 수집
+- Logstash: 로그 처리 및 변환
 - Elasticsearch: 로그 및 메트릭 저장 및 검색
 - Kibana: 데이터 시각화 및 모니터링 대시보드
 
@@ -80,6 +122,8 @@ pytest==7.4.4
 black==23.12.1
 flake8==7.0.0
 ```
+
+[이하 내용 생략...]
 
 ## 설치 및 설정 가이드
 
