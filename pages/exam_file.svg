@@ -35,7 +35,4 @@
         Recommended because you enjoyed similar thrillers and highly-rated drama films.
     </text>
     
-    <!-- "More Info" Button -->
-    <rect x="650" y="360" width="130" height="30" rx="15" fill="#e50914"/>
-    <text x="715" y="380" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">More Info</text>
 </svg>

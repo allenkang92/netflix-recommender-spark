@@ -14,6 +14,16 @@ body {
     padding: 0 20px;
 }
 
+.movie-container {
+    width: 80%;
+    margin: 0 auto;  /* 상하 마진 0, 좌우 마진 auto로 설정 */
+    overflow: hidden;
+    padding: 0 20px;
+    display: flex;  /* Flexbox 사용 */
+    flex-direction: column;  /* 세로 방향으로 아이템 정렬 */
+    align-items: center;  /* 가로축 중앙 정렬 */
+}
+
 header {
     background: #000000;
     color: #ffffff;

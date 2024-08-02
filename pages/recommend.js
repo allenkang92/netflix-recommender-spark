@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'http://54.180.227.56:8282';
 const OLLAMA_URL = 'http://43.203.223.48:5000';
 
 const genres = ['action', 'animation', 'comedy', 'crime', 'documentation', 'drama', 'european', 'family', 'fantasy', 'history', 'horror', 'music', 'reality', 'romance', 'scifi', 'sport', 'thriller', 'war', 'western'];
@@ -86,7 +86,6 @@ function resetGenreSelections() {
 }
 
 async function getRecommendations(positiveGenres, negativeGenres) {
-    try {
         const response = await fetch(`${API_BASE_URL}/recommend`, {
             method: 'POST',
             headers: {
@@ -97,11 +96,7 @@ async function getRecommendations(positiveGenres, negativeGenres) {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
-        return await response.json();
-    } catch (error) {
-        console.error("Could not fetch recommendations:", error);
-        throw error;
-    }
+        return response.json();
 }
 
 function displayMovies(movies) {
@@ -180,21 +175,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     confirmBtn.addEventListener('click', async () => {
         if (positiveGenres.length === 0 && negativeGenres.length === 0) {
-            showError("Please select at least one genre preference.");
             return;
         }
 
-        try {
-            showLoading();
-            const recommendedMovies = await getRecommendations(positiveGenres, negativeGenres);
-            displayMovies(recommendedMovies);
-            modal.style.display = 'none';
-            resetGenreSelections();
-        } catch (error) {
-            showError(error.message);
-        } finally {
-            hideLoading();
-        }
+        modal.style.display = 'none';
+        displayTop20Movies(positiveGenres, negativeGenres)
+        // const recommendedMovies = await getRecommendations(positiveGenres, negativeGenres);
+        // displayMovies(recommendedMovies);
+        resetGenreSelections();
     });
 
     sendButton.addEventListener('click', sendMessage);
@@ -205,28 +193,71 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-function showLoading() {
-    const loadingElement = document.createElement('div');
-    loadingElement.id = 'loading';
-    loadingElement.textContent = 'Loading recommendations...';
-    document.body.appendChild(loadingElement);
+function createMovieSVG(movie, index) {
+    const yOffset = index * 280; // 각 영화 카드의 높이 + 간격
+
+    return `
+    <svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" y="${yOffset}">
+        <rect width="100%" height="100%" fill="#141414"/>
+        
+        <!-- Movie Title -->
+        <text x="20" y="40" font-family="Arial" font-size="30" fill="#ffffff">${movie.title}</text>
+        
+        <!-- Rating and Runtime -->
+        <text x="20" y="70" font-family="Arial" font-size="16" fill="#cccccc">Rating: ${movie.rating}</text>
+        
+        <!-- IMDB Score -->
+        <rect x="20" y="85" width="50" height="25" rx="5" fill="#f5c518"/>
+        <text x="45" y="103" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">${movie.imdb_score}</text>
+        
+        <!-- Genres -->
+        <text x="80" y="103" font-family="Arial" font-size="14" fill="#cccccc">${movie.genres.join(', ')}</text>
+        
+        <!-- Description -->
+        <rect x="20" y="120" width="760" height="80" rx="5" fill="#2a2a2a"/>
+        <text x="30" y="140" font-family="Arial" font-size="14" fill="#ffffff">
+            ${wrapText(movie.description, 70).map((line, i) => `<tspan x="30" dy="${i === 0 ? 0 : 20}">${line}</tspan>`).join('')}
+        </text>
+        
+        <!-- Director and Cast -->
+        <text x="20" y="230" font-family="Arial" font-size="16" fill="#ffffff">Director: ${movie.director}</text>
+        <text x="20" y="255" font-family="Arial" font-size="14" fill="#cccccc">Cast: ${movie.cast}</text>
+    </svg>
+    `;
 }
 
-function hideLoading() {
-    const loadingElement = document.getElementById('loading');
-    if (loadingElement) {
-        loadingElement.remove();
+// 텍스트 줄바꿈 함수
+function wrapText(text, maxLength) {
+    const words = text.split(' ');
+    const lines = [];
+    let currentLine = '';
+
+    words.forEach(word => {
+        if ((currentLine + word).length <= maxLength) {
+            currentLine += (currentLine ? ' ' : '') + word;
+        } else {
+            lines.push(currentLine);
+            currentLine = word;
+        }
+    });
+
+    if (currentLine) {
+        lines.push(currentLine);
     }
+
+    return lines;
 }
 
-function showError(message) {
-    const errorElement = document.createElement('div');
-    errorElement.id = 'error-message';
-    errorElement.textContent = message;
-    errorElement.style.color = 'red';
-    errorElement.style.marginTop = '10px';
-    document.getElementById('recommendation-container').appendChild(errorElement);
-    setTimeout(() => {
-        errorElement.remove();
-    }, 5000);
+async function displayTop20Movies(positiveGenres, negativeGenres) {
+    const movies = await getRecommendations(positiveGenres, negativeGenres);
+    console.log(movies)
+    const totalHeight = movies.length * 280; // 각 영화 카드의 높이 * 영화 수
+
+    const svgContent = `
+    <svg xmlns="http://www.w3.org/2000/svg" width="800" height="${totalHeight}" viewBox="0 0 800 ${totalHeight}">
+        ${movies.map((movie, index) => createMovieSVG(movie, index)).join('')}
+    </svg>
+    `;
+
+    document.getElementById('movie-recommendations').innerHTML = svgContent;
 }
