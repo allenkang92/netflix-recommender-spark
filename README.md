@@ -7,7 +7,7 @@ FastAPI를 사용한 백엔드 API, 기본적 프론트엔드 인터페이스, E
 
 ## 시스템 아키텍처
 
-![시스템 아키텍처](./netflix-recommendation-architecture.svg)
+![시스템 아키텍처](./netflix-recommendation-architecture.png)
 
 ## 주요 기능
 주요 기능으로는 
